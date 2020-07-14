@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://sestopia.netlify.app/skills/api-testing/</loc>
+    <lastmod>2019-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/skills/software-configuration-control/</loc>
+    <lastmod>2019-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/skills/ui-design/</loc>
+    <lastmod>2019-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/about/</loc>
+    <lastmod>2020-07-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/</loc>
+    <lastmod>2020-07-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/page-list/</loc>
+    <lastmod>2020-07-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/tags/</loc>
+    <lastmod>2020-07-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/tags/software-testing/</loc>
+    <lastmod>2020-07-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/tags/software-configuration-management/</loc>
+    <lastmod>2020-07-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/tags/software-design/</loc>
+    <lastmod>2020-07-14</lastmod>
+  </url>
+</urlset>
