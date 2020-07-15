@@ -43,9 +43,14 @@ Tester should have knowleddge of :
   - SOAP only works with XML formats whereas REST work with plain text, XML, HTML and JSON.
   - SOAP cannot make use of REST whereas REST can make use of SOAP.
 * When to use REST and when to use SOAP.
+  
   REST services should be used in the following instances:
-  - Statelessness – tatelessness means that every HTTP request happens in complete isolation. When the client makes an HTTP request, it includes all information necessary for the server to fulfill that request. The server never relies on information from previous requests. If that information was important, the client would have sent it again in this request.
+  - Statelessness – Statelessness means that every HTTP request happens in complete isolation. When the client makes an HTTP request, it includes all information necessary for the server to fulfill that request. The server never relies on information from previous requests. If that information was important, the client would have sent it again in this request.
   - Caching – If there is a need to cache a lot of requests then REST is the perfect solution. At times, clients could request for the same resource multiple times. This can increase the number of requests which are sent to the server. By implementing a cache, the most frequent queries results can be stored in an intermediate location. So whenever the client requests for a resource, it will first check the cache. If the resources exist then, it will not proceed to the server. So caching can help in minimizing the amount of trips which are made to the web server.
+  
+  SOAP services should be used in the following instances:
+  - Stateful Operations -  When the application has a requirement that state needs to be maintained from one request to another, use SOAP. We can take the example of any online purchasing site. These sites normally need the user first to add items which need to be purchased to a cart. All of the cart items are then transferred to the payment page in order to complete the purchase. This is an example of an application which needs the state feature. The state of the cart items needs to be transferred to the payment page for further processing.
+  - Asynchronous processing and subsequent invocation – if there is a requirement that the client needs a guaranteed level of reliability and security then the new SOAP standard of SOAP 1.2 provides a lot of additional features, especially when it comes to security.
 
 * Hands-on expierence with API testing tools such as Postman.
 
