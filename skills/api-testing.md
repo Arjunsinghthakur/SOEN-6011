@@ -10,6 +10,7 @@ layout: layouts/skill.njk
 API testing is a type of software testing that involves testing application programming interfaces (APIs) directly to determine if
 they meet expectations for functionality, reliability, performance, and security. API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS, 
 # Classification of Skill
+![Classification Testing](https://github.com/images/yaktocat.png/max/875/1*GgaGcwh5L246YcU5NVDA5A.png)
 
 # Prerequisites for Skill
 # Related Software Engineering Area(s)
