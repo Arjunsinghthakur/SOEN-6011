@@ -7,8 +7,10 @@ tags:
 layout: layouts/skill.njk
 ---
 # Name of Skill
-API testing is a type of software testing that involves testing application programming interfaces (APIs) directly to determine if they meet expectations for functionality, reliability, performance, and security.
+API testing is a type of software testing that involves testing application programming interfaces (APIs) directly to determine if
+they meet expectations for functionality, reliability, performance, and security. API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS, 
 # Classification of Skill
+
 # Prerequisites for Skill
 # Related Software Engineering Area(s)
 # Rationale for Skill
