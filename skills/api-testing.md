@@ -6,11 +6,19 @@ tags:
   - software-testing
 layout: layouts/skill.njk
 ---
-# Name of Skill
 API testing is a type of software testing that involves testing application programming interfaces (APIs) directly to determine if
-they meet expectations for functionality, reliability, performance, and security. API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS, 
-# Classification of Skill
-![Classification Testing](https://github.com/images/yaktocat.png/max/875/1*GgaGcwh5L246YcU5NVDA5A.png)
+they meet expectations for functionality, reliability, performance, and security. API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS.
+
+#### Classification of Skill
+![Classification Testing](https://github.com/krsnvijay/SOEN-6011/blob/master/img/Classification.PNG)
+
+API testing itself involves the following practices:
+
+* Unit testing - Testing the functionality of individual operations.
+* Functional testing - Testing the functionality of broader scenarios, often using unit tests as building blocks for end-to-end tests. 
+* Load testing - Validating functionality and performance under load, often by reusing functional test cases.
+* Security testing - Includes penetration testing and fuzz testing as well as validating authentication, encryption, and access control.
+* Web UI testing - Performed as part of end-to-end integration tests that also cover APIs, enables teams to validate GUI items in the context of the larger transaction.
 
 # Prerequisites for Skill
 # Related Software Engineering Area(s)
