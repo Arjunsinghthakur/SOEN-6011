@@ -10,7 +10,7 @@ API testing is a type of software testing that involves testing application prog
 they meet expectations for functionality, reliability, performance, and security. API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS.
 
 #### Classification of Skill
-![Classification Testing](https://www.h2kinfosys.com/blog/wp-content/uploads/2018/02/Software-Testing-Classification-1024x607.png "Title" {width=40px height=400px})
+![Classification Testing](https://www.h2kinfosys.com/blog/wp-content/uploads/2018/02/Software-Testing-Classification-1024x607.png = 250x250)
 
 API testing itself involves the following practices:
 
