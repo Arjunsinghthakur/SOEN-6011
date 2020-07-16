@@ -54,9 +54,19 @@ Tester should have knowleddge of :
 
 * Hands-on expierence with API testing tools such as Postman.
 
-# Related Software Engineering Area(s)
-# Rationale for Skill
-# Roles for Skill
+### Related Software Engineering Area(s)
+* Unit Testing
+APIs is testing a single endpoint, with a single request, looking for a single response or set of responses.
+* Integration Testing 
+Integration testing is the most often used form of API testing, as APIs are at the center of most integrations between internal or third-party services.
+* End-to-End Testing
+End-to-End testing can help us validate the flow of data and information between a few different API connections.  
+
+### Rationale for Skill
+* API testing allows the tester to find bugs earlier in the development process, often before the UI has been created. API testing allows the tester to make requests that might not be allowed through the UI, which is crucial for exposing potential security flaws in an application.
+* Most of the companies are using Microservices nowadays and most microservices are using application programming interfaces (APIs), which are a set of commands for how a service can be used.
+
+### Roles for Skill
 # Work Related to Skill (Related Activities and Artifacts)
 # Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 # Role of Academia or Industry in Cultivating the Skill
