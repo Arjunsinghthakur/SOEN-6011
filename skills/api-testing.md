@@ -67,8 +67,41 @@ End-to-End testing can help us validate the flow of data and information between
 * Most of the companies are using Microservices nowadays and most microservices are using application programming interfaces (APIs), which are a set of commands for how a service can be used.
 
 ### Roles for Skill
-# Work Related to Skill (Related Activities and Artifacts)
-# Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+* Good understanding & knowledge about SOAP,REST. 
+* Clear understating about services & web services.
+* Strong grip on API automation tool.
+
+### Work Related to Skill (Related Activities and Artifacts)
+* To run API request there is a need to first select the Method Type and paste URL of the API. Press Send button to send the request to API or press Add API Test button to save the request.
+* Method Type could be GET, POST, PUT, PATCH, DELETE. 
+  - A GET request fetches a record from a database
+  - A POST request adds a new record to a database
+  - A PUT request replaces a record with a new one
+  - A PATCH request replaces part of a record with new information
+  - A DELETE request removes a record from a database
+* API require additional inputs to perform the request such as parameters, Headers, Body (JSON), and so on. 
+* HTTP headers that provide information to the server about the request such as:
+    - The Host: the domain and port number of the user making the request
+    - Authorization: the credentials of the user making the request
+    - The Content-Type: the format of the information provided in the body of the request
+* A request body that provides further details for the request (this can sometimes be empty).
+* In case your hosted API needs authentication, you can go to the Authorization tab and select the BasicAuth from the dropdown list (Default it is set as Noauth) and then input the Username and Password. You are now ready to send authenticated requests.
+* In the automation process, it is important that you verify your output using an assertion. To add an assertion in the API Runner, go to the Assertions tab. You can add one or more assertions there.
+  - Follow these steps to add assertions:
+  - Choose the response type
+  - Choose the assertion’s condition
+  - Input the value to be checked
+* Variables tab is useful to store the values that are received as a response from an API request sent. To save responses go to the Variables tab and follow these steps:
+  - Add Variable
+  - Give a name to the variable for better understanding of the team
+  - Input the JSON Path of the value to be stored from the response body
+  - To use the stored value in the variable as expected assertion you can use __name of the variable__ in any other API request. 
+* Response codes are three-digit codes used to describe the result of the REST request. The response body will vary by what type of request was made. The most common response codes come in one of these three categories:
+  - 200-level responses indicate that the request was received, understood, and processed
+  - 400-level responses indicate that the request was received, but that there was an error from the client
+  - 500-level responses indicate that there was some sort of server error
+
+### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
