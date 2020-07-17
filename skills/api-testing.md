@@ -102,7 +102,7 @@ End-to-End testing can help us validate the flow of data and information between
   - 500-level responses indicate that there was some sort of server error
 
 ### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/Q95G1sHgerk?list=RDby1GxG__UDY)
+[![Watch the video](https://www.pngkey.com/png/detail/94-945182_grades-6-12-video-click-to-play.png)](https://youtu.be/Q95G1sHgerk?list=RDby1GxG__UDY)
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
