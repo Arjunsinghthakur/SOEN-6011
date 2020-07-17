@@ -1,4 +1,11 @@
-
+---
+title: API Testing
+description: This is a skill on API Testing
+date: 2019-08-24
+tags:
+  - software-testing
+layout: layouts/skill.njk
+---
 API testing is a type of software testing that involves testing application programming interfaces (APIs) directly to determine if they meet expectations for functionality, reliability, performance, and security.  It is a part of integration testing and performed without GUI. 
 API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS.
 
@@ -96,6 +103,7 @@ End-to-End testing can help us validate the flow of data and information between
 
 ### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 [![Watch the video](https://www.pngkey.com/png/detail/94-945182_grades-6-12-video-click-to-play.png)](https://youtu.be/Q95G1sHgerk?list=RDby1GxG__UDY)
+Text added
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
