@@ -100,13 +100,9 @@ End-to-End testing can help us validate the flow of data and information between
   - 200-level responses indicate that the request was received, understood, and processed
   - 400-level responses indicate that the request was received, but that there was an error from the client
   - 500-level responses indicate that there was some sort of server error
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=1KNXpOCYmCg">
-</iframe>
+
 ### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=1KNXpOCYmCg">
-</iframe>
+[![IMAGE ALT TEXT](https://www.edu.uwo.ca/img/click_to_play.png)](https://youtu.be/Q95G1sHgerk?list=RDby1GxG__UDY)
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
