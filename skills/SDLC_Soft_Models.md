@@ -1,20 +1,23 @@
 ---
-| title: Software Development Life Cycle (SDLC) | description: This is a skill on Software Engineering Models and Methods | date: 2019-08-24 | tags:
-  - Software-Engineering-Models-and-Methods | layout: layouts/skill.njk
+Title: **Software Development Life Cycle (SDLC)**
+Description: **This is a skill on Software Engineering Models and Methods**
+Date: **2019-08-24**
+Tags: **Software-Engineering-Models-and-Methods**
+Layout: **layouts/skill.njk**
 ---
 SDLC is a series of phases that provide a common understandings of the software building process. SDLC models as tools that you can use to better deliver your software project.
 
 ### Name of the Skill
 ---
 
-Software Development Life Cycle(SDLC)
+Software Development Life Cycle (SDLC)
 
 ### Classification of Skill
 ---
 
-![Classification Testing](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.h2kinfosys.com%2Fblog%2Fwp-content%2Fuploads%2F2018%2F02%2Fsdlc-modules.png&imgrefurl=https%3A%2F%2Fwww.h2kinfosys.com%2Fblog%2Fsdlc-models%2F&tbnid=fp6s0l7v7uhjSM&vet=12ahUKEwj66enWidPqAhUCN98KHVEcB1wQMygAegUIARCZAQ..i&docid=NIYEFy8QJsQ4RM&w=696&h=374&q=Classification%20of%20SDLC&ved=2ahUKEwj66enWidPqAhUCN98KHVEcB1wQMygAegUIARCZAQ )
+![Classification Testing](https://prestarock.lt//wp-content/uploads/2016/10/Picture3.png)
 
-Basic stages of Software Development Life Cycle:-
+Basic stages of Software Development Life Cycle:
 
 * Planning and Requirement Analysis
     - Each software development life cycle model starts with the analysis, in which the stakeholders of the process discuss the requirements for the final product. The goal of this stage is the detailed definition of the system requirements. Besides, it is needed to make sure that all the process participants have clearly understood the tasks and how every requirement is going to be implemented.
