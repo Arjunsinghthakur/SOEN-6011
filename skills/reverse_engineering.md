@@ -16,7 +16,8 @@ Software maintenance
 
 
 # Related Software Engineering Area(s)
-
+1. Software migration
+2. Software Testing
 
 # Rationale for Skill
 
