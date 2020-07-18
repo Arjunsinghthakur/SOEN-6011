@@ -72,3 +72,7 @@ Thus, the given skill score justified with this importance.
 
 
 # References 
+1. [SWEBOK3](https://users.encs.concordia.ca/~kamthan/courses/soen-6011/project/SWEBOK3.pdf)
+2. [The Importance of User Interface Design](https://www.plego.com/blog/importance-user-interface-design/#:~:text=Simply%20put%2C%20User%20Interface%20Design,your%20customers%20and%20your%20website)
+3. [User Interface Design - wiki](https://en.wikipedia.org/wiki/User_interface_design)
+4. [Interactive UI Design Examples]()https://medium.com/@tristaljing/26-best-interactive-ui-design-examples-for-your-inspiration-in-2019-c1d8106338f8
