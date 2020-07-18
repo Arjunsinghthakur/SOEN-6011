@@ -53,5 +53,11 @@ Modernization in the User interface
 design by the industries and new behaviour acceptance from the general users are reasons for the continuous chnages design trends. 
 
 # Tools Supporting the Skill
+- Figma
+- Adobe Photoshop
+- Sketch
+- Adobe XD
+- esktop Web Browsers applications
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+
 # References 
