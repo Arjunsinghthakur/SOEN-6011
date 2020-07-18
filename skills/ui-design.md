@@ -31,7 +31,16 @@ A person should have these skills to be a good UI designer:
 - The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals (user-centred design).
 
 # Roles for Skill
+- UI designer 
+- UI/UX designer
+- Product designer
+- Front-end developer
+
 # Work Related to Skill (Related Activities and Artifacts)
+1. Graphics User Interface designing for devices of different platforms 
+2. Prototyping of actual software to be developed to verify the and reevaluate the requirements
+3. The manifestation of user flow and user interaction in various aspects of the software
+ 
 # Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
