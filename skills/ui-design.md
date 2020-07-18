@@ -47,6 +47,11 @@ A person should have these skills to be a good UI designer:
 3. 	UI design importance - New Gmail vs. Old Gmail Ui design Case study - https://medium.com/@madhurihebbal/gmail-redesign-and-the-ux-5f2d81b62a7a
 
 # Role of Academia or Industry in Cultivating the Skill
+Academics(course/subjects) have provided proper guideline principals and standards that should be followed in UI design.Fundamental theoretical knowledge of designing is essential to make good UI design. 
+
+Modernization in the User interface
+design by the industries and new behaviour acceptance from the general users are reasons for the continuous chnages design trends. 
+
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 # References 
