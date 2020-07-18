@@ -42,6 +42,10 @@ A person should have these skills to be a good UI designer:
 3. The manifestation of user flow and user interaction in various aspects of the software
  
 # Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+1. Google’s Material Design - https://material.io/  - Build beautiful products, faster.
+2. Best UI design scenarios which follow modern design approach https://medium.com/@tristaljing/26-best-interactive-ui-design-examples-for-your-inspiration-in-2019-c1d8106338f8
+3. 	UI design importance - New Gmail vs. Old Gmail Ui design Case study - https://medium.com/@madhurihebbal/gmail-redesign-and-the-ux-5f2d81b62a7a
+
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
