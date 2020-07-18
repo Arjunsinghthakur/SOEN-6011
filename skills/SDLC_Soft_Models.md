@@ -1,9 +1,10 @@
 ---
-Title: **Software Development Life Cycle (SDLC)**
-Description: **This is a skill on Software Engineering Models and Methods**
-Date: **2019-08-24**
-Tags: **Software-Engineering-Models-and-Methods**
-Layout: **layouts/skill.njk**
+title: Software Development Life Cycle (SDLC)
+description: This is a skill on Software Engineering Models and Methods
+date: 2019-08-24
+tags: 
+   - Software-Engineering-Models-and-Methods
+layout: layouts/skill.njk
 ---
 SDLC is a series of phases that provide a common understandings of the software building process. SDLC models as tools that you can use to better deliver your software project.
 
