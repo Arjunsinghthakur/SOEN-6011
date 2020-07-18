@@ -17,6 +17,11 @@
   </url>
   
   <url>
+    <loc>https://sestopia.netlify.app/skills/reverse_engineering/</loc>
+    <lastmod>2019-08-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sestopia.netlify.app/skills/software-configuration-control/</loc>
     <lastmod>2019-08-24</lastmod>
   </url>
@@ -58,6 +63,11 @@
   
   <url>
     <loc>https://sestopia.netlify.app/tags/software-testing/</loc>
+    <lastmod>2020-07-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/tags/software-maintenance/</loc>
     <lastmod>2020-07-18</lastmod>
   </url>
   
