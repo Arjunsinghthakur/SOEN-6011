@@ -11,22 +11,35 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="/">sestopia</a></h1>
+      <h1 class="home">
+        <a href="/">sestopia</a>
+      </h1>
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
+          <li class="nav-item">
+            <a href="/">Home</a>
+          <li class="nav-item">
+            <a href="/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/search" class="search" id="search-link">Search</a>
+        </li>
       </ul>
-    </header>
+      <div class="search-ui invisible nav-item">
+        <input type="text" id="search-str" class="search-str"/>
+        <ol class="search-results">
+          <ol></div>
+        </header>
 
-    <main class="tmpl-home">
-      <h1 id="content-not-found.">Content not found. <a class="direct-link" href="#content-not-found.">#</a></h1>
+        <main class="tmpl-home">
+          <h1 id="content-not-found.">Content not found. <a class="direct-link" href="#content-not-found.">#</a></h1>
 <p>Go <a href="/">home</a>.</p>
 
 
-    </main>
+        </main>
 
-    <footer></footer>
+        <footer></footer>
 
-    <!-- Current page: /404.html -->
-  </body>
-</html>
+        <!-- Current page: /404.html -->
+        <script src="/js/search.js"></script>
+      </body>
+    </html>

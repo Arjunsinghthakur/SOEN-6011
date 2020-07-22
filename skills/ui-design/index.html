@@ -11,15 +11,27 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="/">sestopia</a></h1>
+      <h1 class="home">
+        <a href="/">sestopia</a>
+      </h1>
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
+          <li class="nav-item">
+            <a href="/">Home</a>
+          <li class="nav-item">
+            <a href="/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/search" class="search" id="search-link">Search</a>
+        </li>
       </ul>
-    </header>
+      <div class="search-ui invisible nav-item">
+        <input type="text" id="search-str" class="search-str"/>
+        <ol class="search-results">
+          <ol></div>
+        </header>
 
-    <main class="tmpl-skill">
-      <h1>User Interface Design</h1>
+        <main class="tmpl-skill">
+          <h1>User Interface Design</h1>
 
 <h1 id="name-of-skill">Name of Skill <a class="direct-link" href="#name-of-skill">#</a></h1>
 <p>User Interface Design</p>
@@ -92,10 +104,11 @@ design by the industries and new behaviour acceptance from the general users are
 
 <p><a href="/">← Home</a></p>
 
-    </main>
+        </main>
 
-    <footer></footer>
+        <footer></footer>
 
-    <!-- Current page: /skills/ui-design/ -->
-  </body>
-</html>
+        <!-- Current page: /skills/ui-design/ -->
+        <script src="/js/search.js"></script>
+      </body>
+    </html>

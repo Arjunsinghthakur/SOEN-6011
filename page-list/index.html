@@ -11,20 +11,44 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="/">sestopia</a></h1>
+      <h1 class="home">
+        <a href="/">sestopia</a>
+      </h1>
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
+          <li class="nav-item">
+            <a href="/">Home</a>
+          <li class="nav-item">
+            <a href="/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/search" class="search" id="search-link">Search</a>
+        </li>
       </ul>
-    </header>
+      <div class="search-ui invisible nav-item">
+        <input type="text" id="search-str" class="search-str"/>
+        <ol class="search-results">
+          <ol></div>
+        </header>
 
-    <main class="tmpl-home">
-      <table>
+        <main class="tmpl-home">
+          <table>
   <thead>
     <th>URL</th>
     <th>Page Title</th>
   </thead>
   <tbody>
+  <tr>
+    <td><a href="/about/"><code>/about/</code></a></td>
+    <td>About</td>
+  </tr>
+  <tr>
+    <td><a href="/"><code>/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/search.json"><code>/search.json</code></a></td>
+    <td></td>
+  </tr>
   <tr>
     <td><a href="/skills/Debugging/"><code>/skills/Debugging/</code></a></td>
     <td>Debugging</td>
@@ -52,14 +76,6 @@
   <tr>
     <td><a href="/skills/ui-design/"><code>/skills/ui-design/</code></a></td>
     <td>User Interface Design</td>
-  </tr>
-  <tr>
-    <td><a href="/about/"><code>/about/</code></a></td>
-    <td>About Me</td>
-  </tr>
-  <tr>
-    <td><a href="/"><code>/</code></a></td>
-    <td></td>
   </tr>
   <tr>
     <td><a href="/tags/"><code>/tags/</code></a></td>
@@ -97,10 +113,11 @@
 </table>
 
 
-    </main>
+        </main>
 
-    <footer></footer>
+        <footer></footer>
 
-    <!-- Current page: /page-list/ -->
-  </body>
-</html>
+        <!-- Current page: /page-list/ -->
+        <script src="/js/search.js"></script>
+      </body>
+    </html>
