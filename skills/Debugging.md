@@ -1,7 +1,6 @@
 ---
 title: Debugging
 description: This skill is about identigying faults and debugging software code.
-date: 2019-08-24
 tags:
   - software-construction
 layout: layouts/skill.njk

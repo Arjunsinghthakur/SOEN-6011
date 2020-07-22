@@ -1,7 +1,6 @@
 ---
 title: Software Quality Assurance
 description: This is a skill on Software Quality
-date: 2019-08-24
 tags:
   - Software Quality Assurance
 layout: layouts/skill.njk

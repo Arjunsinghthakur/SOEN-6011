@@ -1,7 +1,6 @@
 ---
 title: Software Configuration Control
 description: This is a skill on Software Configuration Control
-date: 2019-08-24
 tags:
   - software-configuration-management
 layout: layouts/skill.njk

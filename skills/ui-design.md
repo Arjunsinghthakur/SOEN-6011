@@ -1,7 +1,6 @@
 ---
 title: User Interface Design
 description: This is a skill on User Interface Design
-date: 2019-08-24
 tags:
   - software-design
 layout: layouts/skill.njk

@@ -1,7 +1,6 @@
 ---
 title: Software Development Life Cycle (SDLC)
 description: This is a skill on Software Engineering Models and Methods
-date: 2019-08-24
 tags: 
    - Software-Engineering-Models-and-Methods
 layout: layouts/skill.njk

@@ -1,7 +1,6 @@
 ---
 title: Reverse Engineering
 description: This is a skill on Reverse Engineering
-date: 2019-08-24
 tags:
   - software-maintenance
 layout: layouts/skill.njk

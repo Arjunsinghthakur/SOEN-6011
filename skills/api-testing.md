@@ -1,7 +1,6 @@
 ---
 title: API Testing
 description: This is a skill on API Testing
-date: 2019-08-24
 tags:
   - software-testing
 layout: layouts/skill.njk
