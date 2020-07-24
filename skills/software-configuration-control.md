@@ -39,9 +39,17 @@ bridges the gap between development and operations, which helps in building,test
 ### Software Quality Assurance
 Application must be tested continuosly throughout the development process, Having traceability ensures that the agreed upon software quality assurances are met
 ### Project Management
-
+Includes management activities such as planning, managing resources, time, developers to deliver a software product to the customers,clients or stakeholders
 ## Rationale for Skill
-Track and control changes
+* Having traceability built into your software development pipeline, benefits not only in development but also in project management and quality assurance.
+* Without a system for change management, there is no way of knowing what components of the system would be affected by a new change.
+* Version Control System for the source code, helps in managing different versions of the software over the course of the development
+* VCS would also help teams to work independently from each other, but at the same time allow them to collaborate together to develop one final merged common version.
+* As a VCS would track changes of the entire project over time, the developers have the freedom to experiment with the source code and revert back to an earlier version if needed without any problems.
+* By having a change control board, the changes can be approved or rejected, as not all changes can be pursued with the constraints like budget, time, expertise, effort.
+
+
+
 
 ## Roles for Skill
 1. Code Reviews
