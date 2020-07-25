@@ -1,6 +1,6 @@
 ---
 title: User Interface Design
-description: This is a skill on User Interface Design
+description: User interface is the front-end application view to which user interacts in order to use the software.
 tags:
   - software-design
 layout: layouts/skill.njk
