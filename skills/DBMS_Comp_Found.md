@@ -1,9 +1,9 @@
 ---
-Title: **Database Management System (DBMS)**
-Description: **This is a skill on Computational Foundation**
-Date: **2019-08-24**
-Tags: **Computational Foundation**
-Layout: **layouts/skill.njk**
+title: Database Management System (DBMS)
+description: This is a skill on Computational Foundation
+tags: 
+  - Computational Foundation
+layout: layouts/skill.njk
 ---
 A Database Management System (DBMS) is a software designed to store, managed, define and to retrieve the data in a database.
 
