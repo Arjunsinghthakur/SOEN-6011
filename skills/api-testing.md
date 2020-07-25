@@ -1,6 +1,7 @@
 ---
 title: API Testing
 description: This is a skill on API Testing
+author: Arjun Singh Thakur
 tags:
   - software-testing
 layout: layouts/skill.njk

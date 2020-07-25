@@ -1,11 +1,14 @@
 ---
 title: Software Configuration Control
 description: This is a skill on Software Configuration Control
+author: Vijay Krishna Vallabhaneni
 tags:
   - software-configuration-management
 layout: layouts/skill.njk
 ---
+
 ---
+
 Software configuration control deals with the management of changes in various phases of software development. By using a **disciplined approach to change management**, new changes can be incorporated into the software product. This is crucial in software development because the requirements can change at any point of the development process. This skill falls in line with Agile approach to software development as requirements change often.
 
 Changes are needed even after the software is delivered to the client, for example a client might need to incorporate a new payment system to their existing web application. Or a client might want to improve their response time of their existing site. Thereby also playing a part in maintenance activities too

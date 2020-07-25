@@ -1,6 +1,7 @@
 ---
 title: User Interface Design
 description: User interface is the front-end application view to which user interacts in order to use the software.
+author: Rohan Vachhani
 tags:
   - software-design
 layout: layouts/skill.njk

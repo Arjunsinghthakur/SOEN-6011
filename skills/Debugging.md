@@ -1,6 +1,7 @@
 ---
 title: Debugging
 description: This skill is about identigying faults and debugging software code.
+author: Sucheta Vijayakumar Sudhakumari
 tags:
   - software-construction
 layout: layouts/skill.njk

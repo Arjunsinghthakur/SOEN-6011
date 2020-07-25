@@ -1,6 +1,7 @@
 ---
 title: Reverse Engineering
 description: This is a skill on Reverse Engineering
+author: Sanjana Udar
 tags:
   - software-maintenance
 layout: layouts/skill.njk
