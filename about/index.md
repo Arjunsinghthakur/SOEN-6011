@@ -1,9 +1,9 @@
 ---
 layout: layouts/skill.njk
-title: About Me
+title: About
 templateClass: tmpl-skill
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 3
 ---
 

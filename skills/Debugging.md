@@ -1,7 +1,7 @@
 ---
 title: Debugging
-description: This skill is about identifying faults and fixing bugs software code.
-date: 2019-08-24
+description: This skill is about identigying faults and debugging software code.
+author: Sucheta Vijayakumar Sudhakumari
 tags:
   - software-construction
 layout: layouts/skill.njk
