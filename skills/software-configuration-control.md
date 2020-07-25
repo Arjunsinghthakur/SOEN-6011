@@ -49,11 +49,20 @@ Includes management activities such as planning, managing resources, time, devel
 * By having a change control board, the changes can be approved or rejected, as not all changes can be pursued with the constraints like budget, time, expertise, effort.
 
 
-
-
 ## Roles for Skill
-1. Code Reviews
-2. Configure development workflow
+---
+### Participate in Code Reviews
+Code reviews help in improving the quality of source code, as developers can look at new ways to solve the same problem. It also helps in maintaining consistency in coding practices throughout the whole project so that it is easier to maintain. Code reviews can also help in knowledge transfer as developers can understand the code base if they participate in code reviews with developers.
+
+### Collaborate with Change Control Board
+Change control board contains a group of individuals, they could be developers, managers or any kind of stakeholders that approve or reject the changes to the software. Not all changes can be pursued in software development, even though it might be a good idea to make a particular change it has to be considered carefully, review its benefits, effort, cost, schedule. As resources have to be managed effectively to deliver a product. But this doesn't mean new ideas aren't encouraged, CCB would give a reasonable explaination why they can't implement that change at this time to the development team and when the situation can become favorable to pursue it.
+### Identify Changes
+Throughout software development, the need for change can come in two forms either an **enhancement** or a **defect**. To make any change to the software, it has to be formally proposed to the CCB and after their approval the development team would go ahead with the implementation of the change. Some changes have more priority than the others. With an organized approach to change management all the change activities can be documented extensively. If its a defect in the software, the defect is classified based on its severity making it traceable so that a decision can be made to fix or defer or abandon.
+### Configure development workflow
+Software development becomes complex as the code base grows in size over time, This rise in complexity if not handled properly could lead to inefficiencies with the productivity of the development team. Developers should have the flexibility to work on the software without blocking the work of the rest of the team.
+
+ Having a Version control system allows developers to work freely on any part of the system and have a system to merge conflicts if any. But having a VCS alone wouldn't be sufficient, there is a rising need to deliver high quality software quickly and efficiently. This can be done by integrating testing and deployment to the workflow. For example whenever a new change is made to the central repository, the code base would be tested for defects and if there are no defects the new change can be deployed to production almost immediately. By having development,testing,deployment integrate with each other, developers can make deliver software features at a faster rate than ever before.
+
 
 ## Work Related to Skill (Related Activities and Artifacts)
 * Merge Branches
