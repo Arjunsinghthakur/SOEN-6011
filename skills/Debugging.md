@@ -1,6 +1,6 @@
 ---
 title: Debugging
-description: This skill is about identigying faults and debugging software code.
+description: This skill is about identifying faults and fixing bugs software code.
 date: 2019-08-24
 tags:
   - software-construction
@@ -11,7 +11,7 @@ layout: layouts/skill.njk
 Debugging
 
 # Classification of Skill
-Software Construction
+Technical Skill
 
 # Prerequisites for Skill
 A person should posses some qualities to be a good debugger,which are spread across technical skills , cognitive ablities and character traits.
@@ -42,6 +42,11 @@ A person should posses some qualities to be a good debugger,which are spread acr
   Though not the direct intention , debugging also increases one's familarity and hence knowledge about the code. 
 
 # Roles for Skill
+  
+
+
+
+
 # Work Related to Skill (Related Activities and Artifacts)
   Different Types of Debugging : 
     Static - code review . 
