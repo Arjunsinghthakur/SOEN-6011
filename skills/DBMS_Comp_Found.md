@@ -54,21 +54,52 @@ Database management systems can be classified based on several criteria, such as
 
 ### Related Software Engineering Area(s)
 ---
-
+Data Query Language (DQL)
+Data Controll Language (DCL)
+Data Manipulation Language (DML)
+Data Definition Language (DDL)
 
 ### Rationale for Skill
 ---
 
+- Improve Data Sharing and Data Security
+- Effective Data Integration
+- Increase in Productivity of the End User
+- Quick Decision Making
+
 ### Roles for Skill
 ---
+
+- Database Development
+- Data Interrogation
+- Database Maintenance
+- Application Development
+
 ### Work Related to Skill (Related Activities and Artifacts)
 ---
+
+- Telecommunication :- It helps to keeps call records, monthly bills, maintaining balances, etc.
+- Finance :- For storing information about stock, sales and purchases of financial instruments.
+- Sales :- Use for storing customer, products and sales information.
+- 
 ### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 ---
 ### Role of Academia or Industry in Cultivating the Skill
 ---
+
+- Data Management system is needed for data access within the company.
+- It is needed to maintain strong relationships between data.
+- It helps brand managers to search data in better manner.
+
 ### Tools Supporting the Skill
 ---
+
+- Microsoft SQL Server
+- Microsoft Access
+- SQLite
+- phpMyAdmin
+- SQL Developers
+
 ### Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 ---
 ### References 
