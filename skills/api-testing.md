@@ -12,7 +12,7 @@ API testing commonly includes testing REST APIs or SOAP web services with JSON o
 ### Classification of Skill
 
 <img src="https://www.h2kinfosys.com/blog/wp-content/uploads/2018/02/Software-Testing-Classification-1024x607.png" alt="Kitten"
-width="500" height="400" />
+width="700" height="400" />
 
 API testing itself involves the following practices:
 
