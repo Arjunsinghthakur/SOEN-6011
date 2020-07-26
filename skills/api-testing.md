@@ -108,7 +108,7 @@ Following video will give a glimpse of GET API request using Postman.
 1. Download Postman tool or any other tool you want to use.
 2. Click on New and give a name to your request, prefer to give pupose of request as a name.
 3. Select folder where you want to store all your requests, create one if there is no pre-declared workspace.
-4. Chhose action from dropdown, we have selected her GET, and than add URL of your API.
+4. Choose action from dropdown, we have selected here GET, and than add URL of your API.
 5. Headers, Authorization, Parameters are optional.
 6. Click on Send and you will see result in Body.
 
