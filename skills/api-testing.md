@@ -10,7 +10,7 @@ API testing is a type of software testing that involves testing application prog
 API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS.
 
 ### Classification of Skill
-
+---
 <img src="https://www.h2kinfosys.com/blog/wp-content/uploads/2018/02/Software-Testing-Classification-1024x607.png" alt="Kitten"
 width="700" height="400" />
 
@@ -24,6 +24,7 @@ API testing itself involves the following practices:
 * Security testing - This testing includes what type of authentication is required and whether sensitive data is encrypted over HTTP or both
 
 ### Prerequisites for Skill
+---
 Tester should have knowleddge of :
 * Difference between API testing and Unit Testing.
 * Types of Bugs that API testing detects.
@@ -57,6 +58,7 @@ Tester should have knowleddge of :
 * Hands-on expierence with API testing tools such as Postman.
 
 ### Related Software Engineering Area(s)
+---
 * Unit Testing
 APIs is testing a single endpoint, with a single request, looking for a single response or set of responses.
 * Integration Testing 
@@ -65,15 +67,18 @@ Integration testing is the most often used form of API testing, as APIs are at t
 End-to-End testing can help us validate the flow of data and information between a few different API connections.  
 
 ### Rationale for Skill
+---
 * API testing allows the tester to find bugs earlier in the development process, often before the UI has been created. API testing allows the tester to make requests that might not be allowed through the UI, which is crucial for exposing potential security flaws in an application.
 * Most of the companies are using Microservices nowadays and most microservices are using application programming interfaces (APIs), which are a set of commands for how a service can be used.
 
 ### Roles for Skill
+---
 * Good understanding & knowledge about SOAP,REST. 
 * Clear understating about services & web services.
 * Strong grip on API automation tool.
 
 ### Work Related to Skill (Related Activities and Artifacts)
+---
 * To run API request there is a need to first select the Method Type and paste URL of the API. Press Send button to send the request to API or press Add API Test button to save the request.
 * Method Type could be GET, POST, PUT, PATCH, DELETE. 
   - A GET request fetches a record from a database
@@ -104,6 +109,7 @@ End-to-End testing can help us validate the flow of data and information between
   - 500-level responses indicate that there was some sort of server error
 
 ### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+---
 Following video will give a glimpse of GET API request using Postman.
 1. Download Postman tool or any other tool you want to use.
 2. Click on New and give a name to your request, prefer to give pupose of request as a name.
@@ -115,6 +121,7 @@ Following video will give a glimpse of GET API request using Postman.
 [![Get Request](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOCj0xi8qa1yg16CdBkFZU0W_vAeuspGVxmw&usqp=CAU)](https://youtu.be/tIEQtjezN0M)
 
 ### Role of Academia or Industry in Cultivating the Skill
+---
 Industry has major role to play in success of API and its testing.
 * **Deloitte:** Companies are architecting and designing their technology as discrete sets of digital building blocks intended to be reused. The “API imperative” involves strategically deploying services and platforms for use both within and beyond the enterprise.
 (https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html).
@@ -123,6 +130,7 @@ Industry has major role to play in success of API and its testing.
 * Applications of financial institutions give the right people access to the data they need, while protecting that data from the wrong people. As applications have become necessary to the way we do business today, APIs (application programming interfaces) have become indispensable. APIs are the tools that allow companies that provide financial services to do all these things — they enable connectivity, while inspiring innovative developers to create new products, improve existing services, and work more efficiently.
 
 ### Tools Supporting the Skill
+---
 Some of the tools used for API Testing are as follows:
 
 * Postman
@@ -146,9 +154,11 @@ Some of the tools used for API Testing are as follows:
 * WebInject
 
 ### Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+---
 7/10
 
 ### References 
+---
 1. (https://www.softwaretestingmaterial.com/api-testing/)
 2. (https://www.guru99.com/api-testing.html)
 3. (https://www.katalon.com/resources-center/blog/api-testing-tips/)
