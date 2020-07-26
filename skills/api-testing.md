@@ -110,7 +110,7 @@ Following video will give a glimpse of GET API request using Postman.
 5. Headers, Authorization, Parameters are optional.
 6. Click on Send and you will see result in Body.
 
-[![Get Request](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://youtu.be/tIEQtjezN0M)
+[![Get Request](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStUgaVUTMmjK24sWiOivxqwxevfeU11Wv9AQ&usqp=CAU)](https://youtu.be/tIEQtjezN0M)
 
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
