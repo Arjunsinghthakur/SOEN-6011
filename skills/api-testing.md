@@ -122,6 +122,34 @@ Following video will give a glimpse of GET API request using Postman.
 ### Role of Academia or Industry in Cultivating the Skill
 * **Deloitte:** Companies are architecting and designing their technology as discrete sets of digital building blocks intended to be reused. The “API imperative” involves strategically deploying services and platforms for use both within and beyond the enterprise.
 (https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html).
-# Tools Supporting the Skill
-# Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
-# References 
+* The global API testing market size is expected to grow from USD 384.3 Million in 2016 to USD 1,099.1 Million by 2022, at a Compound Annual Growth Rate (CAGR) of 19.69% from 2017 to 2022. The base year considered for the study is 2016 and the forecast period is 2017–2022.
+* North America is expected to hold the largest market share in the API testing market during the forecast period, as APIs enable businesses across industries to monetize their services by exposing their APIs to the external world. North America is at the forefront in the adoption of such APIs that enable businesses to create value by offering their APIs.
+* Applications of financial institutions give the right people access to the data they need, while protecting that data from the wrong people. As applications have become necessary to the way we do business today, APIs (application programming interfaces) have become indispensable. APIs are the tools that allow companies that provide financial services to do all these things — they enable connectivity, while inspiring innovative developers to create new products, improve existing services, and work more efficiently.
+
+### Tools Supporting the Skill
+Some of the tools used for API Testing are as follows:
+
+* Postman
+* Katalon Studio
+* SoapUI
+* Assertible
+* Tricentis Tosca
+* Apigee
+* JMeter
+* Rest-Assured
+* API Fortress
+* Parasoft
+* API Science
+* APIary Inspector
+* HttpMaster Express
+* Mockbin
+* Ping API
+* Rest Console
+* SOAP Sonar
+* Unirest
+* WebInject
+
+### Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+7/10
+
+### References 
