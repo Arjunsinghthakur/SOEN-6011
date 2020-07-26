@@ -32,6 +32,11 @@
   </url>
   
   <url>
+    <loc>https://sestopia.netlify.app/skills/api-testing/</loc>
+    <lastmod>2020-07-26</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sestopia.netlify.app/skills/reverse_engineering/</loc>
     <lastmod>2020-07-26</lastmod>
   </url>
@@ -88,11 +93,6 @@
   
   <url>
     <loc>https://sestopia.netlify.app/tags/Computational%20Foundation/</loc>
-    <lastmod>2020-07-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sestopia.netlify.app/skills/api-testing/</loc>
     <lastmod>2020-07-26</lastmod>
   </url>
 </urlset>
