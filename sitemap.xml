@@ -32,11 +32,6 @@
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/skills/api-testing/</loc>
-    <lastmod>2020-07-26</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sestopia.netlify.app/skills/reverse_engineering/</loc>
     <lastmod>2020-07-26</lastmod>
   </url>
@@ -62,17 +57,17 @@
   </url>
   
   <url>
+    <loc>https://sestopia.netlify.app/tags/software-design/</loc>
+    <lastmod>2020-07-26</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sestopia.netlify.app/tags/software-construction/</loc>
     <lastmod>2020-07-26</lastmod>
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/tags/software-testing/</loc>
-    <lastmod>2020-07-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sestopia.netlify.app/tags/software-maintenance/</loc>
+    <loc>https://sestopia.netlify.app/tags/Computational%20Foundation/</loc>
     <lastmod>2020-07-26</lastmod>
   </url>
   
@@ -87,12 +82,17 @@
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/tags/software-design/</loc>
+    <loc>https://sestopia.netlify.app/tags/software-maintenance/</loc>
     <lastmod>2020-07-26</lastmod>
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/tags/Computational%20Foundation/</loc>
+    <loc>https://sestopia.netlify.app/tags/software-testing/</loc>
+    <lastmod>2020-07-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/skills/api-testing/</loc>
     <lastmod>2020-07-26</lastmod>
   </url>
 </urlset>
