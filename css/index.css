@@ -297,6 +297,6 @@ img {
     align-items: center;
 }
 
-.invisible {
-    display: none
+summary h2 {
+    display: inline
 }
