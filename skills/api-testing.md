@@ -114,6 +114,11 @@ Following video will give a glimpse of GET API request using Postman.
 
 [![Get Request](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOCj0xi8qa1yg16CdBkFZU0W_vAeuspGVxmw&usqp=CAU)](https://youtu.be/tIEQtjezN0M)
 
+<video width="320" height="240" controls>
+  <source src="https://youtu.be/tIEQtjezN0M" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
