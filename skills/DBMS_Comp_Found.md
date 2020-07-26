@@ -6,15 +6,35 @@ tags:
   - Computational Foundation
 layout: layouts/skill.njk
 ---
+<details>
+<summary>
+
+## Table Of Contents
+</summary>
+
+[toc]
+</details>
+
 A Database Management System (DBMS) is a software designed to store, managed, define and to retrieve the data in a database.
 
-### Name of the Skill
+<details open>
+<summary>
+
+## Name of the Skill
 ---
+</summary>
+
 
 Database Management System (DBMS)
 
-### Classification of Skill
+</details>
+<details open>
+<summary>
+
+## Classification of Skill
 ---
+</summary>
+
 
 Database management systems can be classified based on several criteria, such as the data model, user numbers and database distribution, all described below.
 
@@ -47,53 +67,101 @@ Database management systems can be classified based on several criteria, such as
     
     - In a heterogeneous distributed database system, different sites might use different DBMS software, but there is additional common software to support data exchange between these sites. For example, the various library database systems use the same machine-readable cataloguing (MARC) format to support library record data exchange.
     
-### Prerequisites for Skill
+</details>
+<details open>
+<summary>
+
+## Prerequisites for Skill
 ---
+</summary>
+
  - Relational model
  - Basic functions of database systems.
  - SQL
 
-### Related Software Engineering Area(s)
+</details>
+<details open>
+<summary>
+
+## Related Software Engineering Area(s)
 ---
+</summary>
+
 Data Query Language (DQL)
 Data Controll Language (DCL)
 Data Manipulation Language (DML)
 Data Definition Language (DDL)
 
-### Rationale for Skill
+</details>
+<details open>
+<summary>
+
+## Rationale for Skill
 ---
+</summary>
+
 
 - Improve Data Sharing and Data Security
 - Effective Data Integration
 - Increase in Productivity of the End User
 - Quick Decision Making
 
-### Roles for Skill
+</details>
+<details open>
+<summary>
+
+## Roles for Skill
 ---
+</summary>
+
 
 - Database Development
 - Data Interrogation
 - Database Maintenance
 - Application Development
 
-### Work Related to Skill (Related Activities and Artifacts)
+</details>
+<details open>
+<summary>
+
+## Work Related to Skill (Related Activities and Artifacts)
 ---
+</summary>
+
 
 - Telecommunication :- It helps to keeps call records, monthly bills, maintaining balances, etc.
 - Finance :- For storing information about stock, sales and purchases of financial instruments.
 - Sales :- Use for storing customer, products and sales information.
 - 
-### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+</details>
+<details open>
+<summary>
+
+## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 ---
-### Role of Academia or Industry in Cultivating the Skill
+</summary>
+
+</details>
+<details open>
+<summary>
+
+## Role of Academia or Industry in Cultivating the Skill
 ---
+</summary>
+
 
 - Data Management system is needed for data access within the company.
 - It is needed to maintain strong relationships between data.
 - It helps brand managers to search data in better manner.
 
-### Tools Supporting the Skill
+</details>
+<details open>
+<summary>
+
+## Tools Supporting the Skill
 ---
+</summary>
+
 
 - Microsoft SQL Server
 - Microsoft Access
@@ -101,7 +169,18 @@ Data Definition Language (DDL)
 - phpMyAdmin
 - SQL Developers
 
-### Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+</details>
+<details open>
+<summary>
+
+## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 ---
-### References 
+</summary>
+
+</details>
+<details open>
+<summary>
+
+## References 
 ---
+</summary>
