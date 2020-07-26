@@ -97,7 +97,7 @@ End-to-End testing can help us validate the flow of data and information between
   - Add Variable
   - Give a name to the variable for better understanding of the team
   - Input the JSON Path of the value to be stored from the response body
-  - To use the stored value in the variable as expected assertion you can use __name of the variable__ in any other API request. 
+  - To use the stored value in the variable as expected assertion you can use name of the variable in any other API request. 
 * Response codes are three-digit codes used to describe the result of the REST request. The response body will vary by what type of request was made. The most common response codes come in one of these three categories:
   - 200-level responses indicate that the request was received, understood, and processed
   - 400-level responses indicate that the request was received, but that there was an error from the client
@@ -158,3 +158,4 @@ Some of the tools used for API Testing are as follows:
 7. (https://simpleprogrammer.com/api-testing/#:~:text=And%20API%20testing%20allows%20the,feedback%20for%20developers%20and%20testers.)
 8. (https://www.marketsandmarkets.com/Market-Reports/api-testing-market-227082545.html)
 9. (https://www.mulesoft.com/resources/api/api-strategy-financial-services)
+10. (https://en.wikipedia.org/)
