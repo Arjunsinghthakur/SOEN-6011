@@ -119,7 +119,9 @@ Following video will give a glimpse of GET API request using Postman.
   Your browser does not support the video tag.
 </video>
 
-# Role of Academia or Industry in Cultivating the Skill
+### Role of Academia or Industry in Cultivating the Skill
+* **Deloitte:** Companies are architecting and designing their technology as discrete sets of digital building blocks intended to be reused. The “API imperative” involves strategically deploying services and platforms for use both within and beyond the enterprise.
+(https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html).
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 # References 
