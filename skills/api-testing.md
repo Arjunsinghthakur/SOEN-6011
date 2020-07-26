@@ -114,12 +114,8 @@ Following video will give a glimpse of GET API request using Postman.
 
 [![Get Request](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOCj0xi8qa1yg16CdBkFZU0W_vAeuspGVxmw&usqp=CAU)](https://youtu.be/tIEQtjezN0M)
 
-<video width="320" height="240" controls>
-  <source src="https://youtu.be/tIEQtjezN0M" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ### Role of Academia or Industry in Cultivating the Skill
+Industry has major role to play in success of API and its testing.
 * **Deloitte:** Companies are architecting and designing their technology as discrete sets of digital building blocks intended to be reused. The “API imperative” involves strategically deploying services and platforms for use both within and beyond the enterprise.
 (https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html).
 * The global API testing market size is expected to grow from USD 384.3 Million in 2016 to USD 1,099.1 Million by 2022, at a Compound Annual Growth Rate (CAGR) of 19.69% from 2017 to 2022. The base year considered for the study is 2016 and the forecast period is 2017–2022.
@@ -153,3 +149,12 @@ Some of the tools used for API Testing are as follows:
 7/10
 
 ### References 
+1. (https://www.softwaretestingmaterial.com/api-testing/)
+2. (https://www.guru99.com/api-testing.html)
+3. (https://www.katalon.com/resources-center/blog/api-testing-tips/)
+4. (https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide)
+5. (https://www.guru99.com/comparison-between-web-services.html#:~:text=SOAP%20stands%20for%20Simple%20Object,REST%20is%20an%20architectural%20pattern.&text=SOAP%20only%20works%20with%20XML,can%20make%20use%20of%20SOAP.)
+6. (https://smartbear.com/solutions/api-testing/)
+7. (https://simpleprogrammer.com/api-testing/#:~:text=And%20API%20testing%20allows%20the,feedback%20for%20developers%20and%20testers.)
+8. (https://www.marketsandmarkets.com/Market-Reports/api-testing-market-227082545.html)
+9. (https://www.mulesoft.com/resources/api/api-strategy-financial-services)
