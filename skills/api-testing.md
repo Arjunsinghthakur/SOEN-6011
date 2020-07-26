@@ -14,7 +14,8 @@ API testing commonly includes testing REST APIs or SOAP web services with JSON o
    width:150px;
    height:100px;
 }
-
+<img src="https://www.h2kinfosys.com/blog/wp-content/uploads/2018/02/Software-Testing-Classification-1024x607.png" alt="Kitten"
+width="150" height="100" />
 API testing itself involves the following practices:
 
 * Unit testing - Testing the functionality of individual operations.
