@@ -102,7 +102,16 @@ End-to-End testing can help us validate the flow of data and information between
   - 500-level responses indicate that there was some sort of server error
 
 ### Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+Following video will give a glimpse of GET API request using Postman.
+1. Download Postman tool or any other tool you want to use.
+2. Click on New and give a name to your request, prefer to give pupose of request as a name.
+3. Select folder where you want to store all your requests, create one if there is no pre-declared workspace.
+4. Chhose action from dropdown, we have selected her GET, and than add URL of your API.
+5. Headers, Authorization, Parameters are optional.
+6. Click on Send and you will see result in Body.
+
 [![Get Request](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
+
 # Role of Academia or Industry in Cultivating the Skill
 # Tools Supporting the Skill
 # Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
