@@ -126,6 +126,7 @@ design by the industries and new behaviour acceptance from the general users are
 <details open>
 <summary>
 
+
 ## Tools Supporting the Skill
 ---
 </summary>
