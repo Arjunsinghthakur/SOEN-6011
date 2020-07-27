@@ -6,39 +6,131 @@ tags:
   - software-maintenance
 layout: layouts/skill.njk
 ---
-# Name of Skill
+<details>
+<summary>
+
+## Table Of Contents
+</summary>
+
+[toc]
+</details>
+
+<details open>
+<summary>
+
+## Name of Skill
+---
+</summary>
+
 Reverse Engineering
 
-# Classification of Skill
+</details>
+<details open>
+<summary>
+
+## Classification of Skill
+---
+</summary>
+
 Software maintenance
 
-# Prerequisites for Skill
+</details>
+<details open>
+<summary>
+
+## Prerequisites for Skill
+---
+</summary>
 
 
-# Related Software Engineering Area(s)
+
+</details>
+<details open>
+<summary>
+
+## Related Software Engineering Area(s)
+---
+</summary>
+
 1. Software migration
 2. Software Testing
 
-# Rationale for Skill
+</details>
+<details open>
+<summary>
+
+## Rationale for Skill
+---
+</summary>
 
 
-# Roles for Skill
+
+</details>
+<details open>
+<summary>
+
+## Roles for Skill
+---
+</summary>
+
 1. Software Reverse Engineering Analyst
 2. Software maintenance Specialist
 
-# Work Related to Skill (Related Activities and Artifacts)
+</details>
+<details open>
+<summary>
+
+## Work Related to Skill (Related Activities and Artifacts)
+---
+</summary>
+
 * Data Restructuring
 * Code Restructuring
 
-# Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+</details>
+<details open>
+<summary>
 
-# Role of Academia or Industry in Cultivating the Skill
+## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+---
+</summary>
 
-# Tools Supporting the Skill
+
+</details>
+<details open>
+<summary>
+
+## Role of Academia or Industry in Cultivating the Skill
+---
+</summary>
+
+
+</details>
+<details open>
+<summary>
+
+## Tools Supporting the Skill
+---
+</summary>
+
 * NetBeans
 * Eclipse
 
-# Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+</details>
+<details open>
+<summary>
+
+## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+---
+</summary>
 
 
-# References
+
+</details>
+<details open>
+<summary>
+
+## References
+---
+</summary>
+
