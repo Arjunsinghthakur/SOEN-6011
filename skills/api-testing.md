@@ -3,33 +3,19 @@ title: API Testing
 description: This is a skill on API Testing
 author: Arjun Singh Thakur
 tags:
-  - software-testing
+  - Software Testing
 layout: layouts/skill.njk
 ---
-<details>
-<summary>
-
 ## Table Of Contents
-</summary>
-
 [toc]
-</details>
-
 API testing is a type of software testing that involves testing application programming interfaces (APIs) directly to determine if they meet expectations for functionality, reliability, performance, and security.  It is a part of integration testing and performed without GUI. 
 API testing commonly includes testing REST APIs or SOAP web services with JSON or XML message payloads being sent over HTTP, HTTPS.
 
-<details open>
-<summary>
-
 ## Classification of Skill
 ---
-</summary>
-
 <img src="https://www.h2kinfosys.com/blog/wp-content/uploads/2018/02/Software-Testing-Classification-1024x607.png" alt="Kitten"
 width="700" height="400" />
-
 API testing itself involves the following practices:
-
 * Unit testing - Testing the functionality of individual operations.
 * Functional testing - Testing the functionality of broader scenarios, often using unit tests as building blocks for end-to-end tests. 
 * Load testing - Validating functionality and performance under load, often by reusing functional test cases.
@@ -37,14 +23,8 @@ API testing itself involves the following practices:
 * Web UI testing - Performed as part of end-to-end integration tests that also cover APIs, enables teams to validate GUI items in the context of the larger transaction.
 * Security testing - This testing includes what type of authentication is required and whether sensitive data is encrypted over HTTP or both
 
-</details>
-<details open>
-<summary>
-
 ## Prerequisites for Skill
 ---
-</summary>
-
 Tester should have knowleddge of :
 * Difference between API testing and Unit Testing.
 * Types of Bugs that API testing detects.
@@ -74,17 +54,10 @@ Tester should have knowleddge of :
   SOAP services should be used in the following instances:
   - Stateful Operations -  When the application has a requirement that state needs to be maintained from one request to another, use SOAP. We can take the example of any online purchasing site. These sites normally need the user first to add items which need to be purchased to a cart. All of the cart items are then transferred to the payment page in order to complete the purchase. This is an example of an application which needs the state feature. The state of the cart items needs to be transferred to the payment page for further processing.
   - Asynchronous processing and subsequent invocation – if there is a requirement that the client needs a guaranteed level of reliability and security then the new SOAP standard of SOAP 1.2 provides a lot of additional features, especially when it comes to security.
-
 * Hands-on expierence with API testing tools such as Postman.
-
-</details>
-<details open>
-<summary>
 
 ## Related Software Engineering Area(s)
 ---
-</summary>
-
 * Unit Testing
 APIs is testing a single endpoint, with a single request, looking for a single response or set of responses.
 * Integration Testing 
@@ -92,37 +65,19 @@ Integration testing is the most often used form of API testing, as APIs are at t
 * End-to-End Testing
 End-to-End testing can help us validate the flow of data and information between a few different API connections.  
 
-</details>
-<details open>
-<summary>
-
 ## Rationale for Skill
 ---
-</summary>
-
 * API testing allows the tester to find bugs earlier in the development process, often before the UI has been created. API testing allows the tester to make requests that might not be allowed through the UI, which is crucial for exposing potential security flaws in an application.
 * Most of the companies are using Microservices nowadays and most microservices are using application programming interfaces (APIs), which are a set of commands for how a service can be used.
 
-</details>
-<details open>
-<summary>
-
 ## Roles for Skill
 ---
-</summary>
-
 * Good understanding & knowledge about SOAP,REST. 
 * Clear understating about services & web services.
 * Strong grip on API automation tool.
 
-</details>
-<details open>
-<summary>
-
 ## Work Related to Skill (Related Activities and Artifacts)
 ---
-</summary>
-
 * To run API request there is a need to first select the Method Type and paste URL of the API. Press Send button to send the request to API or press Add API Test button to save the request.
 * Method Type could be GET, POST, PUT, PATCH, DELETE. 
   - A GET request fetches a record from a database
@@ -152,14 +107,8 @@ End-to-End testing can help us validate the flow of data and information between
   - 400-level responses indicate that the request was received, but that there was an error from the client
   - 500-level responses indicate that there was some sort of server error
 
-</details>
-<details open>
-<summary>
-
 ## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 ---
-</summary>
-
 Following video will give a glimpse of GET API request using Postman.
 1. Download Postman tool or any other tool you want to use.
 2. Click on New and give a name to your request, prefer to give pupose of request as a name.
@@ -167,17 +116,10 @@ Following video will give a glimpse of GET API request using Postman.
 4. Choose action from dropdown, and than add URL of your API.
 5. Headers, Authorization, Parameters are optional.
 6. Click on Send and you will see result in Body.
-
 [![Get Request](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOCj0xi8qa1yg16CdBkFZU0W_vAeuspGVxmw&usqp=CAU)](https://youtu.be/tIEQtjezN0M)
-
-</details>
-<details open>
-<summary>
 
 ## Role of Academia or Industry in Cultivating the Skill
 ---
-</summary>
-
 Industry has major role to play in success of API and its testing.
 * **Deloitte:** Companies are architecting and designing their technology as discrete sets of digital building blocks intended to be reused. The “API imperative” involves strategically deploying services and platforms for use both within and beyond the enterprise.
 (https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html).
@@ -185,16 +127,9 @@ Industry has major role to play in success of API and its testing.
 * North America is expected to hold the largest market share in the API testing market during the forecast period, as APIs enable businesses across industries to monetize their services by exposing their APIs to the external world. North America is at the forefront in the adoption of such APIs that enable businesses to create value by offering their APIs.
 * Applications of financial institutions give the right people access to the data they need, while protecting that data from the wrong people. As applications have become necessary to the way we do business today, APIs (application programming interfaces) have become indispensable. APIs are the tools that allow companies that provide financial services to do all these things — they enable connectivity, while inspiring innovative developers to create new products, improve existing services, and work more efficiently.
 
-</details>
-<details open>
-<summary>
-
 ## Tools Supporting the Skill
 ---
-</summary>
-
 Some of the tools used for API Testing are as follows:
-
 * Postman
 * Katalon Studio
 * SoapUI
@@ -215,24 +150,12 @@ Some of the tools used for API Testing are as follows:
 * Unirest
 * WebInject
 
-</details>
-<details open>
-<summary>
-
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 ---
-</summary>
-
 7/10
-
-</details>
-<details open>
-<summary>
 
 ## References 
 ---
-</summary>
-
 1. (https://www.softwaretestingmaterial.com/api-testing/)
 2. (https://www.guru99.com/api-testing.html)
 3. (https://www.katalon.com/resources-center/blog/api-testing-tips/)
