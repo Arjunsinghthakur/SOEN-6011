@@ -5,43 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Software Configuration Control</title>
     <meta name="Description" content="This is a skill on Software Configuration Control">
+<link rel="stylesheet" href="/css/sakura.css" type="text/css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
-    <link rel="alternate" href="." type="application/atom+xml" title="sestopia">
+    <link rel="alternate" href="." type="application/atom+xml" title="SESTOPIA">
   </head>
   <body>
     <header>
-      <h1 class="home">
-        <a href="/">sestopia</a>
-      </h1>
-      <ul class="nav">
+      <nav>
+        <h1 class="home">
+          <a href="/">SESTOPIA</a>
+        </h1>
+        <ul class="nav">
+            <li class="nav-item">
+              <a href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about/">About</a>
+            </li>
           <li class="nav-item">
-            <a href="/">Home</a>
-          <li class="nav-item">
-            <a href="/about/">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="/search" class="search" id="search-link">Search</a>
-        </li>
-      </ul>
-      <div class="search-ui invisible nav-item">
-        <input type="text" id="search-str" class="search-str"/>
-        <ol class="search-results">
-          <ol></div>
-        </header>
+            <a href="/search" class="search" id="search-link">Search</a>
+          </li>
+        </ul>
+        <div class="search-ui invisible nav-item">
+          <input type="text" id="search-str" class="search-str"/>
+          <ol class="search-results"></ol>
+        </div>
+      </nav>
+    </header>
 
-        <main class="tmpl-skill">
-          <h1>Software Configuration Control</h1>
+    <main class="tmpl-skill">
+      <h1>Software Configuration Control</h1>
 <p><em>Authored by Vijay Krishna Vallabhaneni</em></p>
 <hr>
-<details>
-<summary>
 <h2 id="table-of-contents">Table Of Contents <a class="direct-link" href="#table-of-contents">#</a></h2>
-</summary>
-<nav class="table-of-contents"><ol><li><a href="#table-of-contents">Table Of Contents </a></li><li><a href="#classification-of-skill">Classification of Skill </a></li><li><a href="#prerequisites-for-skill">Prerequisites for Skill </a></li><li><a href="#related-software-engineering-area(s)">Related Software Engineering Area(s) </a><ol><li><a href="#devops">DevOps </a></li><li><a href="#software-quality-assurance">Software Quality Assurance </a></li><li><a href="#project-management">Project Management </a></li></ol></li><li><a href="#rationale-for-skill">Rationale for Skill </a></li><li><a href="#roles-for-skill">Roles for Skill </a><ol><li><a href="#participate-in-code-reviews">Participate in Code Reviews </a></li><li><a href="#collaborate-with-change-control-board">Collaborate with Change Control Board </a></li><li><a href="#identify-changes">Identify Changes </a></li><li><a href="#configure-development-workflow">Configure development workflow </a></li></ol></li><li><a href="#work-related-to-skill-(related-activities-and-artifacts)">Work Related to Skill (Related Activities and Artifacts) </a></li><li><a href="#real-world-example%2Fscenario-of-skill-(text%2C-graphic%2C-audio%2C-video)">Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video) </a></li><li><a href="#role-of-academia-or-industry-in-cultivating-the-skill">Role of Academia or Industry in Cultivating the Skill </a></li><li><a href="#tools-supporting-the-skill">Tools Supporting the Skill </a></li><li><a href="#skill-self-assessment-(my-skill-score-(1-%E2%80%93-10)-and-reasons-for-self-assigned-score)">Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score) </a></li><li><a href="#references">References </a></li></ol></nav></details>
-<p>Software configuration control deals with the management of changes in various phases of software development. By using a <strong>disciplined approach to change management</strong>, new changes can be incorporated into the software product. This is crucial in software development because the requirements can change at any point of the development process. This skill falls in line with Agile approach to software development as requirements change often.</p>
-<p>Changes are needed even after the software is delivered to the client, for example a client might need to incorporate a new payment system to their existing web application. Or a client might want to improve their response time of their existing site. Thereby also playing a part in maintenance activities too</p>
-<p>Having a change management tool helps the software development process by</p>
+<nav class="table-of-contents"><ol><li><a href="#table-of-contents">Table Of Contents </a></li><li><a href="#classification-of-skill">Classification of Skill </a></li><li><a href="#prerequisites-for-skill">Prerequisites for Skill </a></li><li><a href="#related-software-engineering-area(s)">Related Software Engineering Area(s) </a><ol><li><a href="#devops">DevOps </a></li><li><a href="#software-quality-assurance">Software Quality Assurance </a></li><li><a href="#project-management">Project Management </a></li></ol></li><li><a href="#rationale-for-skill">Rationale for Skill </a></li><li><a href="#roles-for-skill">Roles for Skill </a><ol><li><a href="#participate-in-code-reviews">Participate in Code Reviews </a></li><li><a href="#collaborate-with-change-control-board">Collaborate with Change Control Board </a></li><li><a href="#identify-changes">Identify Changes </a></li><li><a href="#configure-development-workflow">Configure development workflow </a></li></ol></li><li><a href="#work-related-to-skill-(related-activities-and-artifacts)">Work Related to Skill (Related Activities and Artifacts) </a></li><li><a href="#real-world-example%2Fscenario-of-skill-(text%2C-graphic%2C-audio%2C-video)">Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video) </a></li><li><a href="#role-of-academia-or-industry-in-cultivating-the-skill">Role of Academia or Industry in Cultivating the Skill </a></li><li><a href="#tools-supporting-the-skill">Tools Supporting the Skill </a></li><li><a href="#skill-self-assessment">Skill Self-Assessment </a></li><li><a href="#references">References </a></li></ol></nav><p>Software configuration control deals with the management of changes in various phases of software development. By using a <strong>disciplined approach to change management</strong>, new changes can be incorporated into the software product. This is crucial in software development because the requirements can change at any point of the development process. This skill falls in line with Agile approach to software development as requirements change often.<br>
+Changes are needed even after the software is delivered to the client, for example a client might need to incorporate a new payment system to their existing web application. Or a client might want to improve their response time of their existing site. Thereby also playing a part in maintenance activities too<br>
+Having a change management tool helps the software development process by</p>
 <ul>
 <li>Tracking who made the changes</li>
 <li>Tracking where the change happened</li>
@@ -53,40 +53,25 @@
 <li>Providing a way to manage build pipeline</li>
 <li>Providing a way to manage version control</li>
 </ul>
-<details open>
-<summary>
 <h2 id="classification-of-skill">Classification of Skill <a class="direct-link" href="#classification-of-skill">#</a></h2>
 <hr>
-  </summary>
 <p>Software configuration control for most part is a <strong>technical</strong> skill, as it includes some aspect of project management. Although project management seems like it would be a soft skill, In reality it does require a lot of technical expertise to plan, delegate , engineer a software project.</p>
-</details>
-<details open>
-<summary>
 <h2 id="prerequisites-for-skill">Prerequisites for Skill <a class="direct-link" href="#prerequisites-for-skill">#</a></h2>
 <hr>
-  </summary>
 <ul>
 <li>Exposure to change management tools like Ansible, Chef, Jenkins, Jira</li>
 <li>Knowledge of version control systems like Git</li>
 </ul>
-</details>
-<details open>
-<summary>
 <h2 id="related-software-engineering-area(s)">Related Software Engineering Area(s) <a class="direct-link" href="#related-software-engineering-area(s)">#</a></h2>
 <hr>
-  </summary>
 <h3 id="devops">DevOps <a class="direct-link" href="#devops">#</a></h3>
 <p>bridges the gap between development and operations, which helps in building,testing,deployment of an application at a faster pace</p>
 <h3 id="software-quality-assurance">Software Quality Assurance <a class="direct-link" href="#software-quality-assurance">#</a></h3>
 <p>Application must be tested continuosly throughout the development process, Having traceability ensures that the agreed upon software quality assurances are met</p>
 <h3 id="project-management">Project Management <a class="direct-link" href="#project-management">#</a></h3>
 <p>Includes management activities such as planning, managing resources, time, developers to deliver a software product to the customers,clients or stakeholders</p>
-</details>
-<details open>
-<summary>
 <h2 id="rationale-for-skill">Rationale for Skill <a class="direct-link" href="#rationale-for-skill">#</a></h2>
 <hr>
-</summary>
 <ul>
 <li>Having traceability built into your software development pipeline, benefits not only in development but also in project management and quality assurance.</li>
 <li>Without a system for change management, there is no way of knowing what components of the system would be affected by a new change.</li>
@@ -95,12 +80,8 @@
 <li>As a VCS would track changes of the entire project over time, the developers have the freedom to experiment with the source code and revert back to an earlier version if needed without any problems.</li>
 <li>By having a change control board, the changes can be approved or rejected, as not all changes can be pursued with the constraints like budget, time, expertise, effort.</li>
 </ul>
-</details>
-<details open>
-<summary>
 <h2 id="roles-for-skill">Roles for Skill <a class="direct-link" href="#roles-for-skill">#</a></h2>
 <hr>
-</summary>
 <h3 id="participate-in-code-reviews">Participate in Code Reviews <a class="direct-link" href="#participate-in-code-reviews">#</a></h3>
 <p>Code reviews help in improving the quality of source code, as developers can look at new ways to solve the same problem. It also helps in maintaining consistency in coding practices throughout the whole project so that it is easier to maintain. Code reviews can also help in knowledge transfer as developers can understand the code base if they participate in code reviews with developers.</p>
 <h3 id="collaborate-with-change-control-board">Collaborate with Change Control Board <a class="direct-link" href="#collaborate-with-change-control-board">#</a></h3>
@@ -108,71 +89,47 @@
 <h3 id="identify-changes">Identify Changes <a class="direct-link" href="#identify-changes">#</a></h3>
 <p>Throughout software development, the need for change can come in two forms either an <strong>enhancement</strong> or a <strong>defect</strong>. To make any change to the software, it has to be formally proposed to the CCB and after their approval the development team would go ahead with the implementation of the change. Some changes have more priority than the others. With an organized approach to change management all the change activities can be documented extensively. If its a defect in the software, the defect is classified based on its severity making it traceable so that a decision can be made to fix or defer or abandon.</p>
 <h3 id="configure-development-workflow">Configure development workflow <a class="direct-link" href="#configure-development-workflow">#</a></h3>
-<p>Software development becomes complex as the code base grows in size over time, This rise in complexity if not handled properly could lead to inefficiencies with the productivity of the development team. Developers should have the flexibility to work on the software without blocking the work of the rest of the team.</p>
-<p>Having a Version control system allows developers to work freely on any part of the system and have a system to merge conflicts if any. But having a VCS alone wouldn't be sufficient, there is a rising need to deliver high quality software quickly and efficiently. This can be done by integrating testing and deployment to the workflow. For example whenever a new change is made to the central repository, the code base would be tested for defects and if there are no defects the new change can be deployed to production almost immediately. By having development,testing,deployment integrate with each other, developers can make deliver software features at a faster rate than ever before.</p>
-</details>
-<details open>
-<summary>
+<p>Software development becomes complex as the code base grows in size over time, This rise in complexity if not handled properly could lead to inefficiencies with the productivity of the development team. Developers should have the flexibility to work on the software without blocking the work of the rest of the team.<br>
+Having a Version control system allows developers to work freely on any part of the system and have a system to merge conflicts if any. But having a VCS alone wouldn't be sufficient, there is a rising need to deliver high quality software quickly and efficiently. This can be done by integrating testing and deployment to the workflow. For example whenever a new change is made to the central repository, the code base would be tested for defects and if there are no defects the new change can be deployed to production almost immediately. By having development,testing,deployment integrate with each other, developers can make deliver software features at a faster rate than ever before.</p>
 <h2 id="work-related-to-skill-(related-activities-and-artifacts)">Work Related to Skill (Related Activities and Artifacts) <a class="direct-link" href="#work-related-to-skill-(related-activities-and-artifacts)">#</a></h2>
 <hr>
-</summary>
 <ul>
 <li>Merge Branches</li>
 <li>Review Pull Requests</li>
 <li>Assign tasks to teams</li>
 </ul>
-</details>
-<details open>
-<summary>
 <h2 id="real-world-example%2Fscenario-of-skill-(text%2C-graphic%2C-audio%2C-video)">Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video) <a class="direct-link" href="#real-world-example%2Fscenario-of-skill-(text%2C-graphic%2C-audio%2C-video)">#</a></h2>
 <hr>
-</summary>
 <ul>
 <li>Build large and complex applications using a distributed version control system like git<br>
 <img src="https://miro.medium.com/max/875/1*GgaGcwh5L246YcU5NVDA5A.png" alt="Distributed VCS"></li>
 </ul>
-</details>
-<details open>
-<summary>
 <h2 id="role-of-academia-or-industry-in-cultivating-the-skill">Role of Academia or Industry in Cultivating the Skill <a class="direct-link" href="#role-of-academia-or-industry-in-cultivating-the-skill">#</a></h2>
 <hr>
-</summary>
-</details>
-<details open>
-<summary>
 <h2 id="tools-supporting-the-skill">Tools Supporting the Skill <a class="direct-link" href="#tools-supporting-the-skill">#</a></h2>
 <hr>
-</summary>
 <ul>
 <li>Git</li>
 <li>Jira</li>
 </ul>
-</details>
-<details open>
-<summary>
-<h2 id="skill-self-assessment-(my-skill-score-(1-%E2%80%93-10)-and-reasons-for-self-assigned-score)">Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score) <a class="direct-link" href="#skill-self-assessment-(my-skill-score-(1-%E2%80%93-10)-and-reasons-for-self-assigned-score)">#</a></h2>
+<h2 id="skill-self-assessment">Skill Self-Assessment <a class="direct-link" href="#skill-self-assessment">#</a></h2>
 <hr>
-</summary>
 <p>6 - Less experience in working on a project with huge number of collaborators</p>
-</details>
-<details open>
-<summary>
 <h2 id="references">References <a class="direct-link" href="#references">#</a></h2>
 <hr>
-</summary>
 <ol>
 <li><a href="https://medium.com/faun/centralized-vs-distributed-version-control-systems-a135091299f0">Distributed VCS</a></li>
 <li><a href="https://git-scm.com/">Git</a></li>
 </ol>
-</details>
+
 
 <p><a href="/">← Home</a></p>
 
-        </main>
+    </main>
 
-        <footer></footer>
+    <footer></footer>
 
-        <!-- Current page: /skills/software-configuration-control/ -->
-        <script src="/js/search.js"></script>
-      </body>
-    </html>
+    <!-- Current page: /skills/software-configuration-control/ -->
+    <script src="/js/search.js"></script>
+  </body>
+</html>
