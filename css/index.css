@@ -10,3 +10,7 @@ a.tag {
 a.tag:hover {
     border-bottom: 2px solid #4a4a4a;
 }
+
+.invisible {
+    display: none;
+}
