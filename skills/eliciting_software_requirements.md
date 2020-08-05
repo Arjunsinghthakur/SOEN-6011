@@ -80,13 +80,15 @@ for elicitation of software requirements.
 
 ## Skill Self-Assessment
 ---
-
+* 9/10 
+* Reason: Elicitation is about knowing what really end users, stakeholders require.Any deviation from their requirements and needs
+will leaad to failure of the purpose and the system.Therefore, Eliciting software requirements is an important phase in software development.
 
 ## References 
 ---
-https://en.wikipedia.org/wiki/Requirements_elicitation#:~:text=In%20requirements%20engineering%2C%20requirements%20elicitation,to%20as%20%22requirement%20gathering%22.
-https://www.cs.odu.edu/~zeil/cs350/latest/Public/eliciting/index.html
-https://www.liquidplanner.com/blog/7-tools-to-gather-better-software-requirements/
-https://thedigitalprojectmanager.com/requirements-management-tools/
-https://www.thomasessl.com/blog/2017/1/31/stakeholder-interviews-and-8-questions-that-yield-unique-insights
-https://www.bridging-the-gap.com/elicitation-techniques-business-analysts/
+* https://en.wikipedia.org/wiki/Requirements_elicitation#:~:text=In%20requirements%20engineering%2C%20requirements%20elicitation,to%20as%20%22requirement%20gathering%22.
+* https://www.cs.odu.edu/~zeil/cs350/latest/Public/eliciting/index.html
+* https://www.liquidplanner.com/blog/7-tools-to-gather-better-software-requirements/
+* https://thedigitalprojectmanager.com/requirements-management-tools/
+* https://www.thomasessl.com/blog/2017/1/31/stakeholder-interviews-and-8-questions-that-yield-unique-insights
+* https://www.bridging-the-gap.com/elicitation-techniques-business-analysts/
