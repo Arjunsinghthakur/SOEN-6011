@@ -145,19 +145,29 @@ A person should posses some qualities to be a good debugger,which are spread acr
 * Bug Clustering : If a large number of errors are being reported, group them into classes of related bugs (or similar bugs), and examine only one bug from each class. The intuition is that bugs from each class have the same cause (or a similar cause). Therefore, fixing a bug with automatically fix all the other bugs from the same class (or will make it obvious how to fix them).
 * Hypothesis Postulation : This technique involves inspecting the test case results , forming a hypothesis that is consistent with the observed data followed by designing and run a simple test to refute the hypothesis. If the hypothesis has been refuted, derive another hypothesis and continue the process. In some sense, this is also a simplification process: it reduces the number of possible hypotheses at each step. 
 * Instrument program to log information : Logging involves printing information regarding the program workflow onto the screen so that the programmer do not have to stop and move line by line , but could still see the control flow and its parameters in the source code.Although the printed information is effective in some cases, it can also become difficult to inspect when the volume of logged information becomes huge. In those cases, automated scripts may be needed to sift through the data and report the relevant parts in a more compact format.
+* Using Revision Control Data Analysis : Bugs often occur as the software evolves. By keeping software under version control, using configuration management tools (such as Git, Mercurial, and Subversion), the programmer can dig into a project's history to aid debugging work. Here are some examples: If a program crashes or misbehaves at a particular program line the programmer can analyze the source code to see the last change associated with that line (for example, with the git blame command). A review of the change can then reveal that, say, one's colleague who implemented it forgot to handle a specific case. Alternatively, by reading the version-control log of software changes, the programmer can find a recent change that may be related to the failure being witnessed and examine it in detail.
+* Differential debugging : Differences between datasets can also reveal a fault when the programmer can lay hands on a working system and a failing one.34 The goal is to find where and why the operation of the two systems diverges. The data that can be used for this purpose can come from their generated log files, their execution environment, or traces of their operation. In all cases the programmer must ensure the two system configurations are as similar as possible, apart from exhibiting the failure.
+* Editor tricks : A powerful text editor or IDE can be a great aid when analyzing log data. Syntax coloring can help the programmer identify the relevant parts. With rectangular selections and regular expressions one can eliminate boiler-plate or nonessential columns to focus on the essential elements or run a file-difference program on them. The programmer can also identify patterns associated with a bug using search expressions and matched-text highlighting.
 
 </details>
 <details open>
 <summary>
     
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+## Debugging in Real Software Projects
 ---
 </summary>
+  The computing pioneer Maurice Wilkes famously described his 1949 encounter with debugging like this: "As soon as we started programming, we found to our surprise that it wasn't as easy to get programs right as we had thought it would be.Debugging had to be discovered. I can remember the exact instant when I realized that a large part of my life from then on was going to be spent in finding mistakes in my own programs."Every programmer would unanimously agree to this.
+ 
   Although critical in software development , debugging is one of the most detested activity among software developers. As obvious as it is , programmers prefer writing code that works than breaking their heads to find the 'lurking' cause of failure. To add the pain points , as software development teams keep on evolving , most often a developer will have to debug and fix bugs on code written by another developer who might not even be known to the person in charge . This makes debugging even more diffuclt. But as its said "To err is human" and hence errors are an inevitable part of software development. , which makes debugging an indispensilbe skill required by software developers.
 
-  ![Debugging Stages](../../_site/img/DebuggingStages.jpg)
+  ![title](https://pics.me.me/10-stages-of-debugging-10-stages-of-debugging-40619572.png)
 
-  Aa astonishing as it sounds ,almost 60 percent of software development works goes into debugging and therefore a plethora of resources are out there helping developers understand and cultivate proper debugging practises. While some of them are guidelines from experienced developers , there are also a collection of debugging stories and even podcasts from developers across the world about the wierdest and hardest bugs they ever had to tackle.A a few of them have been listed below:
+  Aa astonishing as it sounds ,almost 60 percent of software development works goes into debugging and therefore a plethora of resources are out there helping developers understand and cultivate proper debugging practises. While some of them are guidelines from experienced developers , there are also a collection of debugging stories and even podcasts from developers across the world about the wierdest and hardest bugs they ever had to tackle and why is Debugging such an important skill.A a few of them have been listed below:
+  
+  * How Debugging make a better Developer - https://carlalexander.ca/how-debugging-make-better-developer/
+  * Why do we Debug code - https://sjinnovation.com/why-do-we-debug-code/
+  * How to debug things ? A guide to non developers - https://willcritchlow.com/how-to-debug-things-a-guide-for-non-developers-46599a2c4a41
+  * Modern Debugging: The Art of Finding a Needle in a Haystack - https://cacm.acm.org/magazines/2018/11/232215-modern-debugging/fulltext
   
 </details>
 <details open>
