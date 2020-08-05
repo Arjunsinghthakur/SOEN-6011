@@ -3,45 +3,22 @@ title: Debugging
 description: This skill is about identigying faults and debugging software code.
 author: Sucheta Vijayakumar Sudhakumari
 tags:
-  - software-construction
+  - Software Construction
 layout: layouts/skill.njk
 ---
-<details>
-<summary>
-
 ## Table Of Contents
-</summary>
-
 [toc]
-</details>
-
-<details open>
-<summary>
 
 ## Name of Skill
 ---
-</summary>
-
 Debugging
-
-</details>
-<details open>
-<summary>
 
 ## Classification of Skill
 ---
-</summary>
-
 Technical Skill
-
-</details>
-<details open>
-<summary>
 
 ## Prerequisites for Skill
 ---
-</summary>
-
 A person should posses some qualities to be a good debugger,which are spread across technical skills , cognitive ablities and character traits.
  
 ### Technical Skills :
@@ -54,81 +31,48 @@ A person should posses some qualities to be a good debugger,which are spread acr
 * Problem Solving Ability.
 * Mental Modelling Ability to connect dots and envision the big picture.
 * Creative Thinking.
-
 ### Character Traits :
 * Patience and Persistance.
 * Ability to concetrate and keep up a longer Attention Span.
 
-</details>
-<details open>
-<summary>
-
 ## Related Software Engineering Area(s)
 ---
-</summary>
-
 * Software Testing.
 * Software Maintenance.
 * Software Integration.
 * Software Development.
 
-</details>
-<details open>
-<summary>
-
-
 ## Rationale for Skill
 ---
-</summary>
   Debugging as a skillset is of profound relevance not just in software engineering , but rather in engineer as general . If it is not for debugging , we would be flooded with faulty products and partially functioning applications. In the context of software engineering, given below are the main rationale behind debugging as a SE activity :
   - Identify the cause for faulty software behaviour.
   - Fix semantic,syntactical or design bugs in a program.
   - Though not the direct intention , debugging also increases one's familarity and hence knowledge about the code. 
 
-</details>
-<details open>
-<summary>
   
 ## Roles for Skill
 ---
-</summary>
   
 * Software Developer .
 * Programmer Analyst .
 * Software Maintainer .
 * Application Support Engineer.
 
-</details>
-<details open>
-<summary>
   
 ## Related Software Engineering Area(s)
 ---
-</summary>
-
 * Software Testing.
 * Software Maintenance.
 * Software Integration.
 
-</details>
-<details open>
-<summary>
-
 ## Rationale for Skill
 ---
-</summary>
-
 * Identify the cause for faulty software behaviour.
 * Fix semantic,syntactical or design bugs in a program.
 * Though not the direct intention , debugging also increases one's familarity and hence knowledge about the code. 
 
-</details>
-<details open>
-<summary>
-
 ## Work Related to Skill (Related Activities and Artifacts)
 ---
-</summary>
   Debugging is an evergreen and ubiqutous activity in Software Development. As obvious as it sounds,it has been widely researched ,resulting in the production of a bunch of tools and techniques to help with the process. Given below is a brief through some of them. 
   
  ### Types of Debugging 
@@ -149,12 +93,10 @@ A person should posses some qualities to be a good debugger,which are spread acr
 * Differential debugging : Differences between datasets can also reveal a fault when the programmer can lay hands on a working system and a failing one.34 The goal is to find where and why the operation of the two systems diverges. The data that can be used for this purpose can come from their generated log files, their execution environment, or traces of their operation. In all cases the programmer must ensure the two system configurations are as similar as possible, apart from exhibiting the failure.
 * Editor tricks : A powerful text editor or IDE can be a great aid when analyzing log data. Syntax coloring can help the programmer identify the relevant parts. With rectangular selections and regular expressions one can eliminate boiler-plate or nonessential columns to focus on the essential elements or run a file-difference program on them. The programmer can also identify patterns associated with a bug using search expressions and matched-text highlighting.
 
-</details>
-<details open>
-<summary>
     
 ## Debugging in Real Software Projects
 ---
+<<<<<<< HEAD
 </summary>
   The computing pioneer Maurice Wilkes famously described his 1949 encounter with debugging like this: "As soon as we started programming, we found to our surprise that it wasn't as easy to get programs right as we had thought it would be.Debugging had to be discovered. I can remember the exact instant when I realized that a large part of my life from then on was going to be spent in finding mistakes in my own programs."Every programmer would unanimously agree to this.
  
@@ -168,53 +110,33 @@ A person should posses some qualities to be a good debugger,which are spread acr
   * Why do we Debug code - https://sjinnovation.com/why-do-we-debug-code/
   * How to debug things ? A guide to non developers - https://willcritchlow.com/how-to-debug-things-a-guide-for-non-developers-46599a2c4a41
   * Modern Debugging: The Art of Finding a Needle in a Haystack - https://cacm.acm.org/magazines/2018/11/232215-modern-debugging/fulltext
+=======
+  Although critical in software development , debugging is one of the most detested activity among software developers. As obvious as it is , programmers prefer writing code that works than breaking their heads to find the 'lurking' cause of failure. To add the pain points , as software development teams keep on evolving , most often a developer will have to debug and fix bugs on code written by another developer who might not even be known to the person in charge . This makes debugging even more diffuclt. But as its said "To err is human" and hence errors are an inevitable part of software development. , which makes debugging an indispensilbe skill required by software developers.
+  ![Debugging Stages](../../_site/img/DebuggingStages.jpg)
+  Aa astonishing as it sounds ,almost 60 percent of software development works goes into debugging and therefore a plethora of resources are out there helping developers understand and cultivate proper debugging practises. While some of them are guidelines from experienced developers , there are also a collection of debugging stories and even podcasts from developers across the world about the wierdest and hardest bugs they ever had to tackle.A a few of them have been listed below:
+>>>>>>> e09ca9e37f5fae34e1879a8a7f859d19075069c7
   
-</details>
-<details open>
-<summary>
   
 ## Role of Academia or Industry in Cultivating the Skill
 ---
-</summary>
 
-
-</details>
-<details open>
-<summary>
 
 ## Tools Supporting the Skill
 ---
-</summary>
-
 * All Major IDEs for eg Intellij , Eclipse etc .
 * Logging frameworks which enable dump data debugging.
 * Browser DevTools
 * Static Code Analysis Tools
   
-</details>
-<details open>
-<summary>
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 ---
-</summary>
   8
   
-</details>
-<details open>
-<summary>
 
 ## References 
 ---
-</summary>
-
 * [SWEBOK3](https://users.encs.concordia.ca/~kamthan/courses/soen-6011/project/SWEBOK3.pdf)
 * [Debugging Techniques](http://www.cs.cornell.edu/courses/cs312/2006fa/lectures/lec26.html)
-
-</details>
-<details open>
-<summary>
-
-
 
 
