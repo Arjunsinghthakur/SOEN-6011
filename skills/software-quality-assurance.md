@@ -6,8 +6,6 @@ tags:
   - Software Quality Assurance
 layout: layouts/skill.njk
 ---
-<details>
-<summary>
 
 ## Table Of Contents
 [toc]
