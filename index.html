@@ -5,110 +5,294 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SESTOPIA</title>
     <meta name="Description" content="A portmanteau of software skills">
-<link rel="stylesheet" href="/css/sakura.css" type="text/css">
+    
+
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+
     <link rel="alternate" href="." type="application/atom+xml" title="SESTOPIA">
   </head>
   <body>
-    <header>
-      <nav>
-        <h1 class="home">
-          <a href="/">SESTOPIA</a>
-        </h1>
-        <ul class="nav">
-            <li class="nav-item nav-item-active">
-              <a href="/">Home</a>
+
+    <nav class = "navbar navbar-expand-sm sticky-top bg-dark navbar-dark">
+
+      <!-- SESTOPIA TITle-->
+      <a class = "navbar-brand" href="/">SESTOPIA</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          
+            <li class="nav-item ">
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a href="/about/">About</a>
+              <a class="nav-link" href="/about/">About</a>
             </li>
-          <li class="nav-item">
-            <a href="/search" class="search" id="search-link">Search</a>
-          </li>
+
         </ul>
+      </div>
+
+      
+    </nav>
+
+    <main class="tmpl-home" >
+      
+
+<div class="jumbotron text-center" style="height:50vh; margin-bottom:0">
+  <h1 class="display-1 animate__animated animate__fadeIn" data-wow-duration="2000s" data-wow-delay="2s" style="letter-spacing: 0.2px;" >SESTOPIA</h1>
+  <p class="animate__animated animate__fadeIn" data-wow-duration="2000s" style="letter-spacing: 0.3px;" >Get Information on major aspects of Software Enginerring process</p> 
+
+
+<div class="container animate__animated animate__fadeIn" >
+      <div class="col lg-12 demo">
+        <form autocomplete="off">
+          <div class="input-group ">
+            <input type="search" class="form-control" id="search-input" placeholder="Enter your text to search" aria-describedby="searchHelp">
+          </div>
+        </form>
+
+        <li class="nav-item">
+          <a href="/search" class="search" id="search-link">Search</a>
+        </li>
+
         <div class="search-ui invisible nav-item">
           <input type="text" id="search-str" class="search-str"/>
-          <ul class="search-results"></ul>
+          <ol class="search-results"></ol>
         </div>
-      </nav>
-    </header>
+      </div>
+    </div>
+</div> 
 
-    <main class="tmpl-home">
+
+
+<h1 class="display-4 animate__animated animate__fadeIn" style="text-align:center; margin-top:3rem;">All Skills</h1>
+
+
+
+<div class="container d-flex justify-content-center" >
+  <ul reversed class="skilllist"
+ style="counter-reset: start-from 9">
+    <div class= "card-columns" >
       
-<h1>All Skills</h1>
 
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                User Interface Design
+                
 
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Software Design</p>
+            </li>
 
-<ul reversed class="skilllist"
- style="counter-reset: start-from 9"
- >
+            <div class="card-footer text-center">
+              <a href=" /skills/ui-design/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
 
-  <li class="skilllist-item">
-    <a href="/skills/ui-design/" class="skilllist-link">User Interface Design</a>
-    
-    
-      <a href="/tags/Software Design/" class="tag">Software Design</a>
-  </li>
+        </div>
+        <!--end of card-->
+      
 
-  <li class="skilllist-item">
-    <a href="/skills/software-quality-assurance/" class="skilllist-link">Software Quality Assurance</a>
-    
-    
-      <a href="/tags/Software Quality Assurance/" class="tag">Software Quality Assurance</a>
-  </li>
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                Software Quality Assurance
+                
 
-  <li class="skilllist-item">
-    <a href="/skills/software-configuration-control/" class="skilllist-link">Software Configuration Control</a>
-    
-    
-      <a href="/tags/Software Configuration Management/" class="tag">Software Configuration Management</a>
-  </li>
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Software Quality Assurance</p>
+            </li>
 
-  <li class="skilllist-item">
-    <a href="/skills/reverse_engineering/" class="skilllist-link">Reverse Engineering</a>
-    
-    
-      <a href="/tags/Software Maintenance/" class="tag">Software Maintenance</a>
-  </li>
+            <div class="card-footer text-center">
+              <a href=" /skills/software-quality-assurance/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
 
-  <li class="skilllist-item">
-    <a href="/skills/eliciting_software_requirements/" class="skilllist-link">Eliciting software requirements</a>
-    
-    
-      <a href="/tags/Software requirements specifications/" class="tag">Software requirements specifications</a>
-  </li>
+        </div>
+        <!--end of card-->
+      
 
-  <li class="skilllist-item">
-    <a href="/skills/api-testing/" class="skilllist-link">API Testing</a>
-    
-    
-      <a href="/tags/Software Testing/" class="tag">Software Testing</a>
-  </li>
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                Software Configuration Control
+                
 
-  <li class="skilllist-item">
-    <a href="/skills/Debugging/" class="skilllist-link">Debugging</a>
-    
-    
-      <a href="/tags/Software Construction/" class="tag">Software Construction</a>
-  </li>
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Software Configuration Management</p>
+            </li>
 
-  <li class="skilllist-item">
-    <a href="/skills/DBMS_Comp_Found/" class="skilllist-link">Database Management System (DBMS)</a>
-    
-    
-      <a href="/tags/Computational Foundation/" class="tag">Computational Foundation</a>
-  </li>
+            <div class="card-footer text-center">
+              <a href=" /skills/software-configuration-control/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
 
-</ul>
+        </div>
+        <!--end of card-->
+      
 
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                Reverse Engineering
+                
+
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Software Maintenance</p>
+            </li>
+
+            <div class="card-footer text-center">
+              <a href=" /skills/reverse_engineering/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
+
+        </div>
+        <!--end of card-->
+      
+
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                Eliciting software requirements
+                
+
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Software requirements specifications</p>
+            </li>
+
+            <div class="card-footer text-center">
+              <a href=" /skills/eliciting_software_requirements/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
+
+        </div>
+        <!--end of card-->
+      
+
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                API Testing
+                
+
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Software Testing</p>
+            </li>
+
+            <div class="card-footer text-center">
+              <a href=" /skills/api-testing/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
+
+        </div>
+        <!--end of card-->
+      
+
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                Debugging
+                
+
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Software Construction</p>
+            </li>
+
+            <div class="card-footer text-center">
+              <a href=" /skills/Debugging/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
+
+        </div>
+        <!--end of card-->
+      
+
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                Database Management System (DBMS)
+                
+
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Computational Foundation</p>
+            </li>
+
+            <div class="card-footer text-center">
+              <a href=" /skills/DBMS_Comp_Found/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
+
+        </div>
+        <!--end of card-->
+      
+    </div>
+
+  </ul>
+
+</div>
 
 
     </main>
 
-    <footer></footer>
+    <footer class="text-center footer">
+      <div class="footer-content">Designed and develod by team K For SOEN 6011 - SUMMER 2020</div>
+    </footer>
 
     <!-- Current page: / -->
     <script src="/js/search.js"></script>
+
   </body>
 </html>

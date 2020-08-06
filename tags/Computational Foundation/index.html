@@ -5,61 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tagged “Computational Foundation”</title>
     <meta name="Description" content="A portmanteau of software skills">
-<link rel="stylesheet" href="/css/sakura.css" type="text/css">
+    
+
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+
     <link rel="alternate" href="." type="application/atom+xml" title="SESTOPIA">
   </head>
   <body>
-    <header>
-      <nav>
-        <h1 class="home">
-          <a href="/">SESTOPIA</a>
-        </h1>
-        <ul class="nav">
+
+    <nav class = "navbar navbar-expand-sm sticky-top bg-dark navbar-dark">
+
+      <!-- SESTOPIA TITle-->
+      <a class = "navbar-brand" href="/">SESTOPIA</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          
             <li class="nav-item">
-              <a href="/">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a href="/about/">About</a>
+              <a class="nav-link" href="/about/">About</a>
             </li>
-          <li class="nav-item">
-            <a href="/search" class="search" id="search-link">Search</a>
-          </li>
+
         </ul>
-        <div class="search-ui invisible nav-item">
-          <input type="text" id="search-str" class="search-str"/>
-          <ul class="search-results"></ul>
+      </div>
+
+      
+    </nav>
+
+    <main class="tmpl-home" >
+      
+<h1>Tagged “Computational Foundation”</h1>
+
+
+<div class="container d-flex justify-content-center" >
+  <ul reversed class="skilllist"
+ style="counter-reset: start-from 2">
+    <div class= "card-columns" >
+      
+
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item">
+              <h5 class="card-title">
+                Database Management System (DBMS)
+                
+
+              </h5>
+              
+              
+                  
+                  <p class = "card-body">Computational Foundation</p>
+            </li>
+
+            <div class="card-footer text-center">
+              <a href=" /skills/DBMS_Comp_Found/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
+
         </div>
-      </nav>
-    </header>
+        <!--end of card-->
+      
+    </div>
 
-    <main class="tmpl-home">
-      <h1>Tagged “Computational Foundation”</h1>
+  </ul>
 
-
-<ul reversed class="skilllist"
- style="counter-reset: start-from 2"
- >
-
-  <li class="skilllist-item">
-    <a href="/skills/DBMS_Comp_Found/" class="skilllist-link">Database Management System (DBMS)</a>
-    
-    
-      <a href="/tags/Computational Foundation/" class="tag">Computational Foundation</a>
-  </li>
-
-</ul>
-
+</div>
 
 <p>See <a href="/tags/">all tags</a>.</p>
 
 
     </main>
 
-    <footer></footer>
+    <footer class="text-center footer">
+      <div class="footer-content">Designed and develod by team K For SOEN 6011 - SUMMER 2020</div>
+    </footer>
 
     <!-- Current page: /tags/Computational Foundation/ -->
     <script src="/js/search.js"></script>
+
   </body>
 </html>
