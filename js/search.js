@@ -67,11 +67,11 @@ new WOW().init();
     }
 
     // add an event listener for a click on the search link
-    btnHandler('#search-link', async function() {
+    btnHandler('#search-str', async function() {
 
         // get the data
         searchIndex = await fetch('/search.json').then((res) => res.json()).then((res) => res.search);
-        searchUI.classList.toggle('invisible');
+       
         searchInput.focus();
 
         // listen for input changes

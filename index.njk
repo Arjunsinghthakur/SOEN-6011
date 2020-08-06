@@ -7,30 +7,19 @@ eleventyNavigation:
 
 <div class="jumbotron text-center" style="height:50vh; margin-bottom:0">
   <h1 class="display-1 animate__animated animate__fadeIn" data-wow-duration="2000s" data-wow-delay="2s" style="letter-spacing: 0.2px;" >SESTOPIA</h1>
-  <p class="animate__animated animate__fadeIn" data-wow-duration="2000s" style="letter-spacing: 0.3px;" >Get Information on major aspects of Software Enginerring process</p> 
+  <p class="animate__animated animate__fadeIn" data-wow-duration="2000s" style="letter-spacing: 0.3px;" >Get Information on major aspects of Software Enginerring process</p>
 
+  <div class="container animate__animated animate__fadeIn d-flex justify-content-center" >
 
-<div class="container animate__animated animate__fadeIn" >
-      <div class="col lg-12 demo">
-        <form autocomplete="off">
-          <div class="input-group ">
-            <input type="search" class="form-control" id="search-input" placeholder="Enter your text to search" aria-describedby="searchHelp">
-          </div>
-        </form>
-
-        <li class="nav-item">
-          <a href="/search" class="search" id="search-link">Search</a>
-        </li>
-
-        <div class="search-ui invisible nav-item">
-          <input type="text" id="search-str" class="search-str"/>
-          <ol class="search-results"></ol>
-        </div>
-      </div>
+    {# <input type="search"  id="search-input" placeholder="Enter your text to search" aria-describedby="searchHelp"><a href="/search" class="search" id="search-link">Search</a></input> #}
+    <div class="search-ui nav-item">
+      <input type="text" id="search-str" class="search-str form-control" aria-describedby="searchHelp"  onfocus="/search"/>
+      <ol class="search-results list-group jus"></ol>
     </div>
-</div> 
 
+  </div>
 
+</div>
 
 <h1 class="display-4 animate__animated animate__fadeIn" style="text-align:center; margin-top:3rem;">All Skills</h1>
 
