@@ -24,8 +24,7 @@ Software quality may refer to desirable characteristics of software products, to
 
 ## Classification of Skill
 ---
-Software Quality Assurance is an umbrella activity which is employed throughout the software lifecycle.
-Software quality assurance is very important **TECHNICAL SKILL** for every software product or service to succeed in the market and survive up to the customer’s expectations.
+Software Quality Assurance is an umbrella activity which is employed throughout the software lifecycle. Software quality assurance is very important **TECHNICAL SKILL** for every software product or service to succeed in the market and survive up to the customer’s expectations.
 
 SQA has two aspects:
 
@@ -158,7 +157,7 @@ Many quality assurance programs also offer co-op work terms or field placements,
 ---
 My Skill Score - 7
 
-In the Learning phase of how the SQA process works and how to apply SQA skill on the software projects. Haven't been exposed to much of Software Quality Assurance projects,
+In the Learning phase of how the SQA process works and how to apply SQA skill on the software projects. Haven't been exposed to much of Software Quality Assurance projects.
 
 ## References 
 ---
