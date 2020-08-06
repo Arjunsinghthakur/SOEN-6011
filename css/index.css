@@ -319,6 +319,10 @@ input{
     background-color: inherit;
 }
 
+.content-style strong, .content-style strong>*{
+    background-color: inherit;
+}
+
 .table-of-contents li a:hover,
 .home a:hover {
     text-decoration: none;
