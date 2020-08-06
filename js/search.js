@@ -1,30 +1,31 @@
 new WOW().init();
 
 
-(async function() {
+(function() {
 
-    var searchIndex = await fetch('/search.json').then((res) => res.json()).then((res) => res.search);
+    var searchIndex = null;
+    var searchUI = document.querySelector('.search-ui');
     var resultsUI = document.querySelector('.search-results');
-    var searchInput = document.querySelector('#search-input');
-    $(document).keypress(
-        function(event) {
-            if (event.which == '13') {
+    var searchInput = document.querySelector('#search-str');
+    var footer = document.querySelector('footer');
+
+    var btnHandler = function(selector, callback) {
+            var btn = document.querySelector(selector);
+            if (!btn) { return; }
+            btn.addEventListener('click', function(event) {
                 event.preventDefault();
-            }
-        });
-    // clear the current results
+                callback();
+            }, false);
+        }
+        // clear the current results
     var clearResults = function() {
         while (resultsUI.firstChild) {
             resultsUI.removeChild(resultsUI.firstChild);
         }
+        // unhide the footer again
+        footer.classList.remove('invisible');
 
     }
-
-    var resultItemUI = (title, count, url, match, line) => `
-        <a href="${url}">${title} <span class="badge badge-primary badge-pill">${count}</span></a>
-        <p>...<strong>${match}</strong> ${line}...</p>
-        
-    `;
 
     // search and display
     var find = function(str) {
@@ -42,6 +43,7 @@ new WOW().init();
 
         // build and insert the new result entries
         clearResults();
+        footer.classList.add('invisible');
         if (results.length == 0) {
             var listItem = document.createElement('li');
             listItem.textContent = "No results found"
@@ -49,28 +51,38 @@ new WOW().init();
         }
         for (var item in results) {
             var listItem = document.createElement('li');
-            listItem.className = "list-group-item d-flex flex-column justify-content-start bg-dark";
+            var link = document.createElement('a');
+            var p = document.createElement('p');
+
             var found = [...results[item].text.matchAll(str)];
             var firstIdx = found[0].index;
+            link.textContent = `${results[item].title} (${found.length})`;
             var searchText = found[0].input.substring(firstIdx, firstIdx + 50);
-            listItem.innerHTML = resultItemUI(results[item].title,
-                found.length,
-                results[item].url,
-                str,
-                searchText.substring(str.length))
+            p.innerHTML = `...<strong>${str}</strong>  ${searchText.substring(str.length)}...`
+            link.setAttribute('href', results[item].url);
+            listItem.appendChild(link);
+            listItem.appendChild(p)
             resultsUI.appendChild(listItem);
         }
     }
 
+    // add an event listener for a click on the search link
+    btnHandler('#search-str', async function() {
 
-    // listen for input changes
-    searchInput.addEventListener('input', function(event) {
-        var str = searchInput.value
-        if (str.length > 2) {
-            find(str);
-        } else {
-            clearResults();
-        }
+        // get the data
+        searchIndex = await fetch('/search.json').then((res) => res.json()).then((res) => res.search);
+       
+        searchInput.focus();
+
+        // listen for input changes
+        searchInput.addEventListener('keyup', function(event) {
+            var str = searchInput.value
+            if (str.length > 2) {
+                find(str);
+            } else {
+                clearResults();
+            }
+        });
+
     });
-
 })();

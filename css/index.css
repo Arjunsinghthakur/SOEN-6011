@@ -30,37 +30,37 @@ ul {
 
 /* STYLING AFTER BOOTSTRAP ADDED */
 
-form {
-    display: block;
-    margin-top: 0em;
-    padding: 3vh 15vh;
+
+
+
+/* .demo {
     
-}
-
-input{
-    color: #121212 !important;
-}
-
-.form-control {
-    display: block;
     padding: 0.375rem, 0.75rem, 0.375rem, 0.75rem;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     border-radius: 0.25rem;
+    
+} */
+.search-ui{
+    
+    width: 80%;
 }
 
-.input-group {
+
+.demo {
+    
     display: flex;
-}
-
-.input-group>.form-control {
     position: relative;
     flex: 1 1 auto;
-    width: 1%;
+    flex-direction: column;
+    width: 20%;
     min-width: 0;
     margin-bottom: 0;
 }
+
+
+
 
 /* .sticky-top{ position: sticky; top: 0; z-index: 1020;} */
 /* .sticky { position: fixed; top: 0; width: 100%; }
@@ -244,6 +244,9 @@ form {
     background-color: #222222 !important;
 }
 
+input{
+    color: #121212 !important;
+}
 .tmpl-home,
 .tmpl-home>*,
 .card-columns,
@@ -356,3 +359,32 @@ hr {
 }
 
 /* DARK THEME STYLING ENDS HERE */
+.search-results{
+    margin-top: 0rem;
+    background-color: inherit;
+    z-index: 100;
+    overflow: scroll;
+    height: 9rem;
+    
+}
+
+.search-results *{
+    background-color: #121212;
+    border-radius: 8px;
+   
+    
+}
+
+.search-results li{
+    border-bottom: 1px solid #232323;
+}
+
+
+
+.search-results *:hover{
+    background-color: #2e2e2e;
+}
+
+.search-results *:hover *{
+    background-color: #2e2e2e !important;
+}
