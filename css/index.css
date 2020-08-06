@@ -34,6 +34,11 @@ form {
     display: block;
     margin-top: 0em;
     padding: 3vh 15vh;
+    
+}
+
+input{
+    color: #121212 !important;
 }
 
 .form-control {
