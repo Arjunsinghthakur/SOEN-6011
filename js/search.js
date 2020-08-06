@@ -1,3 +1,6 @@
+new WOW().init();
+
+
 (function() {
 
     var searchIndex = null;
@@ -78,4 +81,5 @@
 
     });
     console.log("test")
+
 })();

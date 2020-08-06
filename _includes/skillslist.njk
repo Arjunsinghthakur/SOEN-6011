@@ -1,16 +1,40 @@
-<ul reversed class="skilllist"
- style="counter-reset: start-from {{ (skillslistCounter or skillslist.length) + 1 }}"
- >
-{% for skill in skillslist | reverse %}
-  <li class="skilllist-item{% if skill.url == url %} skilllist-item-active{% endif %}">
-    <a href="{{ skill.url | url }}" class="skilllist-link">{% if skill.data.title %}{{ skill.data.title }}{% else %}<code>{{ skill.url }}</code>{% endif %}</a>
-    {# <time class="skilllist-date" datetime="{{ skill.date | htmlDateString }}">{{ skill.date | readableDate }}</time> #}
-    {% for tag in skill.data.tags %}
-      {%- if collections.tagList.indexOf(tag) != -1 -%}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-  </li>
-{% endfor %}
-</ul>
+<div class="container d-flex justify-content-center" >
+  <ul reversed class="skilllist"
+ style="counter-reset: start-from {{ (skillslistCounter or skillslist.length) + 1 }}">
+    <div class= "card-columns" >
+      {% for skill in skillslist | reverse %}
+
+        <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
+        
+            <li class="skilllist-item{% if skill.url == url %} skilllist-item-active{% endif %}">
+              <h5 class="card-title">
+                {% if skill.data.title %}{{ skill.data.title }}
+                {% else %}
+                  <code>{{ skill.url }}</code>
+                {% endif %}
+
+              </h5>
+              {# <time class="skilllist-date" datetime="{{ skill.date | htmlDateString }}">{{ skill.date | readableDate }}</time> #}
+              {% for tag in skill.data.tags %}
+                {%- if collections.tagList.indexOf(tag) != -1 -%} 
+                  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                  {# <a class="card-text" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a> #}
+                  <p class = "card-body">{{ tag }}</p>
+                {%- endif -%}
+              {% endfor %}
+            </li>
+
+            <div class="card-footer text-center">
+              <a href=" {{ skill.url | url }}" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+            </div>
+          
+          <!--end of card body-->
+
+        </div>
+        <!--end of card-->
+      {% endfor %}
+    </div>
+
+  </ul>
+
+</div>

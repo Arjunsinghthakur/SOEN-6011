@@ -5,42 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-<link rel="stylesheet" href="{{ '/css/sakura.css' | url }}" type="text/css">
+    {# <link rel="stylesheet" href="{{ '/css/sakura.css' | url }}" type="text/css"> #}
+
+    {# <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}"> #}
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>
-      <nav>
-        <h1 class="home">
-          <a href="{{ '/' | url }}">{{ metadata.title }}</a>
-        </h1>
-        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+
+    <nav class = "navbar navbar-expand-sm sticky-top bg-dark navbar-dark">
+
+      <!-- SESTOPIA TITle-->
+      <a class = "navbar-brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          {% for entry in collections.all | eleventyNavigation%}
+            <li class="nav-item{% if entry.url== page.url%} {% endif  %}">
+              <a class="nav-link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+            </li>
+          {%- endfor %}
+
+        </ul>
+      </div>
+
+      {# - Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/
         <ul class="nav">
           {%- for entry in collections.all | eleventyNavigation %}
-            <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
+            <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif  %}">
               <a href="{{ entry.url | url }}">{{ entry.title }}</a>
             </li>
           {%- endfor %}
-          <li class="nav-item">
-            <a href="/search" class="search" id="search-link">Search</a>
-          </li>
-        </ul>
-        <div class="search-ui invisible nav-item">
-          <input type="text" id="search-str" class="search-str"/>
-          <ol class="search-results"></ol>
-        </div>
-      </nav>
-    </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+        </ul> #}
+    </nav>
+
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %} >
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer class="text-center footer">
+      <div class="footer-content">Designed and develod by team K For SOEN 6011 - SUMMER 2020</div>
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
     <script src="{{ '/js/search.js' | url }}"></script>
+
   </body>
 </html>
