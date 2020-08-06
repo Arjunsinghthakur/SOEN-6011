@@ -31,8 +31,7 @@ new WOW().init();
     var find = function(str) {
 
         str = str.toLowerCase();
-        console.log(searchIndex)
-            // look for matches in the search JSON
+        // look for matches in the search JSON
         var results = [];
         for (var item in searchIndex) {
             var found = searchIndex[item].text.indexOf(str);
@@ -41,31 +40,37 @@ new WOW().init();
             }
         }
 
+
         // build and insert the new result entries
         clearResults();
         footer.classList.add('invisible');
+        if (results.length == 0) {
+            var listItem = document.createElement('li');
+            listItem.textContent = "No results found"
+            resultsUI.appendChild(listItem);
+        }
         for (var item in results) {
             var listItem = document.createElement('li');
             var link = document.createElement('a');
+            var p = document.createElement('p');
+
             var found = [...results[item].text.matchAll(str)];
             var firstIdx = found[0].index;
-            link.textContent = `${results[item].title} -> (${found.length}) ${found[0].input.substring(firstIdx,firstIdx + 20)}...`;
+            link.textContent = `${results[item].title} (${found.length})`;
+            var searchText = found[0].input.substring(firstIdx, firstIdx + 50);
+            p.innerHTML = `...<strong>${str}</strong>  ${searchText.substring(str.length)}...`
             link.setAttribute('href', results[item].url);
             listItem.appendChild(link);
+            listItem.appendChild(p)
             resultsUI.appendChild(listItem);
         }
     }
 
     // add an event listener for a click on the search link
-    btnHandler('#search-link', function() {
+    btnHandler('#search-link', async function() {
 
         // get the data
-        fetch('/search.json').then(function(response) {
-            return response.json();
-        }).then(function(response) {
-            searchIndex = response.search;
-        });
-
+        searchIndex = await fetch('/search.json').then((res) => res.json()).then((res) => res.search);
         searchUI.classList.toggle('invisible');
         searchInput.focus();
 
@@ -80,6 +85,4 @@ new WOW().init();
         });
 
     });
-    console.log("test")
-
 })();
