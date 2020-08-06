@@ -96,25 +96,16 @@ A person should posses some qualities to be a good debugger,which are spread acr
     
 ## Debugging in Real Software Projects
 ---
-<<<<<<< HEAD
-</summary>
-  The computing pioneer Maurice Wilkes famously described his 1949 encounter with debugging like this: "As soon as we started programming, we found to our surprise that it wasn't as easy to get programs right as we had thought it would be.Debugging had to be discovered. I can remember the exact instant when I realized that a large part of my life from then on was going to be spent in finding mistakes in my own programs."Every programmer would unanimously agree to this.
- 
-  Although critical in software development , debugging is one of the most detested activity among software developers. As obvious as it is , programmers prefer writing code that works than breaking their heads to find the 'lurking' cause of failure. To add the pain points , as software development teams keep on evolving , most often a developer will have to debug and fix bugs on code written by another developer who might not even be known to the person in charge . This makes debugging even more diffuclt. But as its said "To err is human" and hence errors are an inevitable part of software development. , which makes debugging an indispensilbe skill required by software developers.
+  The computing pioneer Maurice Wilkes famously described his 1949 encounter with debugging like this: "As soon as we started programming, we found to our surprise that it wasn't as easy to get programs right as we had thought it would be.Debugging had to be discovered. I can remember the exact instant when I realized that a large part of my life from then on was going to be spent in finding mistakes in my own programs."Every programmer would unanimously agree to this.  
+  
+  Although critical in software development , debugging is one of the most detested activity among software developers. As obvious as it is , programmers prefer writing code that works than breaking their heads to find the 'lurking' cause of failure. To add the pain points , as software development teams keep on evolving , most often a developer will have to debug and fix bugs on code written by another developer who might not even be known to the person in charge . This makes debugging even more difficult. But as its said "To err is human" and hence errors are an inevitable part of software development. , which makes debugging an indispensable skill required by software developers.
 
-  ![title](https://pics.me.me/10-stages-of-debugging-10-stages-of-debugging-40619572.png)
-
-  Aa astonishing as it sounds ,almost 60 percent of software development works goes into debugging and therefore a plethora of resources are out there helping developers understand and cultivate proper debugging practises. While some of them are guidelines from experienced developers , there are also a collection of debugging stories and even podcasts from developers across the world about the wierdest and hardest bugs they ever had to tackle and why is Debugging such an important skill.A a few of them have been listed below:
+  As astonishing as it sounds ,almost 60 percent of software development works goes into debugging and therefore a plethora of resources are out there helping developers understand and cultivate proper debugging practices. While some of them are guidelines from experienced developers , there are also a collection of debugging stories and even podcasts from developers across the world about the weirdest and hardest bugs they ever had to tackle and why is Debugging such an important skill.A a few of them have been listed below:
   
   * How Debugging make a better Developer - https://carlalexander.ca/how-debugging-make-better-developer/
   * Why do we Debug code - https://sjinnovation.com/why-do-we-debug-code/
   * How to debug things ? A guide to non developers - https://willcritchlow.com/how-to-debug-things-a-guide-for-non-developers-46599a2c4a41
   * Modern Debugging: The Art of Finding a Needle in a Haystack - https://cacm.acm.org/magazines/2018/11/232215-modern-debugging/fulltext
-=======
-  Although critical in software development , debugging is one of the most detested activity among software developers. As obvious as it is , programmers prefer writing code that works than breaking their heads to find the 'lurking' cause of failure. To add the pain points , as software development teams keep on evolving , most often a developer will have to debug and fix bugs on code written by another developer who might not even be known to the person in charge . This makes debugging even more diffuclt. But as its said "To err is human" and hence errors are an inevitable part of software development. , which makes debugging an indispensilbe skill required by software developers.
-  ![Debugging Stages](../../_site/img/DebuggingStages.jpg)
-  Aa astonishing as it sounds ,almost 60 percent of software development works goes into debugging and therefore a plethora of resources are out there helping developers understand and cultivate proper debugging practises. While some of them are guidelines from experienced developers , there are also a collection of debugging stories and even podcasts from developers across the world about the wierdest and hardest bugs they ever had to tackle.A a few of them have been listed below:
->>>>>>> e09ca9e37f5fae34e1879a8a7f859d19075069c7
   
   
 ## Role of Academia or Industry in Cultivating the Skill
