@@ -58,19 +58,6 @@ A person should posses some qualities to be a good debugger,which are spread acr
 * Software Maintainer .
 * Application Support Engineer.
 
-  
-## Related Software Engineering Area(s)
----
-* Software Testing.
-* Software Maintenance.
-* Software Integration.
-
-## Rationale for Skill
----
-* Identify the cause for faulty software behaviour.
-* Fix semantic,syntactical or design bugs in a program.
-* Though not the direct intention , debugging also increases one's familarity and hence knowledge about the code. 
-
 ## Work Related to Skill (Related Activities and Artifacts)
 ---
   Debugging is an evergreen and ubiqutous activity in Software Development. As obvious as it sounds,it has been widely researched ,resulting in the production of a bunch of tools and techniques to help with the process. Given below is a brief through some of them. 
@@ -110,20 +97,25 @@ A person should posses some qualities to be a good debugger,which are spread acr
   
 ## Role of Academia or Industry in Cultivating the Skill
 ---
+  Though software debugging is not usually a course taught as such in computer science/software engineering programmes in School , many of the related courses affect a student's debugging skills. For example , a course on Data Structures and Algorithms is expected to increase a student's understanding on core programming  concepts which is imperative to successfully understand and debug a software program . Similarly a course on critical thinking can help improve the reasoning ability of a person , helping him approach problems in a systematic and consistent way , which is essential for employing debugging techniques like Bug Clustering and Hypothesis Postulation mentioned above .
+  
+  Moving on to Industry ,there is considerable amount of difference in the volume of debugging activity performed as compared to an academic project . While academic projects have a limited scope and shorter breadth, Industrial projects are built on a wider scope , with plethora of technologies working together,also for a longer time duration , because of which there is massive amount of debugging involved . Continuous releases, changing requirements and frequent code changes also causes code breakage ,  which subsequently makes debugging a frequent activity  in industrial software engineering.Ergo , while academia helps in equipping a programmer to be able to debug , industrial experience is what hones this skill. Owing to its industrial importance , online learning platforms on the Internet  have also been offering courses on Debugging lately (Udacity ,Udemy and Courseera to name a few).
 
 
 ## Tools Supporting the Skill
 ---
-* All Major IDEs for eg Intellij , Eclipse etc .
+* All Major IDEs for example Intellij , Eclipse etc .
 * Logging frameworks which enable dump data debugging.
-* Browser DevTools
-* Static Code Analysis Tools
+* Browser DevTools(For debugging front end web development).
+* Static Code Analysis Tools.
+* Memory Profiling Softwares like Visual VM(mainly for debugging of performance and thread related issues) .
   
 
 ## Skill Self-Assessment
 ---
-  8
-  
+  Assigned Score : 8 .
+  My rationale for giving myself a score of 8 is based on my industrial experience as a Java Software Developer . I have successfully completed many bug fixing  assignments and also find  debugging and bug fixing to be very gratifying , while most of my colleagues prefer writing new working code for new feature development over it.Considering these factors, I find a score of 8 reasonable.
+    
 
 ## References 
 ---
