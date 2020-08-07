@@ -514,8 +514,9 @@ hr {
 label{
     font-size: 0px;
 }
+
 .search-results {
-    margin-top: 0rem;
+    margin-top: 0.1rem;
     background-color: inherit;
     z-index: 100;
     overflow: auto;
@@ -533,8 +534,6 @@ label{
 .search-results li {
     border-bottom: 1px solid #232323;
 }
-
-
 
 .search-results *:hover {
     background-color: #2e2e2e;
