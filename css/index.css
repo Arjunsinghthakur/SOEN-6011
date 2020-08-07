@@ -1,11 +1,13 @@
 @font-face {
     font-family: "Product Sans";
     src: url("./font/ProductSans-Regular.ttf");
+    font-display:swap
 }
 
 @font-face {
     font-family: "Product Sans Light";
     src: url("./font/ProductSans-Light.ttf");
+    font-display:swap
 }
 
 
