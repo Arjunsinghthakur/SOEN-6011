@@ -494,6 +494,7 @@ hr {
 
 .content-style a {
     color: rgba(255, 255, 255, 0.8) !important;
+    font-style: italic;
 }
 
 .content-style a:hover {
