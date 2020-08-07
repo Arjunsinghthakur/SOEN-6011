@@ -120,6 +120,7 @@ ul {
 .card-columns{
     display: flex;
     flex-wrap: wrap;
+    column-count: 3;
 }
 
 @media (min-width: 34em) {
