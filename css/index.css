@@ -165,13 +165,6 @@ h4 {
     font-size: 1.125em;
 }
 
-h5 {
-    font-size: 0.889em;
-}
-
-h6 {
-    font-size: 0.79em;
-}
 
 .display-1 {
     font-size: 3.906em;
@@ -387,26 +380,43 @@ input {
 .card {
     /* Shadow 6dp */
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.20);
+    
 }
 
 .card,
 .card>*,
-.card li>* {
+.card div>* {
     background-color: #121212;
     border: none;
 }
 
 .card>.card-footer {
+    
     background-color: #191919;
+}
+
+.card-title{
+    margin: 1.5rem 1rem 0.5rem 1rem;
+}
+
+.card-body{
+    padding: 0.12rem;
+    font-family: 'Product Sans Light',sans-serif;
+    /* font-size: 1rem; */
+    letter-spacing: 0.04rem;
+}
+
+.card-footer a{
+    font-family: 'Product Sans Light', sans-serif;
 }
 
 .footer {
     background-color: #121212;
 }
 
-.btn {
-    background-color: #086caf;
-    border-color: #086caf;
+.card-footer .btn {
+    background-color: #0074d9;
+    border-color: #0074d9;
 }
 
 /* on the skill description page */
@@ -493,6 +503,17 @@ hr {
 
 
 /* DARK THEME STYLING ENDS HERE */
+::placeholder{
+    color: #222222;
+}
+
+.search-ui #search-str{
+    overflow: hidden;
+}
+
+label{
+    font-size: 0px;
+}
 .search-results {
     margin-top: 0rem;
     background-color: inherit;
