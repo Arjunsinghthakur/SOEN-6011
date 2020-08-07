@@ -46,12 +46,12 @@ Eliciting software requirements
 
 ## Roles for Skill
 ---
-* To gather the requirements by researching requirements for poroject/system from the end users and stakeholders and also analyzing changes to the requirements.
+* To gather the requirements by researching requirements for project/system from the end users and stakeholders and also analyzing changes to the requirements.
 
 ## Work Related to Skill (Related Activities and Artifacts)
 ---
 * **Interviews**: It is the most common technoque for gathering the requirements, it requires the interviewer to identify the stakeholders and users from which he/she can gather
-the requirements. Interviews should be very well prepared in advance a nd in a proper manner to get the best out of this technique. both open ended and closed ended questions can be asked. Interviewee'spermission should always be asked to record the responses for later reference and in the end the response should be confirmed with them.
+the requirements. Interviews should be very well prepared in advance and in a proper manner to get the best out of this technique. both open ended and closed ended questions can be asked. Interviewee'spermission should always be asked to record the responses for later reference and in the end the response should be confirmed with them.
 
 * **Prototyping**: This is an effective method of requirements gathering as it heavily involves the user. In this method, the user is directly asked their requirements which is input for the changes and then they are shown the outcomes for their feedbacks. Though, this process can make the customers impatient as they are shown the prototype only, but the final product takes longer time. 
 
