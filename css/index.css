@@ -406,7 +406,7 @@ input{
     border: none;
     /* border-left: 1px solid #047bfe; border-bottom: 1px solid #047bfe; */
     border-radius: 2px;
-    font-family: 'Product Sans Light';
+    font-family: 'Product Sans Light', sans-serif;
     padding-left: 3rem;
     ;
 }
@@ -416,7 +416,7 @@ input{
 .content-style li,
 .content-style li a,
 .table-of-contents li {
-    font-family: 'Product Sans Light';
+    font-family: 'Product Sans Light', sans-serif;
 }
 
 .content-style pre,
@@ -444,7 +444,7 @@ input{
 
 .home a,
 code {
-    font-family: 'Product Sans Light';
+    font-family: 'Product Sans Light', sans-serif;
     font-size: 1rem;
 }
 
