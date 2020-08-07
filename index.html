@@ -55,7 +55,9 @@
 
     
     <div class="search-ui nav-item">
-      <input type="text" id="search-str" class="search-str form-control" aria-describedby="searchHelp"  onfocus="/search"/>
+      <label for ="search-str">search here</label>
+      <input type="text" id="search-str" class="search-str form-control" aria-describedby="searchHelp"  onfocus="/search"/ placeholder="Enter you search keywords here"><label for="s"></label></input>
+      
       <ol class="search-results list-group jus"></ol>
     </div>
 
@@ -74,17 +76,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             User Interface Design
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Software Design</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/ui-design/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -98,17 +100,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             Software Quality Assurance
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Software Quality Assurance</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/software-quality-assurance/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -122,17 +124,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             Software Configuration Control
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Software Configuration Management</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/software-configuration-control/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -146,17 +148,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             Reverse Engineering
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Software Maintenance</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/reverse_engineering/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -170,17 +172,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             Eliciting software requirements
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Software requirements specifications</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/eliciting_software_requirements/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -194,17 +196,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             API Testing
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Software Testing</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/api-testing/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -218,17 +220,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             Debugging
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Software Construction</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/Debugging/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -242,17 +244,17 @@
 
       <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem;">
 
-        <li class="skilllist-item">
-          <h5 class="card-title">
+        <div class="skilllist-item">
+          <div class="card-title ">
             Database Management System (DBMS)
             
 
-          </h5>
+          </div>
           
           
               
               <p class = "card-body">Computational Foundation</p>
-        </li>
+        </div>
 
         <div class="card-footer text-center">
           <a href=" /skills/DBMS_Comp_Found/" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
@@ -275,11 +277,12 @@
     </footer>
 
     <!-- Current page: / -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="/js/search.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    
 
   </body>
 </html>
