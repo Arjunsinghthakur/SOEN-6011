@@ -32,11 +32,6 @@
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/skills/api-testing/</loc>
-    <lastmod>2020-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sestopia.netlify.app/skills/eliciting_software_requirements/</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
@@ -67,7 +62,12 @@
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/tags/Software%20Construction/</loc>
+    <loc>https://sestopia.netlify.app/tags/Software%20Design/</loc>
+    <lastmod>2020-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sestopia.netlify.app/tags/Computational%20Foundation/</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   
@@ -77,7 +77,7 @@
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/tags/Software%20requirements%20specifications/</loc>
+    <loc>https://sestopia.netlify.app/tags/Software%20Construction/</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   
@@ -97,12 +97,12 @@
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/tags/Software%20Design/</loc>
+    <loc>https://sestopia.netlify.app/tags/Software%20requirements%20specifications/</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   
   <url>
-    <loc>https://sestopia.netlify.app/tags/Computational%20Foundation/</loc>
+    <loc>https://sestopia.netlify.app/skills/api-testing/</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
 </urlset>
