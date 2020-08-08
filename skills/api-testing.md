@@ -158,7 +158,8 @@ In Learning phase, little academic experience, not professional.
 
 ## References 
 ---
-1. (https://www.softwaretestingmaterial.com/api-testing/)
+1. [I'm an inline-style link](https://www.google.com)
+(https://www.softwaretestingmaterial.com/api-testing/)
 2. (https://www.guru99.com/api-testing.html)
 3. (https://www.katalon.com/resources-center/blog/api-testing-tips/)
 4. (https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide)
