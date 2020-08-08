@@ -167,4 +167,4 @@ In Learning phase, little academic experience, not professional.
 7. [Simple Programmer - API Testing](https://simpleprogrammer.com/api-testing/#:~:text=And%20API%20testing%20allows%20the,feedback%20for%20developers%20and%20testers.)
 8. [Market Reports](https://www.marketsandmarkets.com/Market-Reports/api-testing-market-227082545.html)
 9. [Mulesoft](https://www.mulesoft.com/resources/api/api-strategy-financial-services)
-10.[Wikepedia](https://en.wikipedia.org/)
+10. [Wikepedia](https://en.wikipedia.org/)
