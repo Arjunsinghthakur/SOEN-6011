@@ -152,7 +152,9 @@ Some of the tools used for API Testing are as follows:
 
 ## Skill Self-Assessment
 ---
-7/10
+6/10
+
+In Learning phase, little academic experience, not professional.
 
 ## References 
 ---
