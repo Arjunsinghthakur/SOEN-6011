@@ -500,9 +500,6 @@ hr {
     color: #0074d9 !important;
 }
 
-.content-style nav li a {
-    color: #F5F5F5 !important; 
-}
 
 .content-style nav li a:hover{
     font-size: 1.12rem;
@@ -511,6 +508,21 @@ hr {
 .content-style a:hover {
     border-bottom: 1px solid #005086;
     transition: all 0.1s ease-in-out;
+}
+
+.content-style nav ol{
+   counter-reset: item;
+   
+}
+
+.content-style nav ol li {
+    display: block
+    
+}
+
+.content-style nav ol li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
 }
 
 
