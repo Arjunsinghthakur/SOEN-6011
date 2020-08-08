@@ -492,9 +492,20 @@ hr {
     margin-top: 4rem;
 }
 
-.content-style a {
-    color: rgba(255, 255, 255, 0.8) !important;
-    font-style: italic;
+.content-style img{
+    max-width: 100%;
+}
+
+.content-style li a {
+    color: #0074d9 !important;
+}
+
+.content-style nav li a {
+    color: #F5F5F5 !important; 
+}
+
+.content-style nav li a:hover{
+    font-size: 1.12rem;
 }
 
 .content-style a:hover {
@@ -543,3 +554,4 @@ label{
 .search-results *:hover * {
     background-color: #2e2e2e !important;
 }
+
