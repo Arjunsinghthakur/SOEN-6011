@@ -498,14 +498,16 @@ hr {
     max-width: 100%;
 }
 
-.content-style li a {
+.content-style li a, .content-style p a {
     color: #0074d9 !important;
+    text-decoration: none;
 }
 
 
 .content-style nav li a:hover{
     font-size: 1.12rem;
 }
+
 
 .content-style a:hover {
     border-bottom: 1px solid #005086;
@@ -552,9 +554,7 @@ label{
 
 .search-results * {
     background-color: #121212;
-    border-radius: 8px;
-
-
+    border-radius: 8px; 
 }
 
 .search-results li {
@@ -569,6 +569,22 @@ label{
     background-color: #2e2e2e !important;
 }
 
+
+.content-style blockquote{
+    background-color: #1f1f1f !important;
+}
+
+.content-style iframe{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  
+}
+
+.twitter-tweet{
+    max-width: 100%;
+    margin: 0 auto ;
+}
 
 
 body{
