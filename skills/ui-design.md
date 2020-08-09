@@ -51,6 +51,8 @@ A Good UI will surely make it easier for target audience to clearly see the what
 
 Great user interface is like great architecture. it fits beautifully with its environment and its purpose, with room for creative flavour and artistry.
 
+Simply put, UI Design is important because without it you’d probably have to resort to printing flyers and making cold calls. People make snap judgments and when they visit your site, they’d rather spend 30 seconds opening a new site than meddling around on a difficult one
+
 ## Roles for Skill
 ---
 - UI designer 
