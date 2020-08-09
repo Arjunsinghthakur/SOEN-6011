@@ -158,13 +158,13 @@ In Learning phase, little academic experience, not professional.
 
 ## References 
 ---
-1. (https://www.softwaretestingmaterial.com/api-testing/)
-2. (https://www.guru99.com/api-testing.html)
-3. (https://www.katalon.com/resources-center/blog/api-testing-tips/)
-4. (https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide)
-5. (https://www.guru99.com/comparison-between-web-services.html#:~:text=SOAP%20stands%20for%20Simple%20Object,REST%20is%20an%20architectural%20pattern.&text=SOAP%20only%20works%20with%20XML,can%20make%20use%20of%20SOAP.)
-6. (https://smartbear.com/solutions/api-testing/)
-7. (https://simpleprogrammer.com/api-testing/#:~:text=And%20API%20testing%20allows%20the,feedback%20for%20developers%20and%20testers.)
-8. (https://www.marketsandmarkets.com/Market-Reports/api-testing-market-227082545.html)
-9. (https://www.mulesoft.com/resources/api/api-strategy-financial-services)
-10. (https://en.wikipedia.org/)
+1. [Software Testing Material](https://www.softwaretestingmaterial.com/api-testing/)
+2. [Guru99 - API Testing](https://www.guru99.com/api-testing.html)
+3. [API Testing Tips](https://www.katalon.com/resources-center/blog/api-testing-tips/)
+4. [Dzone](https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide)
+5. [Guru99 - REST & SOAP](https://www.guru99.com/comparison-between-web-services.html#:~:text=SOAP%20stands%20for%20Simple%20Object,REST%20is%20an%20architectural%20pattern.&text=SOAP%20only%20works%20with%20XML,can%20make%20use%20of%20SOAP.)
+6. [SmartBear - API](https://smartbear.com/solutions/api-testing/)
+7. [Simple Programmer - API Testing](https://simpleprogrammer.com/api-testing/#:~:text=And%20API%20testing%20allows%20the,feedback%20for%20developers%20and%20testers.)
+8. [Market Reports](https://www.marketsandmarkets.com/Market-Reports/api-testing-market-227082545.html)
+9. [Mulesoft](https://www.mulesoft.com/resources/api/api-strategy-financial-services)
+10. [Wikepedia](https://en.wikipedia.org/)
