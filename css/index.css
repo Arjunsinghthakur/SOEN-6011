@@ -10,7 +10,6 @@
     font-display: swap
 }
 
-
 * {
     font-family: 'Product Sans', sans-serif;
 }
@@ -61,9 +60,6 @@ ul {
     margin-bottom: 0;
 }
 
-
-
-
 /* .sticky-top{ position: sticky; top: 0; z-index: 1020;} */
 /* .sticky { position: fixed; top: 0; width: 100%; }
  .navbar + .content { padding-top: 60px; } */
@@ -80,14 +76,12 @@ ul {
     width: 1px;
 }
 
-
 .card {
     height: 350px;
     border-color: rgba(0, 0, 0, 0.01);
     overflow: hidden;
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.1);
 }
-
 
 .card:hover {
     -webkit-transform: scale(1.1);
@@ -236,9 +230,6 @@ h4 {
     }
 }
 
-
-
-
 .table-of-contents {
     border: 1px solid rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -329,10 +320,10 @@ h4 {
     line-height: 1;
 }
 
-/* DARK THEME STYLING */
+/*============================== DARK THEME STYLINGT START============================== */
 * {
     background-color: #121212;
-    color: white !important;
+    color: rgba(255, 255, 255, 0.9) !important;
     letter-spacing: 0.03rem;
     margin: 0;
     padding: 0;
@@ -468,7 +459,7 @@ input {
 .table-of-contents li a:hover,
 .home a:hover {
     text-decoration: none;
-    border-bottom: 2px solid #005086;
+    border-bottom: 2px solid #4fb3ff;
     transition: all 0.2s ease-in-out;
 }
 
@@ -486,7 +477,7 @@ code {
 }
 
 hr {
-    background-color: #005086 !important;
+    background-color: #41adff !important;
     height: 2px;
 }
 
@@ -499,18 +490,18 @@ hr {
 }
 
 .content-style li a, .content-style p a {
-    color: #0074d9 !important;
+    color: #41adff !important;
     text-decoration: none;
 }
+
 
 
 .content-style nav li a:hover{
     font-size: 1.12rem;
 }
 
-
 .content-style a:hover {
-    border-bottom: 1px solid #005086;
+    border-bottom: 1px solid #4fb3ff;
     transition: all 0.1s ease-in-out;
 }
 
@@ -521,7 +512,6 @@ hr {
 
 .content-style nav ol li {
     display: block
-    
 }
 
 .content-style nav ol li:before {
@@ -529,8 +519,8 @@ hr {
     counter-increment: item
 }
 
+/* ============================/* DARK THEME STYLING ENDS HERE ============================================= */
 
-/* DARK THEME STYLING ENDS HERE */
 ::placeholder{
     color: #222222;
 }
