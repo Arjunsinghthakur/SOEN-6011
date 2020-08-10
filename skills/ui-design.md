@@ -33,7 +33,7 @@ A person should have these skills to be a good UI designer:
 3. Fundamental knowledge about UI design Principals
 4. Fundamental Knowledge regarding the Basic elements in User Interface Design such as Color, Typography and Shape.
 5. Understanding of various software architecture models and principals.
-6. Ability to understand common human behaviour regarding intercation with the UI.
+6. Ability to understand common human behaviour regarding interaction with the UI.
 
 ## Related Software Engineering Area(s)
 ---
@@ -49,7 +49,7 @@ User experience (UX) design is the process design teams use to create products t
 
 User Interface Design is one of the aspects to bring the organic traffic to the website or app. It droves the people and keeps them there. UI design is a crucial to get website in recommendation and make loyal customers.
 
-Even very small adjustmants in UI design can make a lot of impact on website's acceptance by general users.
+Even very small adjustments in UI design can make a lot of impact on website's acceptance by general users.
 
 User Interface is what with users interacts primariliy when they use our website or app. In that case easy to understand and intuative user experience will satisfy user's emotions and expectations. Meticulously designed user interface plays major role to achieve this purpose.
 
@@ -62,7 +62,7 @@ Simply put, UI Design is important because without it you’d probably have to r
 ## Roles for Skill
 ---
 ### UI designer
-User interface designers are particular about **how the product is laid out**. They are in charge of designing each screen or page with which a user interacts and ensuring that the UI visually communicates the path that a UX designer has laid out. For example, a UI designer creating an analytics dashboard might front load the most important content at the top, or decide whether a slider or a control knob makes the most intuitive sense to adjust a graph. UI designers are also typically responsible for creating a cohesive style guide and ensuring that a consistent design language is applied across the product. Maintaining consistency in visual elements and defining behavior such as how to display error or warning states fall under the purview of a UI designer.
+User interface designers are particular about **how the product is laid out**. They are in charge of designing each screen or page with which a user interacts and ensuring that the UI visually communicates the path that a UX designer has laid out. For example, a UI designer creating an analytics dashboard might front load the most important content at the top, or decide whether a slider or a control knob makes the most intuitive sense to adjust a graph. UI designers are also typically responsible for creating a cohesive style guide and ensuring that a consistent design language is applied across the product. Maintaining consistency in visual elements and defining behaviour such as how to display error or warning states fall under the purview of a UI designer.
 
 Job responsibilities of a UI Designer include:
 
@@ -87,23 +87,19 @@ Job responsibilities of a Graphic Designer include:
 - Staying current with new trends in this field
 
 ### Interaction Designer
-The role of an Interaction Designer is to focus on designing engaging interfaces with well-thought-out behaviors.
+The role of an Interaction Designer is to focus on designing engaging interfaces with well-thought-out behaviours. Understanding how users and technology interact together fundamental to this role.
 
-Understanding how users and technology interact together fundamental to this role.
+As in Information Architect, you would use this understanding to anticipate how someone might interact with the system, fix problems early, as well as invent new ways of doing things.You are the primary designer of the operational components of the website or application.
 
-As in Information Architect, you would use this understanding to anticipate how someone might interact with the system, fix problems early, as well as invent new ways of doing things.
-
-You are the primary designer of the operational components of the website or application.
-
-### UX Desginer
-UX designers are primarily concerned with how the product feels. A given design problem has no single right answer. UX designers explore many different approaches to solving a specific user problem. The broad responsibility of a UX designer is to ensure that the product logically flows from one step to the next. One way that a UX designer might do this is by conducting in-person user tests to observe one’s behavior. By identifying verbal and non-verbal stumbling blocks, they refine and iterate to create the “best” user experience. An example project is creating a delightful onboarding flow for a new user.
+### UX Designer
+UX designers are primarily concerned with how the product feels. A given design problem has no single right answer. UX designers explore many different approaches to solving a specific user problem. The broad responsibility of a UX designer is to ensure that the product logically flows from one step to the next. One way that a UX designer might do this is by conducting in-person user tests to observe one’s behaviour. By identifying verbal and non-verbal stumbling blocks, they refine and iterate to create the “best” user experience. An example project is creating a delightful onboarding flow for a new user.
 
 *“Define interaction models, user task flows, and UI specifications. Communicate scenarios, end-to-end experiences, interaction models, and screen designs to stakeholders. Work with our creative director and visual designers to incorporate the visual identity of Twitter into features. Develop and maintain design wireframes, mockups, and specifications as needed.”* –Experience Designer job description at Twitter
 
 ## Work Related to Skill (Related Activities and Artifacts)
 ---
 
-UI designing incorporartes certain primary activities in software design process.
+UI designing incorporates certain primary activities in software design process.
 These activities commence with understanding the concept of interaction design wherein the goal of interaction design is to create products that enable the user to achieve their objective(s) in the best way possible. The interaction between a user and a product often involves elements like aesthetics, motion, sound, space, and many more. This is followed by applying the idea of Visual design which aims to improve a design’s/product’s aesthetic appeal and usability with suitable images, typography, space, layout and color. Visual design is about more than aesthetics. Designers place elements carefully to create interfaces that optimize user experience and drive conversion. 
 
 ![UI_design_process_image](https://miro.medium.com/max/1400/1*zlMq9eIJ3c3P5I4qEd_p1w.jpeg)
@@ -125,8 +121,8 @@ Furthermore, analyzing the flow of Information architecture and implementing it 
 
 ## Role of Academia or Industry in Cultivating the Skill
 ---
-### Role of Acadamia
-In academics there are many course choices offered for fundamental knowledge of designing a software which incorporates the knowledge of User Interface designing. Projects required by academia plays a major role to sharpen the UI desgning skills for any individual. Moreover, due to the project work, other aspacts such as understanding the requirements, Usability tasting, user acceptance of software can be mastered which are some of very crucial needs to be better at UI design.
+### Role of Academia
+In academics there are many course choices offered for fundamental knowledge of designing a software which incorporates the knowledge of User Interface designing. Projects required by academia plays a major role to sharpen the UI designing skills for any individual. Moreover, due to the project work, other aspects such as understanding the requirements, Usability tasting, user acceptance of software can be mastered which are some of very crucial needs to be better at UI design.
 
 ### Role of Industry
 Modernization in the User interface is driven by current software industries as well as new behaviour acceptance from the general users are reasons for the continuous changes in design trends. Industry is the main reason for new and optimum procedures and tools in UI design field. 
