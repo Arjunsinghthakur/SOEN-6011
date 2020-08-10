@@ -121,5 +121,8 @@ A person should posses some qualities to be a good debugger,which are spread acr
 ---
 * [SWEBOK3](https://users.encs.concordia.ca/~kamthan/courses/soen-6011/project/SWEBOK3.pdf)
 * [Debugging Techniques](http://www.cs.cornell.edu/courses/cs312/2006fa/lectures/lec26.html)
-
+* [Modern Debugging](https://cacm.acm.org/magazines/2018/11/232215-modern-debugging/fulltext)
+* [How to become better in debugging](https://www.forbes.com/sites/quora/2018/06/13/how-do-i-get-better-at-debugging-code/#a7dc7731eaf2)
+* [8 Things about Debugging](https://www.themarketingtechnologist.co/about-debugging-8-things-i-wish-i-knew-earlier-in-my-career/)
+* [Why debugging is important](https://blog.bitlabstudio.com/the-importance-of-debugging-886df73427ea)
 
