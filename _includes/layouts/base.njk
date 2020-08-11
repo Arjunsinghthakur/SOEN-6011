@@ -20,9 +20,12 @@
 
     <nav class = "navbar navbar-expand-sm sticky-top bg-dark navbar-dark">
 
-      <!-- SESTOPIA TITle-->
-      <a class = "navbar-brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
 
+      <!-- SESTOPIA TITle-->
+  <a class="navbar-brand " href="{{ '/' | url }}">
+    <img class="logo" src="{{ '/img/mountain.svg' | url }}" width="30" height="30" class="d-inline-block align-top" alt="">
+    {{ metadata.title }}
+  </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>

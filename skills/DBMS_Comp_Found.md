@@ -1,6 +1,7 @@
 ---
 title: Database Management System (DBMS)
 description: This is a skill on Computational Foundation
+author: Harsh Vaghani
 tags: 
   - Computational Foundation
 layout: layouts/skill.njk
