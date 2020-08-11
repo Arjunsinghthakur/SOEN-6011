@@ -10,6 +10,11 @@
     font-display: swap
 }
 
+.logo {
+    fill: white;
+    background-color: inherit;
+}
+
 * {
     font-family: 'Product Sans', sans-serif;
 }
@@ -19,19 +24,26 @@ ul {
     list-style-type: none;
 }
 
+
 /* .navbar{ overflow: hidden; background-color: #F7FAFD;}
 .navbar a { float: left; display: block; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px; }
 .navbar .nav-item{ float: right;} 
 /* Hide the link that should open and close the topnav on small screens */
+
+
 /* .nav .icon { display: none; float: right; } */
+
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+
 /* @media screen and (max-width: 600px) { .nav li {display: none;} .nav .icon { float: right; display: block; } } /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+
 /* @media screen and (max-width: 600px) { .nav.responsive {position: relative;} .nav.responsive a.icon { position: absolute; right: 0; top: 0; } .nav.responsive ul li { float: none; display: block; text-align: left; } } */
 
 
 /* STYLING AFTER BOOTSTRAP ADDED */
-
-
 
 
 /* .demo {
@@ -43,14 +55,12 @@ ul {
     border-radius: 0.25rem;
     
 } */
-.search-ui {
 
+.search-ui {
     width: 80%;
 }
 
-
 .demo {
-
     display: flex;
     position: relative;
     flex: 1 1 auto;
@@ -60,12 +70,16 @@ ul {
     margin-bottom: 0;
 }
 
+
 /* .sticky-top{ position: sticky; top: 0; z-index: 1020;} */
+
+
 /* .sticky { position: fixed; top: 0; width: 100%; }
  .navbar + .content { padding-top: 60px; } */
 
 
 /* STYLING FOR SKILLLIST.njk FILE */
+
 .card-footer {
     padding-bottom: 2rem;
 }
@@ -121,17 +135,14 @@ ul {
 
 @media (min-width: 34em) {
     .card-columns {
-
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
-
     }
 }
 
 @media (min-width: 28em) {
     .card-columns {
-
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
@@ -159,7 +170,6 @@ h4 {
     font-size: 1.125em;
 }
 
-
 .display-1 {
     font-size: 3.906em;
 }
@@ -176,54 +186,50 @@ h4 {
     font-size: 2em;
 }
 
+
 /* Medium devices (tablets, 48em and up) */
 
 @media (min-width: 48em) {
     h1 {
         font-size: 2.441em;
     }
-
     h2 {
         font-size: 1.953em;
     }
-
     h3 {
         font-size: 1.563em;
     }
-
     h4 {
         font-size: 1.25em;
     }
-
     .display-1 {
         font-size: 6em;
     }
-
     .display-2 {
         font-size: 5.5em;
     }
-
     .display-3 {
         font-size: 4.5em;
     }
-
     .display-4 {
         font-size: 3.5em;
     }
 }
 
-/* Large devices (desktops, 62em and up) */
-@media (min-width: 62em) {
 
+/* Large devices (desktops, 62em and up) */
+
+@media (min-width: 62em) {
     html,
     body {
         font-size: 16px !important;
     }
 }
 
-/* Extra large devices (large desktops, 75em and up) */
-@media (min-width: 75em) {
 
+/* Extra large devices (large desktops, 75em and up) */
+
+@media (min-width: 75em) {
     html,
     body {
         font-size: 18px !important;
@@ -320,7 +326,9 @@ h4 {
     line-height: 1;
 }
 
+
 /*============================== DARK THEME STYLINGT START============================== */
+
 * {
     background-color: #121212;
     color: rgba(255, 255, 255, 0.9) !important;
@@ -337,7 +345,6 @@ h4 {
 .jumbotron,
 .jumbotron>* {
     background-color: #222222 !important;
-
 }
 
 .jumbotron {
@@ -371,7 +378,6 @@ input {
 .card {
     /* Shadow 6dp */
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.20);
-    
 }
 
 .card,
@@ -382,22 +388,21 @@ input {
 }
 
 .card>.card-footer {
-    
     background-color: #191919;
 }
 
-.card-title{
+.card-title {
     margin: 1.5rem 1rem 0.5rem 1rem;
 }
 
-.card-body{
+.card-body {
     padding: 0.12rem;
-    font-family: 'Product Sans Light',sans-serif;
+    font-family: 'Product Sans Light', sans-serif;
     /* font-size: 1rem; */
     letter-spacing: 0.04rem;
 }
 
-.card-footer a{
+.card-footer a {
     font-family: 'Product Sans Light', sans-serif;
 }
 
@@ -410,15 +415,18 @@ input {
     border-color: #0074d9;
 }
 
+
 /* on the skill description page */
+
 .tmpl-skill .jumbotron {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.20);
 }
-.tmpl-skill p em{
+
+.tmpl-skill p em {
     background-color: inherit;
 }
-.tmpl-skill,
 
+.tmpl-skill,
 .tmpl-skill .row,
 .row .content-style,
 .row h2,
@@ -485,18 +493,17 @@ hr {
     margin-top: 4rem;
 }
 
-.content-style img{
+.content-style img {
     max-width: 100%;
 }
 
-.content-style li a, .content-style p a {
+.content-style li a,
+.content-style p a {
     color: #41adff !important;
     text-decoration: none;
 }
 
-
-
-.content-style nav li a:hover{
+.content-style nav li a:hover {
     font-size: 1.12rem;
 }
 
@@ -505,9 +512,8 @@ hr {
     transition: all 0.1s ease-in-out;
 }
 
-.content-style nav ol{
-   counter-reset: item;
-   
+.content-style nav ol {
+    counter-reset: item;
 }
 
 .content-style nav ol li {
@@ -519,17 +525,18 @@ hr {
     counter-increment: item
 }
 
+
 /* ============================/* DARK THEME STYLING ENDS HERE ============================================= */
 
-::placeholder{
+::placeholder {
     color: #222222;
 }
 
-.search-ui #search-str{
+.search-ui #search-str {
     overflow: hidden;
 }
 
-label{
+label {
     font-size: 0px;
 }
 
@@ -538,13 +545,11 @@ label{
     background-color: inherit;
     z-index: 100;
     overflow: auto;
-    height: 9rem;
-
 }
 
 .search-results * {
     background-color: #121212;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 .search-results li {
@@ -559,26 +564,22 @@ label{
     background-color: #2e2e2e !important;
 }
 
-
-.content-style blockquote{
+.content-style blockquote {
     background-color: #1f1f1f !important;
 }
 
-.content-style iframe{
+.content-style iframe {
     max-width: 100%;
     display: block;
     margin: auto;
-  
 }
 
-.twitter-tweet{
+.twitter-tweet {
     max-width: 100%;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 
-
-body{
+body {
     height: 100vh;
     min-height: 100%;
 }
-
