@@ -327,11 +327,11 @@ h4 {
 }
 
 
-/* DARK THEME STYLING */
+/*============================== DARK THEME STYLINGT START============================== */
 
 * {
     background-color: #121212;
-    color: white !important;
+    color: rgba(255, 255, 255, 0.9) !important;
     letter-spacing: 0.03rem;
     margin: 0;
     padding: 0;
@@ -467,7 +467,7 @@ input {
 .table-of-contents li a:hover,
 .home a:hover {
     text-decoration: none;
-    border-bottom: 2px solid #005086;
+    border-bottom: 2px solid #4fb3ff;
     transition: all 0.2s ease-in-out;
 }
 
@@ -485,7 +485,7 @@ code {
 }
 
 hr {
-    background-color: #005086 !important;
+    background-color: #41adff !important;
     height: 2px;
 }
 
@@ -499,7 +499,7 @@ hr {
 
 .content-style li a,
 .content-style p a {
-    color: #0074d9 !important;
+    color: #41adff !important;
     text-decoration: none;
 }
 
@@ -508,7 +508,7 @@ hr {
 }
 
 .content-style a:hover {
-    border-bottom: 1px solid #005086;
+    border-bottom: 1px solid #4fb3ff;
     transition: all 0.1s ease-in-out;
 }
 
@@ -526,7 +526,7 @@ hr {
 }
 
 
-/* DARK THEME STYLING ENDS HERE */
+/* ============================/* DARK THEME STYLING ENDS HERE ============================================= */
 
 ::placeholder {
     color: #222222;
