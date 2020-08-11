@@ -1,9 +1,22 @@
+---
+layout: layouts/home.njk
+title: About
+---
+{% set skillslist = collections.skills %}
+<div class="jumbotron text-center heading">
+  <h1 class="display-1 text-xs-center p-b-1 m-b-1 animate__animated animate__fadeIn" data-wow-duration="2000s" data-wow-delay="2s" style="letter-spacing: 0.2px;" >
+    <img class="logo align-middle" alt="logo" src="{{ '/img/mountain.svg' | url }}" width="200" height="200">
+  SESTOPIA</h1>
+  <p>SESTOPIA is an information intensive web application developed for SOEN 6011 by Team K</p>
+  <h2>The Team</h2>
+</div>
+
 <div class= "card-columns align-item-center  justify-content-center align-iten-sm-center align-iten-xs-center align-iten-lg-center align-item-md-center justify-content-xl-center justify-content-md-center justify-content-lg-center justify-content-sm-center justify-content-xs-center" >
   {% for skill in skillslist | reverse %}
-    <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:1.5rem; backgroud-image:url(./../images/api-testing.png);">
+    <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem; backgroud-image:url(./../images/api-testing.png);">
       <div class="skilllist-item{% if skill.url == url %} skilllist-item-active{% endif %}">
         <div class="card-title ">
-          {% if skill.data.title %}{{ skill.data.title }}
+          {% if skill.data.author %}{{ skill.data.author }}
           {% else %}
             <code>{{ skill.url }}</code>
           {% endif %}
@@ -13,18 +26,18 @@
           {%- if collections.tagList.indexOf(tag) != -1 -%}
             {% set tagUrl %}/tags/{{ tag }}/{% endset %}
             {# <a class="card-text" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a> #}
-            <p class = "card-body">{{ tag }}</p>
+            <p class = "card-body">{{skill.data.title}}, {{ tag }}</p>
           {%- endif -%}
         {% endfor %}
       </div>
 
       <div class="card-footer text-center">
-        <a href=" {{ skill.url | url }}" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Explore more</a>
+        <a href=" {{ skill.url | url }}" class="btn btn-primary skilllist-link" style="margin-top:1rem;" onclick = "dynamic_styling()">Go to Skill</a>
       </div>
-
       <!--end of card body-->
 
     </div>
     <!--end of card-->
   {% endfor %}
+
 </div>

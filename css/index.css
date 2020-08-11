@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Product Sans";
     src: url("./font/ProductSans-Regular.ttf");
-    font-display: swap
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Product Sans Light";
     src: url("./font/ProductSans-Light.ttf");
-    font-display: swap
+    font-display: swap;
 }
 
 .logo {
@@ -16,7 +16,7 @@
 }
 
 * {
-    font-family: 'Product Sans', sans-serif;
+    font-family: "Product Sans", sans-serif;
 }
 
 li,
@@ -121,7 +121,7 @@ ul {
 
 .card-footer {
     border: none;
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -241,7 +241,7 @@ h4 {
     overflow: hidden;
     /* box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.1); */
     margin-bottom: 2rem;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     border-radius: 4px;
     width: fit-content;
     padding-right: 1rem;
@@ -311,7 +311,7 @@ h4 {
 
 .footer {
     width: 100%;
-    background-color: #333B3F;
+    background-color: #333b3f;
     height: 5rem;
     display: flex;
     align-content: center;
@@ -348,7 +348,7 @@ h4 {
 }
 
 .jumbotron {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
 
@@ -377,7 +377,7 @@ input {
 
 .card {
     /* Shadow 6dp */
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
 }
 
 .card,
@@ -397,13 +397,14 @@ input {
 
 .card-body {
     padding: 0.12rem;
-    font-family: 'Product Sans Light', sans-serif;
+    font-family: "Product Sans Light", sans-serif;
     /* font-size: 1rem; */
     letter-spacing: 0.04rem;
 }
 
 .card-footer a {
-    font-family: 'Product Sans Light', sans-serif;
+    color: white !important;
+    font-family: "Product Sans Light", sans-serif;
 }
 
 .footer {
@@ -411,15 +412,15 @@ input {
 }
 
 .card-footer .btn {
-    background-color: #0074d9;
-    border-color: #0074d9;
+    background-color: #3b7aab;
+    border-color: #3b7aab;
 }
 
 
 /* on the skill description page */
 
 .tmpl-skill .jumbotron {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
 }
 
 .tmpl-skill p em {
@@ -441,9 +442,8 @@ input {
     border: none;
     /* border-left: 1px solid #047bfe; border-bottom: 1px solid #047bfe; */
     border-radius: 2px;
-    font-family: 'Product Sans Light', sans-serif;
+    font-family: "Product Sans Light", sans-serif;
     padding-left: 3rem;
-    ;
 }
 
 .table-of-contents li a,
@@ -451,7 +451,7 @@ input {
 .content-style li,
 .content-style li a,
 .table-of-contents li {
-    font-family: 'Product Sans Light', sans-serif;
+    font-family: "Product Sans Light", sans-serif;
 }
 
 .content-style pre,
@@ -480,7 +480,7 @@ input {
 
 .home a,
 code {
-    font-family: 'Product Sans Light', sans-serif;
+    font-family: "Product Sans Light", sans-serif;
     font-size: 1rem;
 }
 
@@ -517,12 +517,12 @@ hr {
 }
 
 .content-style nav ol li {
-    display: block
+    display: block;
 }
 
 .content-style nav ol li:before {
     content: counters(item, ".") " ";
-    counter-increment: item
+    counter-increment: item;
 }
 
 
@@ -582,4 +582,24 @@ label {
 body {
     height: 100vh;
     min-height: 100%;
+}
+
+blockquote {
+    border-left: 5px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
 }

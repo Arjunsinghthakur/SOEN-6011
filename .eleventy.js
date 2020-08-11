@@ -7,7 +7,6 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItTocDoneRight = require("markdown-it-toc-done-right");
 
-
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
@@ -42,6 +41,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("favicon.ico");
+
 
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({

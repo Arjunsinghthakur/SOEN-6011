@@ -1,29 +1,22 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: Home
-  order: 1
 ---
 
 <div class="jumbotron jumbotron-fluid text-center" style=" margin-bottom:0">
   <h1 class="display-1 text-xs-center p-b-1 m-b-1 animate__animated animate__fadeIn" data-wow-duration="2000s" data-wow-delay="2s" style="letter-spacing: 0.2px;" >
-<img class="logo align-middle" src="{{ '/img/mountain.svg' | url }}" width="200" height="200">
-  
+    <img class="logo align-middle" src="{{ '/img/mountain.svg' | url }}" alt="logo" width="200" height="200">
   SESTOPIA</h1>
-  <p class="animate__animated animate__fadeIn" data-wow-duration="2000s" style="letter-spacing: 0.3px;" >Get Information on major aspects of Software Enginerring process</p>
-
+  <p class="animate__animated animate__fadeIn" data-wow-duration="2000s" style="letter-spacing: 0.3px;" >Get Information on major aspects of Software Engineering process</p>
   <div class="container animate__animated animate__fadeIn d-flex justify-content-center" >
-
-    {# <input type="search"  id="search-input" placeholder="Enter your text to search" aria-describedby="searchHelp"><a href="/search" class="search" id="search-link">Search</a></input> #}
     <div class="search-ui nav-item">
-      <label for ="search-str">search here</label>
-      <input type="text" id="search-str" class="search-str form-control" onfocus="/search"/ placeholder="Enter you search keywords here"></input>
-      
+      <form action="https://www.google.com/search" method="get" class="search">
+        <label for ="search-str">search here</label>
+        <input type="hidden" name="q" id="q" value="site:{{metadata.url}}">
+        <input type="text" name="q" id="search-str" class="search-str form-control" placeholder="Enter you search keywords here">
+      </form>
       <ol class="search-results list-group"></ol>
     </div>
-
   </div>
-
 </div>
 
 <h1 class="display-4 animate__animated animate__fadeIn" style="text-align:center; margin-top:3rem;">All Skills</h1>

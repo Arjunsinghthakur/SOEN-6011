@@ -3,14 +3,19 @@ new WOW().init();
 
 (function() {
 
-    var searchIndex = null;
-    var searchUI = document.querySelector('.search-ui');
-    var resultsUI = document.querySelector('.search-results');
-    var searchInput = document.querySelector('#search-str');
-    var footer = document.querySelector('footer');
+    let searchIndex = null;
+    const resultsUI = document.querySelector('.search-results');
+    const searchInput = document.querySelector('#search-str');
+    const footer = document.querySelector('footer');
+    $(window).keydown(function(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+            return false;
+        }
+    });
 
-    var btnHandler = function(selector, callback) {
-            var btn = document.querySelector(selector);
+    const btnHandler = function(selector, callback) {
+            const btn = document.querySelector(selector);
             if (!btn) { return; }
             btn.addEventListener('click', function(event) {
                 event.preventDefault();
@@ -18,7 +23,7 @@ new WOW().init();
             }, false);
         }
         // clear the current results
-    var clearResults = function() {
+    const clearResults = function() {
         while (resultsUI.firstChild) {
             resultsUI.removeChild(resultsUI.firstChild);
         }
@@ -28,16 +33,22 @@ new WOW().init();
     }
 
     // search and display
-    var find = function(str) {
+    const find = function(str) {
 
         str = str.toLowerCase();
         // look for matches in the search JSON
-        var results = [];
-        for (var item in searchIndex) {
-            var found = searchIndex[item].text.indexOf(str);
-            if (found != -1) {
-                results.push(searchIndex[item])
+        const results = [];
+        searchIndex.forEach(item => {
+
+        })
+        for (const item in searchIndex) {
+            if (Object.prototype.hasOwnProperty.call(searchIndex, item)) {
+                const found = searchIndex[item].text.indexOf(str);
+                if (found != -1) {
+                    results.push(searchIndex[item])
+                }
             }
+
         }
 
 
@@ -45,24 +56,26 @@ new WOW().init();
         clearResults();
         footer.classList.add('invisible');
         if (results.length == 0) {
-            var listItem = document.createElement('li');
+            const listItem = document.createElement('li');
             listItem.textContent = "No results found"
             resultsUI.appendChild(listItem);
         }
-        for (var item in results) {
-            var listItem = document.createElement('li');
-            var link = document.createElement('a');
-            var p = document.createElement('p');
+        for (const item in results) {
+            if (Object.prototype.hasOwnProperty.call(results, item)) {
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                const p = document.createElement('p');
+                const found = [...results[item].text.matchAll(str)];
+                const firstIdx = found[0].index;
+                link.textContent = `${results[item].title} (${found.length})`;
+                const searchText = found[0].input.substring(firstIdx, firstIdx + 50);
+                p.innerHTML = `...<strong>${str}</strong>  ${searchText.substring(str.length)}...`
+                link.setAttribute('href', results[item].url);
+                listItem.appendChild(link);
+                listItem.appendChild(p)
+                resultsUI.appendChild(listItem);
+            }
 
-            var found = [...results[item].text.matchAll(str)];
-            var firstIdx = found[0].index;
-            link.textContent = `${results[item].title} (${found.length})`;
-            var searchText = found[0].input.substring(firstIdx, firstIdx + 50);
-            p.innerHTML = `...<strong>${str}</strong>  ${searchText.substring(str.length)}...`
-            link.setAttribute('href', results[item].url);
-            listItem.appendChild(link);
-            listItem.appendChild(p)
-            resultsUI.appendChild(listItem);
         }
     }
 
@@ -71,12 +84,12 @@ new WOW().init();
 
         // get the data
         searchIndex = await fetch('/search.json').then((res) => res.json()).then((res) => res.search);
-       
+
         searchInput.focus();
 
         // listen for input changes
-        searchInput.addEventListener('keyup', function(event) {
-            var str = searchInput.value
+        searchInput.addEventListener('input', function(event) {
+            const str = searchInput.value
             if (str.length > 2) {
                 find(str);
             } else {
