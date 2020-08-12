@@ -525,6 +525,9 @@ hr {
     counter-increment: item;
 }
 
+.content-style details, .content-style details *{
+    background-color: inherit;
+}
 
 /* ============================/* DARK THEME STYLING ENDS HERE ============================================= */
 
