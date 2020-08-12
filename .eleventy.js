@@ -6,12 +6,12 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItTocDoneRight = require("markdown-it-toc-done-right");
-
+const readingTime = require('eleventy-plugin-reading-time');
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
     eleventyConfig.addPlugin(pluginNavigation);
-
+    eleventyConfig.addPlugin(readingTime);
     eleventyConfig.setDataDeepMerge(true);
 
     eleventyConfig.addLayoutAlias("skill", "layouts/skill.njk");
