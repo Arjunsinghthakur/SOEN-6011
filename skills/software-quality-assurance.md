@@ -7,7 +7,6 @@ tags:
 layout: layouts/skill.njk
 ---
 
----
 
 ## Table Of Contents
 
@@ -168,7 +167,9 @@ LTI Blog about QA in banking: https://www.lntinfotech.com/blogs/quality-assuranc
 
 **Manufacturing -** Quality control samples at a Car manufacturer indicate dropping engine quality in every batch produced over the past 3 weeks.Quality assurance investigates and finds that a supplier has changed the materials in a part. They push the supplier to fix the problem.
 
-Atlas Copco Industrial Tools & Solutions QA process: https://www.youtube.com/watch?v=3GU9KJ4y2w8
+Atlas Copco Industrial Tools & Solutions QA process: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3GU9KJ4y2w8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Role of Academia or Industry in Cultivating the Skill
 
