@@ -39,7 +39,7 @@
 <div class="jumbotron text-center heading">
     <h1>Database Management System (DBMS)</h1>
     <p>
-        Authored by <em>Harsh Vaghani</em>
+        Authored by <em></em>
     </p>
     <p>
         Under <em>Computational Foundation</em> Knowledge Area
@@ -53,9 +53,8 @@
 <div class="container" style="margin-top:30px">
     <div class="row">
         <div class="col-sm-9 content-style">
-            <h2 id="table-of-contents">Table Of Contents <a class="direct-link" href="#table-of-contents">#</a></h2>
-<nav class="table-of-contents"><ol><li><a href="#table-of-contents">Table Of Contents </a></li><li><a href="#name-of-the-skill">Name of the Skill </a></li><li><a href="#classification-of-skill">Classification of Skill </a><ol><li><a href="#classification-based-on-data-model">Classification Based on Data Model </a></li><li><a href="#classification-based-on-user-numbers">Classification Based on User Numbers </a></li><li><a href="#classification-based-on-database-distribution">Classification Based on Database Distribution </a></li></ol></li><li><a href="#prerequisites-for-skill">Prerequisites for Skill </a></li><li><a href="#related-software-engineering-area(s)">Related Software Engineering Area(s) </a><ol><li><a href="#data-query-language-(dql)">Data Query Language (DQL) </a></li><li><a href="#data-controll-language-(dcl)">Data Controll Language (DCL) </a></li><li><a href="#data-manipulation-language-(dml)">Data Manipulation Language (DML) </a></li><li><a href="#data-definition-language-(ddl)">Data Definition Language (DDL) </a></li></ol></li><li><a href="#rationale-for-skill">Rationale for Skill </a><ol><li><a href="#effective-data-integration">Effective Data Integration </a></li><li><a href="#consistent-data-that-complies-with-regulations">Consistent Data That Complies With Regulations </a></li><li><a href="#increase-in-productivity-of-the-end-user">Increase in Productivity of the End User </a></li><li><a href="#quick-decision-making">Quick Decision Making </a></li><li><a href="#multi-access">Multi Access </a></li></ol></li><li><a href="#roles-for-skill">Roles for Skill </a></li><li><a href="#work-related-to-skill-(related-activities-and-artifacts)">Work Related to Skill (Related Activities and Artifacts) </a></li><li><a href="#real-world-example%2Fscenario-of-skill-(text%2C-graphic%2C-audio%2C-video)">Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video) </a><ol><li><a href="#order-management-system-database">Order management system database </a></li><li><a href="#health-care-provide-database">Health care provide database </a></li><li><a href="#scientific-database">Scientific Database </a></li><li><a href="#nonprofit-organization-database">Nonprofit organization database </a></li></ol></li><li><a href="#role-of-academia-or-industry-in-cultivating-the-skill">Role of Academia or Industry in Cultivating the Skill </a></li><li><a href="#tools-supporting-the-skill">Tools Supporting the Skill </a></li><li><a href="#skill-self-assessment-(my-skill-score-(1-%E2%80%93-10)-and-reasons-for-self-assigned-score)">Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score) </a></li><li><a href="#references">References </a></li></ol></nav><p><img src="https://blogs.bmc.com/wp-content/uploads/2016/06/database-blue.png" alt="Database-intro-image"><br>
-A Database Management System (DBMS) is a software designed to store, managed, define and to retrieve the data in a database.</p>
+            <p><img src="https://blogs.bmc.com/wp-content/uploads/2016/06/database-blue.png" alt="Database-intro-image"></p>
+<p>A Database Management System (DBMS) is a software designed to store, managed, define and to retrieve the data in a database.</p>
 <h2 id="name-of-the-skill">Name of the Skill <a class="direct-link" href="#name-of-the-skill">#</a></h2>
 <hr>
 <p>Database Management System (DBMS)</p>
@@ -63,25 +62,34 @@ A Database Management System (DBMS) is a software designed to store, managed, de
 <hr>
 <p>Database management systems can be classified based on several criteria, such as the data model, user numbers and database distribution, all described below.</p>
 <h3 id="classification-based-on-data-model">Classification Based on Data Model <a class="direct-link" href="#classification-based-on-data-model">#</a></h3>
-<ul>
-<li>The most popular data model in use today is the relational data model. Well-known DBMSs like Oracle, MS SQL Server, DB2 and MySQL support this model. Other traditional models, such as hierarchical data models and network data models, are still used in industry mainly on mainframe platforms. However, they are not commonly used due to their complexity. These are all referred to as traditional models because they preceded the relational model.</li>
-<li>In recent years, the newer object-oriented data models were introduced. This model is a database management system in which information is represented in the form of objects as used in object-oriented programming. Object-oriented databases are different from relational databases, which are table-oriented. Object-oriented database management systems (OODBMS) combine database capabilities with object-oriented programming language capabilities.</li>
-</ul>
+<pre><code>- The most popular data model in use today is the relational data model. Well-known DBMSs like Oracle, MS SQL Server, DB2 and MySQL support this model. Other traditional models, such as hierarchical data models and network data models, are still used in industry mainly on mainframe platforms. However, they are not commonly used due to their complexity. These are all referred to as traditional models because they preceded the relational model.
+
+- In recent years, the newer object-oriented data models were introduced. This model is a database management system in which information is represented in the form of objects as used in object-oriented programming. Object-oriented databases are different from relational databases, which are table-oriented. Object-oriented database management systems (OODBMS) combine database capabilities with object-oriented programming language capabilities.
+</code></pre>
 <h3 id="classification-based-on-user-numbers">Classification Based on User Numbers <a class="direct-link" href="#classification-based-on-user-numbers">#</a></h3>
-<ul>
-<li>A DBMS can be classification based on the number of users it supports. It can be a single-user database system, which supports one user at a time, or a multiuser database system, which supports multiple users concurrently.</li>
-</ul>
+<pre><code>- A DBMS can be classification based on the number of users it supports. It can be a single-user database system, which supports one user at a time, or a multiuser database system, which supports multiple users concurrently.
+</code></pre>
 <h3 id="classification-based-on-database-distribution">Classification Based on Database Distribution <a class="direct-link" href="#classification-based-on-database-distribution">#</a></h3>
-<ul>
-<li>There are four main distribution systems for database systems and these, in turn, can be used to classify the DBMS.</li>
-</ul>
-<ul>
-<li><strong>Centralized systems</strong>: With a centralized database system, the DBMS and database are stored at a single site that is used by several other systems too.</li>
-<li>In the early 1980s, many Canadian libraries used the GEAC 8000 to convert their manual card catalogues to machine-readable centralized catalogue systems. Each book catalogue had a barcode field similar to those on supermarket products.</li>
-<li><strong>Distributed Database System</strong>: In a distributed database system, the actual database and the DBMS software are distributed from various sites that are connected by a computer network.</li>
-<li><strong>Homogeneous distributed database</strong>: These systems use the same DBMS software from multiple sites. Data exchange between these various sites can be handled easily. For example, library information systems by the same vendor, such as Geac Computer Corporation, use the same DBMS software which allows easy data exchange between the various Geac library sites.</li>
-<li><strong>Heterogeneous distributed database systems</strong>: In this system, different sites might use different DBMS software, but there is additional common software to support data exchange between these sites. For example, the various library database systems use the same machine-readable cataloguing (MARC) format to support library record data exchange.</li>
-</ul>
+<pre><code>- There are four main distribution systems for database systems and these, in turn, can be used to classify the DBMS.
+
+Centralized systems
+
+- With a centralized database system, the DBMS and database are stored at a single site that is used by several other systems too.
+
+- In the early 1980s, many Canadian libraries used the GEAC 8000 to convert their manual card catalogues to machine-readable centralized catalogue systems. Each book catalogue had a barcode field similar to those on supermarket products.
+
+Distributed Database System
+
+- In a distributed database system, the actual database and the DBMS software are distributed from various sites that are connected by a computer network.
+
+Homogeneous distributed database systems
+
+- Homogeneous distributed database systems use the same DBMS software from multiple sites. Data exchange between these various sites can be handled easily. For example, library information systems by the same vendor, such as Geac Computer Corporation, use the same DBMS software which allows easy data exchange between the various Geac library sites.
+
+Heterogeneous distributed database systems
+
+- In a heterogeneous distributed database system, different sites might use different DBMS software, but there is additional common software to support data exchange between these sites. For example, the various library database systems use the same machine-readable cataloguing (MARC) format to support library record data exchange.
+</code></pre>
 <h2 id="prerequisites-for-skill">Prerequisites for Skill <a class="direct-link" href="#prerequisites-for-skill">#</a></h2>
 <hr>
 <ul>
@@ -92,38 +100,40 @@ A Database Management System (DBMS) is a software designed to store, managed, de
 <h2 id="related-software-engineering-area(s)">Related Software Engineering Area(s) <a class="direct-link" href="#related-software-engineering-area(s)">#</a></h2>
 <hr>
 <h3 id="data-query-language-(dql)">Data Query Language (DQL) <a class="direct-link" href="#data-query-language-(dql)">#</a></h3>
-<ul>
-<li>Data Query Language (DQL) is part of the base grouping of SQL sub-languages. These sub-languages are mainly categorized into four categories, DDL, DQL, DML and DCL. Sometimes TCL is argued to be part of the sub-language set as well. DQL statements are used for performing queries on the data within schema objects.</li>
-</ul>
+<pre><code>- Data Query Language (DQL) is part of the base grouping of SQL sub-languages. These sub-languages are mainly categorized into four categories, DDL, DQL, DML and DCL. Sometimes TCL is argued to be part of the sub-language set as well. DQL statements are used for performing queries on the data within schema objects.
+</code></pre>
 <h3 id="data-controll-language-(dcl)">Data Controll Language (DCL) <a class="direct-link" href="#data-controll-language-(dcl)">#</a></h3>
-<p>data control language is a syntax similar to a computer programming language used to control access to data stored in a database. In particular, it is a component of Structured Query Language. Examples of DCL commands include: GRANT to allow specified users to perform specified tasks.</p>
+<pre><code>-  data control language is a syntax similar to a computer programming language used to control access to data stored in a database. In particular, it is a component of Structured Query Language. Examples of DCL commands include: GRANT to allow specified users to perform specified tasks.
+</code></pre>
 <h3 id="data-manipulation-language-(dml)">Data Manipulation Language (DML) <a class="direct-link" href="#data-manipulation-language-(dml)">#</a></h3>
-<p>A data manipulation language (DML) is a computer programming language used for adding (inserting), deleting, and modifying (updating) data in a database. A DML is often a sublanguage of a broader database language such as SQL, with the DML comprising some of the operators in the language.</p>
+<pre><code>- A data manipulation language (DML) is a computer programming language used for adding (inserting), deleting, and modifying (updating) data in a database. A DML is often a sublanguage of a broader database language such as SQL, with the DML comprising some of the operators in the language.
+</code></pre>
 <h3 id="data-definition-language-(ddl)">Data Definition Language (DDL) <a class="direct-link" href="#data-definition-language-(ddl)">#</a></h3>
-<p>In the context of SQL, data definition or data description language is a syntax for creating and modifying database objects such as tables, indexes, and users. DDL statments are similar to a computer programming language for defining data structures, especially database schemas.</p>
+<pre><code>- In the context of SQL, data definition or data description language is a syntax for creating and modifying database objects such as tables, indexes, and users. DDL statments are similar to a computer programming language for defining data structures, especially database schemas.
+</code></pre>
 <h2 id="rationale-for-skill">Rationale for Skill <a class="direct-link" href="#rationale-for-skill">#</a></h2>
 <hr>
 <h3 id="effective-data-integration">Effective Data Integration <a class="direct-link" href="#effective-data-integration">#</a></h3>
-<p>Implementing a data management system promotes an integrated picture of an organization’s operations. It becomes easy to see how processes in one segment of the organization affect other segments.</p>
+<pre><code>- Implementing a data management system promotes an integrated picture of an organization’s operations. It becomes easy to see how processes in one segment of the organization affect other segments.
+</code></pre>
 <h3 id="consistent-data-that-complies-with-regulations">Consistent Data That Complies With Regulations <a class="direct-link" href="#consistent-data-that-complies-with-regulations">#</a></h3>
-<ul>
-<li>Data inconsistency occurs when different versions of the same data exist in different places in an organization. By using a proper management system and data quality management tools, you can be sure that an all-encompassing view of your data is shared throughout your organization.</li>
-<li>In addition, data management systems provide a better framework for the enforcement of data privacy and security policies. More effective management means better transparency and mitigated risk of breaching regulations</li>
-</ul>
+<pre><code>- Data inconsistency occurs when different versions of the same data exist in different places in an organization. By using a proper management system and data quality management tools, you can be sure that an all-encompassing view of your data is shared throughout your organization. 
+- In addition, data management systems provide a better framework for the enforcement of data privacy and security policies. More effective management means better transparency and mitigated risk of breaching regulations
+</code></pre>
 <h3 id="increase-in-productivity-of-the-end-user">Increase in Productivity of the End User <a class="direct-link" href="#increase-in-productivity-of-the-end-user">#</a></h3>
-<ul>
-<li>Deploying a database management system, assuming positive end-user adoption, will always result in increased productivity for the users. Data management systems empower the end users to make quick and informed decisions that can contribute to the success or failure of an organization in the long run.</li>
-</ul>
+<pre><code>- Deploying a database management system, assuming positive end-user adoption, will always result in increased productivity for the users. Data management systems empower the end users to make quick and informed decisions that can contribute to the success or failure of an organization in the long run.
+</code></pre>
 <h3 id="quick-decision-making">Quick Decision Making <a class="direct-link" href="#quick-decision-making">#</a></h3>
-<ul>
-<li>With better data management systems and procedures comes higher quality information.</li>
-<li>A database management system helps in providing a framework to facilitate data quality initiatives. In turn, higher quality information helps in making better, faster decisions in an organization.</li>
-</ul>
+<pre><code>- With better data management systems and procedures comes higher quality information.
+
+- A database management system helps in providing a framework to facilitate data quality initiatives. In turn, higher quality information helps in making better, faster decisions in an organization.
+</code></pre>
 <h3 id="multi-access">Multi Access <a class="direct-link" href="#multi-access">#</a></h3>
-<p><img src="https://cdn.goskills.com/blobs/blogs/262/8.jpg" alt="Multi-access-image"> - A database management system makes it possible for multiple authorized users to access the same database from different places, in different ways, to fulfill different intents.</p>
-<ul>
-<li>For instance, an HR admin can evaluate yearly salary raises by accessing employees’ present pay and increment increase decided by their manager to determine that amount. At the same time, the development team can access the same database to recruit a temp to replace a team member who has fallen ill.</li>
-</ul>
+<p><img src="https://cdn.goskills.com/blobs/blogs/262/8.jpg" alt="Multi-access-image"></p>
+<pre><code>- A database management system makes it possible for multiple authorized users to access the same database from different places, in different ways, to fulfill different intents.
+
+- For instance, an HR admin can evaluate yearly salary raises by accessing employees’ present pay and increment increase decided by their manager to determine that amount. At the same time, the development team can access the same database to recruit a temp to replace a team member who has fallen ill. 
+</code></pre>
 <h2 id="roles-for-skill">Roles for Skill <a class="direct-link" href="#roles-for-skill">#</a></h2>
 <hr>
 <ul>
@@ -144,24 +154,20 @@ A Database Management System (DBMS) is a software designed to store, managed, de
 <p>To say that the databases are everywhere would be an understatement. They virtually permeate our lives: Online stores, health care providers, clubs, libraries, video stores, beauty salons, travel agencies, phone companies, government agencies like FBI, INS, IRS, and NASA — they all use databases. These databases can be very different in their nature and usually have to be specifically designed to cater to some special customer needs. Here are some examples.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whmYCRfB4lQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 id="order-management-system-database">Order management system database <a class="direct-link" href="#order-management-system-database">#</a></h3>
-<ul>
-<li>A typical database for a company that sells building materials might be arranged as follows: The company must have at least one customer. Each customer in the database is assigned one or more addresses, one or more contact phones, and a default salesperson who is the liaison between the customer and the company. The company sells a variety of products. Each product has a price, a description, and some other characteristics. Orders can be placed for one or more product at a time. Each product logically forms an order line. When an order is complete it can be shipped and then invoiced. Invoice number and shipment number are populated automatically in the database and can not be changed by users. Each order has a status assigned to it: COMPLETE, SHIPPED, INVOICED, and so on. The database also contains specific shipment information (bill of lading number, number of boxes shipped, dates, and so on). Usually one shipment contains one order, but the database is designed in such a way that one order can be distributed between more than one shipment, as well as one shipment can contain more than one order. Some constraints also exist in the database. For example, some fields cannot be empty, and some other fields can contain only certain types of information.</li>
-</ul>
+<pre><code>- A typical database for a company that sells building materials might be arranged as follows: The company must have at least one customer. Each customer in the database is assigned one or more addresses, one or more contact phones, and a default salesperson who is the liaison between the customer and the company. The company sells a variety of products. Each product has a price, a description, and some other characteristics. Orders can be placed for one or more product at a time. Each product logically forms an order line. When an order is complete it can be shipped and then invoiced. Invoice number and shipment number are populated automatically in the database and can not be changed by users. Each order has a status assigned to it: COMPLETE, SHIPPED, INVOICED, and so on. The database also contains specific shipment information (bill of lading number, number of boxes shipped, dates, and so on). Usually one shipment contains one order, but the database is designed in such a way that one order can be distributed between more than one shipment, as well as one shipment can contain more than one order. Some constraints also exist in the database. For example, some fields cannot be empty, and some other fields can contain only certain types of information.
+</code></pre>
 <h3 id="health-care-provide-database">Health care provide database <a class="direct-link" href="#health-care-provide-database">#</a></h3>
-<ul>
-<li>A health provider company has multiple offices in many different states. Many doctors work for the company, and each doctor takes care of multiple patients. Some doctors just work in one office, and others work in different offices on different days. The database keeps information about each doctor, such as name, address, contact phones, area of specialization, and so on. Each patient can be assigned to one or more doctors. Specific patient information is also kept in the database (name, address, phones, health record number, date of birth, history of appointments, prescriptions, blood tests, diagnoses, etc.). Customers can schedule and cancel appointments and order prescription drugs either over the phone or using the company Web site. Some restrictions apply — for example, to see a specialist, the patient needs an approval from his/her primary physician; to order a prescription the patient should have at least one valid refill left, and so on.</li>
-</ul>
+<pre><code>- A health provider company has multiple offices in many different states. Many doctors work for the company, and each doctor takes care of multiple patients. Some doctors just work in one office, and others work in different offices on different days. The database keeps information about each doctor, such as name, address, contact phones, area of specialization, and so on. Each patient can be assigned to one or more doctors. Specific patient information is also kept in the database (name, address, phones, health record number, date of birth, history of appointments, prescriptions, blood tests, diagnoses, etc.). Customers can schedule and cancel appointments and order prescription drugs either over the phone or using the company Web site. Some restrictions apply — for example, to see a specialist, the patient needs an approval from his/her primary physician; to order a prescription the patient should have at least one valid refill left, and so on.
+</code></pre>
 <h3 id="scientific-database">Scientific Database <a class="direct-link" href="#scientific-database">#</a></h3>
-<ul>
-<li>A database for genome research and related research areas in molecular and cellular biology can be a good example of a scientific database. It contains gene catalogs for completely sequenced genomes and some partial genomes, genome maps and organism information, and data about sequence similarities among all known genes in all organisms in the database. It also contains information on molecular interaction networks in the cell and chemical compounds and reactions.<br>
-This database has just one user group — all researchers have the same access to all the information. This is an example of a data warehouse.</li>
-</ul>
+<pre><code>- A database for genome research and related research areas in molecular and cellular biology can be a good example of a scientific database. It contains gene catalogs for completely sequenced genomes and some partial genomes, genome maps and organism information, and data about sequence similarities among all known genes in all organisms in the database. It also contains information on molecular interaction networks in the cell and chemical compounds and reactions.
+This database has just one user group — all researchers have the same access to all the information. This is an example of a data warehouse.
+</code></pre>
 <h3 id="nonprofit-organization-database">Nonprofit organization database <a class="direct-link" href="#nonprofit-organization-database">#</a></h3>
-<ul>
-<li>A database of an antique automobile club can be pretty simple. Also, such an organization would not typically have too many members, so the database is not going to be very large. You need to store members' personal information such as address, phone number, area of interest, and so on. The database might also contain the information about the autos (brand, year, color, condition, etc.). Autos are tied to their owners (members of the club). Each member can have one or more vehicles, and a vehicle can be owned by just one member.<br>
-The database would only have a few users — possibly, the chairman of the club, an assistant, and a secretary.<br>
-The last two examples are not business-critical databases and don't have to be implemented on expensive enterprise software. The data still have to be kept safely and should not be lost, but in case of, let's say, hardware failure it probably can wait a day or two before the database is restored from a backup. So, the use of a free database, like mySQL, PostgreSQL, or even nonrelational Posgres is appropriate. Another good choice might be MS Access, which is a part of Microsoft Office Tools; if you bought MS Office just because you want to use Word and Excel, you should be aware that you've got a free relational database as well.</li>
-</ul>
+<pre><code>- A database of an antique automobile club can be pretty simple. Also, such an organization would not typically have too many members, so the database is not going to be very large. You need to store members' personal information such as address, phone number, area of interest, and so on. The database might also contain the information about the autos (brand, year, color, condition, etc.). Autos are tied to their owners (members of the club). Each member can have one or more vehicles, and a vehicle can be owned by just one member.
+The database would only have a few users — possibly, the chairman of the club, an assistant, and a secretary.
+The last two examples are not business-critical databases and don't have to be implemented on expensive enterprise software. The data still have to be kept safely and should not be lost, but in case of, let's say, hardware failure it probably can wait a day or two before the database is restored from a backup. So, the use of a free database, like mySQL, PostgreSQL, or even nonrelational Posgres is appropriate. Another good choice might be MS Access, which is a part of Microsoft Office Tools; if you bought MS Office just because you want to use Word and Excel, you should be aware that you've got a free relational database as well.
+</code></pre>
 <h2 id="role-of-academia-or-industry-in-cultivating-the-skill">Role of Academia or Industry in Cultivating the Skill <a class="direct-link" href="#role-of-academia-or-industry-in-cultivating-the-skill">#</a></h2>
 <hr>
 <ul>
@@ -207,7 +213,9 @@ The last two examples are not business-critical databases and don't have to be i
 </ol>
 <h2 id="skill-self-assessment-(my-skill-score-(1-%E2%80%93-10)-and-reasons-for-self-assigned-score)">Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score) <a class="direct-link" href="#skill-self-assessment-(my-skill-score-(1-%E2%80%93-10)-and-reasons-for-self-assigned-score)">#</a></h2>
 <hr>
-<p>6 - Less experince with the working projects.</p>
+<ol start="6">
+<li>Less experince with the working projects.</li>
+</ol>
 <h2 id="references">References <a class="direct-link" href="#references">#</a></h2>
 <hr>
 <ol>
