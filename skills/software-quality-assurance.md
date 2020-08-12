@@ -3,7 +3,7 @@ title: Software Quality Assurance
 description: This is a skill on Software Quality
 author: Vijayaprabhu Valluvan
 tags:
-  - Software Quality Assurance
+  - Software Quality
 layout: layouts/skill.njk
 ---
 
