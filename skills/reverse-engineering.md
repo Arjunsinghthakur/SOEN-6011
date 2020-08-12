@@ -50,22 +50,31 @@ Preventive Maintenance - This includes modifications and updations to prevent fu
 ## Roles for Skill
 ---
 1. Software Reverse Engineering Analyst
+   [Requirements] https://www.linkedin.com/jobs/view/senior-software-reverse-engineering-analyst-at-techinsights-1928822326/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&originalSubdomain=ca
 2. Software maintenance Specialist
 
 ## Work Related to Skill (Related Activities and Artifacts)
 ---
 * Data Restructuring
-* Code Restructuring
+  It is the process to restructure the source data to the target data during data transformation.
+* Code Refactoring
+  It is the process of restructuring existing computer code—changing the factoring—without changing its external behavior.
 
 ## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CjMAMzke7nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Reverse engineering, also called back engineering, is the process by which a man-made object is deconstructed to reveal its designs, architecture, code or to extract knowledge from the object.
+
+Reverse engineering, also called back engineering, is the process by which a man-made object is deconstructed to reveal its designs, architecture, code or to extract knowledge from the object. This general defition as coined in [Wikipedia](https://en.wikipedia.org/wiki/Reverse_engineering) justifies that reverse engineering can be applicable in field. 
+
+> "Basically, if reverse engineering is banned, then a lot of the open source community is doomed to fail." -Jon Lech Johansen
 
 ## Role of Academia or Industry in Cultivating the Skill
 ---
-### 
+Most engineering programs provide a course on Reverse Enigeering. The skill is considered to be crucial for making new innovations. 
+In the time where we have technically acheived a tons, reverse engineering old systems can be very insightful and inspire and guide us to create something new. 
+
+More often than not, many companies perform reverse engineering on a particular technology or product to make a better or similar version of the same. An implementation of such an activity can also be seen in negative [news] https://www.kitguru.net/lifestyle/mobile/damien-cox/huawei-has-been-accused-of-reverse-engineering-apple-tech/
 
 ## Tools Supporting the Skill
 ---
@@ -81,3 +90,6 @@ Reverse engineering, also called back engineering, is the process by which a man
 
 ## References
 ---
+1. [Wikipedia]https://en.wikipedia.org/wiki/Reverse_engineering
+2. [Intro]https://medium.com/swlh/intro-to-reverse-engineering-45b38370384#:~:text=Reverse%20engineering%20is%20a%20process,to%20hack%20it%20more%20effectively.
+3. [Tools] https://techbeacon.com/security/reverse-engineering-attacks-6-tools-your-team-needs-know
