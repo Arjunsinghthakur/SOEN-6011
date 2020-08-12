@@ -10,7 +10,8 @@ layout: layouts/skill.njk
 ## Table Of Contents
 
 [toc]
-Software configuration control deals with the management of changes in various phases of software development. By using a **disciplined approach to change management**, new changes can be incorporated into the software product. This is crucial in software development because the requirements can change at any point of the development process. This skill falls in line with Agile approach to software development as requirements change often.
+Software configuration control deals with the management of changes in various phases of software development . By using a **disciplined approach to change management**, new changes can be incorporated into the software product [[1]](https://www.computer.org/education/bodies-of-knowledge/software-engineering). This is crucial in software development because the requirements can change at any point of the development process. This skill falls in line with Agile approach to software development as requirements change often.
+
 Changes are needed even after the software is delivered to the client, for example a client might need to incorporate a new payment system to their existing web application. Or a client might want to improve their response time of their existing site. Thereby also playing a part in maintenance activities too
 Having a change management tool helps the software development process by
 
@@ -34,6 +35,7 @@ Software configuration control for most part is a **technical** skill, as it inc
 
 ---
 
+- Experience in software development
 - Exposure to change management tools like Ansible, Chef, Jenkins, Jira
 - Knowledge of version control systems like Git
 
@@ -57,10 +59,10 @@ Includes management activities such as planning, managing resources, time, devel
 
 ---
 
-- Having traceability built into your software development pipeline, benefits not only in development but also in project management and quality assurance.
+- Having traceability built into your software development pipeline, benefits not only in development but also in project management and quality assurance [[2]](https://www.perforce.com/solutions/application-lifecycle-management/change-management).
 - Without a system for change management, there is no way of knowing what components of the system would be affected by a new change.
 - Version Control System for the source code, helps in managing different versions of the software over the course of the development
-- VCS would also help teams to work independently from each other, but at the same time allow them to collaborate together to develop one final merged common version.
+- VCS would also help teams to work independently from each other, but at the same time allow them to collaborate together to develop one final merged common version [[3]](https://www.atlassian.com/git/tutorials/what-is-version-control).
 - As a VCS would track changes of the entire project over time, the developers have the freedom to experiment with the source code and revert back to an earlier version if needed without any problems.
 - By having a change control board, the changes can be approved or rejected, as not all changes can be pursued with the constraints like budget, time, expertise, effort.
 
@@ -74,7 +76,7 @@ Software configuration control is a skill that is crucial in all stages of a sof
 
 A devops engineer is well versed in the entire software development pipeline from development to workflow, In most cases developers often assume the responsibility of a devops engineer to deploy code themselves, but it is generally better to separate the roles so that everyone can do well in their respective tasks without compromising on software quality.
 
-- One of the most important tasks of a devops engineer is to co-ordinate with the development team and the IT deployment to manage software releases quickly and efficiently.
+- One of the most important tasks of a devops engineer is to co-ordinate with the development team and the IT deployment to manage software releases quickly and efficiently [[4]](https://www.atlassian.com/devops).
 - They have to be well versed in cloud platforms like AWS, Azure, GCP and must be able to choose a service that best fits the needs of their stakeholders
 - Continuous Integration/Continuous Deployment is also something a devops engineer must be skilled at, this helps in rolling out features quickly. For smoother deployments it is the responsibility of a devops engineer to automate the build pipeline, including testing
 
@@ -92,7 +94,7 @@ A system administrator is some one who is responsible for the smooth upkeep of t
 
 ### Software Developer
 
-The skills gained from configuration control also translate well into software development. Most companies require that their software development teams handle the deployment too, So it is always good for a software developer to know about deployment, change management as it is always included in the job description whether it be a backend engineer, database engineer, front end engineer. Some of the [responsibilitues of software developer](https://www.roberthalf.com.au/employers/it-technology/software-developer-jobs) include:
+The skills gained from configuration control also translate well into software development. Most companies require that their software development teams handle the deployment too, So it is always good for a software developer to know about deployment, change management as it is always included in the job description whether it be a backend engineer, database engineer, front end engineer. Some of the [responsibilities of software developer](https://www.roberthalf.com.au/employers/it-technology/software-developer-jobs) include:
 
 - Researching, designing, implementing and managing software programs
 - Testing and evaluating new programs
@@ -113,7 +115,7 @@ In change control management, a project manager also plays a crucial role, as th
 
 ### Participate in Code Reviews
 
-Code reviews help in improving the quality of source code, as developers can look at new ways to solve the same problem. It also helps in maintaining consistency in coding practices throughout the whole project so that it is easier to maintain. Code reviews can also help in knowledge transfer as developers can understand the code base if they participate in code reviews with developers.
+Code reviews help in improving the quality of source code, as developers can look at new ways to solve the same problem. It also helps in maintaining consistency in coding practices throughout the whole project so that it is easier to maintain. Code reviews can also help in knowledge transfer as developers can understand the code base if they participate in code reviews with developers [[5]](https://google.github.io/eng-practices/review/reviewer/).
 
 ### Collaborate with Change Control Board
 
@@ -131,7 +133,7 @@ Software development becomes complex as the code base grows in size over time, T
 
 Having a Version control system allows developers to work freely on any part of the system and have a system to merge conflicts if any. But having a VCS alone wouldn't be sufficient, there is a rising need to deliver high quality software quickly and efficiently. This can be done by integrating testing and deployment to the workflow. For example whenever a new change is made to the central repository, the code base would be tested for defects and if there are no defects the new change can be deployed to production almost immediately. By having development,testing,deployment integrate with each other, developers can make deliver software features at a faster rate than ever before.
 
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+## Real-World Example
 
 ---
 
@@ -145,9 +147,9 @@ Having a Version control system allows developers to work freely on any part of 
 
 [Spinnaker](https://spinnaker.io/) allowed the netflix team to move fast at a global scale, allowing developers to make "rapid changes" with confidence. So, teams can focus more on developing the "right" product and spend less on the deployment details. Extensibility was one of their primary goals for spinnaker.
 
-> "Spinnaker is an open source multi-cloud Continuous Delivery platform for releasing software changes with high velocity and confidence. " - [Netflix Tech Blog](https://netflixtechblog.com/global-continuous-delivery-with-spinnaker-2a6896c23ba7)
+> "Spinnaker is an open source multi-cloud Continuous Delivery platform for releasing software changes with high velocity and confidence. " - [Netflix Tech Blog [6]](https://netflixtechblog.com/global-continuous-delivery-with-spinnaker-2a6896c23ba7)
 
-Before spinnaker they were using [Asgard](https://netflixtechblog.com/moving-from-asgard-to-spinnaker-a000b2f7ed17) which allowed them to efficiently automate AWS deployments, but one of its main drawbacks was it wasn't extensible with other CI/CD tools like jenkins this made them look into developing something that is extremely extensible, enable repeatable automated deployments, operationally resillient, Thus spinnaker was born. Ultimately, it's main goal is to [improve developer productivity](https://thenewstack.io/netflix-built-spinnaker-high-velocity-continuous-delivery-platform/) through automation making their jobs easier when working on a complex software project.
+Before spinnaker they were using [Asgard](https://netflixtechblog.com/moving-from-asgard-to-spinnaker-a000b2f7ed17) which allowed them to efficiently automate AWS deployments, but one of its main drawbacks was it wasn't extensible with other CI/CD tools like jenkins this made them look into developing something that is extremely extensible, enable repeatable automated deployments, operationally resillient, Thus spinnaker was born. Ultimately, it's main goal is to [improve developer productivity[7]](https://thenewstack.io/netflix-built-spinnaker-high-velocity-continuous-delivery-platform/) through automation making their jobs easier when working on a complex software project.
 
 ![Spinnaker](https://miro.medium.com/max/875/0*QWuMAV9aACZiLL0a.)
 
@@ -161,9 +163,9 @@ To release features fast, _automation_ and _insights_ are key to their developme
 
 > "Make every detail perfect and limit the number of details to perfect." - Jack Dorsey, CEO of Twitter
 
-this case study focuses on how [twitter managed to plan a controlled software release](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/bts-of-launching-the-new-twitter.html) to its users, by [actively listening to their feedback](https://www.wired.com/story/twitter-website-redesign/) and delivering a design that is well received by everyone who was using it.
+this case study focuses on how [twitter managed to plan a controlled software release [8]](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/bts-of-launching-the-new-twitter.html) to its users, by [actively listening to their feedback [9]](https://www.wired.com/story/twitter-website-redesign/) and delivering a design that is well received by everyone who was using it.
 
-> "Our goal was to create one codebase - one website - capable of delivering the best experience possible to each person." - [Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/buildingthenewtwitter.html)
+> "Our goal was to create one codebase - one website - capable of delivering the best experience possible to each person." - [Twitter [10]](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/buildingthenewtwitter.html)
 
 One of the problems faced by the twitter team was that it was difficult to bring all of twitter's features to the web due to their old architectural design decisions. So they decided to rebuild their site completely from scratch. This is not a small task, as all the features from the old site have to be migrated to the new site, which takes a considerable amount of time as they had at least hundreds of them.
 
@@ -217,18 +219,36 @@ Automation is key when controlling changes at large scale, when there is less ro
 
 ---
 
-- Git
-- Jira
+- Version Control Systems like [Git](https://git-scm.com/), [SVN](https://subversion.apache.org/), [Mercurial](https://www.mercurial-scm.org/) to track changes in software
+- Issue and project tracking software like [Jira](https://www.atlassian.com/software/jira), it was initially used to track bugs but has now evolved into a management tool.
+- Continuous Integration tools like [Jenkins](https://www.jenkins.io/), [Travis CI](https://travis-ci.org/) automate the process of testing and perform various build steps before deploying them.
+- Configuration management tools like [chef, ansible, puppet](https://www.edureka.co/blog/chef-vs-puppet-vs-ansible-vs-saltstack/) that are used to deploy, configure and manage servers
 
 ## Skill Self-Assessment
 
 ---
 
-6 - Less experience in working on a project with huge number of collaborators
+6
+
+**Reason**
+
+I have experience in using version control systems like git and have also taken a course online that covers [concepts behind git](https://www.pluralsight.com/courses/master-git) in detail. In addition to that, I have used continuous integration tools like Jenkins, Travis CI with multiple projects to accelerate my workflow. But learning these tools alone would not make a person expert at this skill, there are a lot of non technical and managerial skills that I have to learn before I can call myself an expert.
+
+I currently have less exposure in working on large and complex software projects, which is the justification behind my score. Most of the projects I've worked on to date are either personal or for academia, so they are always easier to manage and configure. Moreover, because there are less collaborators, most of the decisons regarding change management are in my control but that's not the case when working in an industry, a lot of factors have to be considered before deciding to work on a change. Software configuration control plays a role in all stages of the development lifecycle, so to be an expert you need to know a little bit of everything ranging from deployment, testing, development, automation.
 
 ## References
 
 ---
 
-1. [Distributed VCS](https://medium.com/faun/centralized-vs-distributed-version-control-systems-a135091299f0)
-2. [Git](https://git-scm.com/)
+1. [SWEBOK V3](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
+2. [What Is Change Management in Software Development? | Perforce](https://www.perforce.com/solutions/application-lifecycle-management/change-management)
+3. [What is version control | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/what-is-version-control)
+4. [What is DevOps? | Atlassian](https://www.atlassian.com/devops)
+5. [How to do a code review | Google](https://google.github.io/eng-practices/review/reviewer/)
+6. [Global Continuous Delivery with Spinnaker | Netflix Tech Blog](https://netflixtechblog.com/global-continuous-delivery-with-spinnaker-2a6896c23ba7)
+7. [How Netflix Built Spinnaker, a High-Velocity Continuous Delivery Platform | The New Stack](https://thenewstack.io/netflix-built-spinnaker-high-velocity-continuous-delivery-platform/)
+8. [Behind the scenes: Planning and launching the new Twitter.com | Twitter Blog](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/bts-of-launching-the-new-twitter.html)
+9. [The Inside Story of Twitter's New Redesign | Wired](https://www.wired.com/story/twitter-website-redesign/)
+10. [Building the new Twitter.com | Twitter Blog](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/buildingthenewtwitter.html)
+
+Some references included inline as links
