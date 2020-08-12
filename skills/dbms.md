@@ -6,6 +6,7 @@ tags:
 layout: layouts/skill.njk
 ---
 
+![Database-intro-image](https://blogs.bmc.com/wp-content/uploads/2016/06/database-blue.png)
 A Database Management System (DBMS) is a software designed to store, managed, define and to retrieve the data in a database.
 
 <details open>
@@ -71,13 +72,22 @@ Database management systems can be classified based on several criteria, such as
 
 <details open>
     <summary>
+        
 ## Related Software Engineering Area(s)
 ---
     </summary>
-- Data Query Language (DQL)
-- Data Controll Language (DCL)
-- Data Manipulation Language (DML)
-- Data Definition Language (DDL)
+### Data Query Language (DQL)
+    - Data Query Language (DQL) is part of the base grouping of SQL sub-languages. These sub-languages are mainly categorized into four categories, DDL, DQL, DML and DCL. Sometimes TCL is argued to be part of the sub-language set as well. DQL statements are used for performing queries on the data within schema objects.
+    
+### Data Controll Language (DCL)
+    -  data control language is a syntax similar to a computer programming language used to control access to data stored in a database. In particular, it is a component of Structured Query Language. Examples of DCL commands include: GRANT to allow specified users to perform specified tasks.
+    
+### Data Manipulation Language (DML)
+    - A data manipulation language (DML) is a computer programming language used for adding (inserting), deleting, and modifying (updating) data in a database. A DML is often a sublanguage of a broader database language such as SQL, with the DML comprising some of the operators in the language.
+    
+### Data Definition Language (DDL)
+    - In the context of SQL, data definition or data description language is a syntax for creating and modifying database objects such as tables, indexes, and users. DDL statments are similar to a computer programming language for defining data structures, especially database schemas.
+    
 </details>
 
 <details open>
@@ -86,10 +96,26 @@ Database management systems can be classified based on several criteria, such as
 ## Rationale for Skill
 ---
     </summary>
-- Improve Data Sharing and Data Security
-- Effective Data Integration
-- Increase in Productivity of the End User
-- Quick Decision Making
+### Effective Data Integration
+    - Implementing a data management system promotes an integrated picture of an organization’s operations. It becomes easy to see how processes in one segment of the organization affect other segments.
+    
+### Consistent Data That Complies With Regulations
+    - Data inconsistency occurs when different versions of the same data exist in different places in an organization. By using a proper management system and data quality management tools, you can be sure that an all-encompassing view of your data is shared throughout your organization. 
+    - In addition, data management systems provide a better framework for the enforcement of data privacy and security policies. More effective management means better transparency and mitigated risk of breaching regulations
+    
+### Increase in Productivity of the End User
+    - Deploying a database management system, assuming positive end-user adoption, will always result in increased productivity for the users. Data management systems empower the end users to make quick and informed decisions that can contribute to the success or failure of an organization in the long run.
+    
+### Quick Decision Making
+    - With better data management systems and procedures comes higher quality information.
+
+    - A database management system helps in providing a framework to facilitate data quality initiatives. In turn, higher quality information helps in making better, faster decisions in an organization.
+
+### Multi Access
+![Multi-access-image](https://cdn.goskills.com/blobs/blogs/262/8.jpg)
+    - A database management system makes it possible for multiple authorized users to access the same database from different places, in different ways, to fulfill different intents.
+
+    - For instance, an HR admin can evaluate yearly salary raises by accessing employees’ present pay and increment increase decided by their manager to determine that amount. At the same time, the development team can access the same database to recruit a temp to replace a team member who has fallen ill. 
 </details>
 
 <details open>
