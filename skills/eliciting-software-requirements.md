@@ -7,6 +7,10 @@ tags:
 layout: layouts/skill.njk
 ---
 
+## Table Of Contents
+
+[toc]
+
 ## Name of Skill
 
 ---

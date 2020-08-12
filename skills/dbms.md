@@ -7,6 +7,9 @@ tags:
 layout: layouts/skill.njk
 ---
 
+## Table Of Contents
+
+[toc]
 ![Database-intro-image](https://blogs.bmc.com/wp-content/uploads/2016/06/database-blue.png)
 A Database Management System (DBMS) is a software designed to store, managed, define and to retrieve the data in a database.
 
