@@ -525,9 +525,11 @@ hr {
     counter-increment: item;
 }
 
-.content-style details, .content-style details *{
+.content-style details,
+.content-style details * {
     background-color: inherit;
 }
+
 
 /* ============================/* DARK THEME STYLING ENDS HERE ============================================= */
 
@@ -605,4 +607,8 @@ blockquote:before {
 
 blockquote p {
     display: inline;
+}
+
+ol li {
+    list-style: decimal !important;
 }
