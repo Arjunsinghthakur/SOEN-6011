@@ -70,7 +70,7 @@ Includes management activities such as planning, managing resources, time, devel
 
 ---
 
-Software configuration control is a skill that is crucial in all stages of a software development cycle, so most developers play an important role in supporting the skill. Following are some of the roles that could be pursued by someone who takes in interest in the skill of software configuration management.
+Software configuration control is a skill that is crucial in all stages of software development cycle, so most developers play an important role in supporting the skill. Following are some of the roles that could be pursued by someone who takes in interest in the skill of software configuration management.
 
 ### Devops Engineer
 
