@@ -2,6 +2,7 @@
 layout: layouts/home.njk
 title: About
 ---
+{# Site About Page #}
 {% set skillslist = collections.skills %}
 <div class="jumbotron text-center heading">
   <h1 class="display-1 text-xs-center p-b-1 m-b-1 animate__animated animate__fadeIn" data-wow-duration="2000s" data-wow-delay="2s" style="letter-spacing: 0.2px;" >
@@ -10,7 +11,7 @@ title: About
   <p>SESTOPIA is an information intensive web application developed for SOEN 6011 by Team K</p>
   <h2>The Team</h2>
 </div>
-
+{# Populate Members info on cards #}
 <div class= "card-columns align-item-center  justify-content-center align-iten-sm-center align-iten-xs-center align-iten-lg-center align-item-md-center justify-content-xl-center justify-content-md-center justify-content-lg-center justify-content-sm-center justify-content-xs-center" >
   {% for skill in skillslist | reverse %}
     <div class = "card animate__animated animate__bounceInUp wow" style="width:18rem; margin:2rem; backgroud-image:url(./../images/api-testing.png);">
@@ -21,11 +22,9 @@ title: About
             <code>{{ skill.url }}</code>
           {% endif %}
         </div>
-        {# <time class="skilllist-date" datetime="{{ skill.date | htmlDateString }}">{{ skill.date | readableDate }}</time> #}
         {% for tag in skill.data.tags %}
           {%- if collections.tagList.indexOf(tag) != -1 -%}
             {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-            {# <a class="card-text" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a> #}
             <p class = "card-body">{{skill.data.title}}, {{ tag }}</p>
           {%- endif -%}
         {% endfor %}
