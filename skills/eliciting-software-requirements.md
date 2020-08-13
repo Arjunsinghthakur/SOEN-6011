@@ -17,11 +17,16 @@ layout: layouts/skill.njk
 
 Eliciting software requirements
 
+Elicitation of requirements is one of the most important and difficult stages of software development where the stakeholders and development team interact with each other
+to know what exactly is required by stakeholders as well as clients. What adds to difficulty is the mapping of client needs to software requirements as client talks from a business perspective whereas the analysts are technical in nature.
+
 ## Classification of Skill
 
 ---
 
 - Software requirements specifications
+
+Elicitation of software requirements is not only about gathering the skills, but also observing and understanding the needs of stakeholders and then adding up all the requirements in SRS document.
 
 ## Prerequisites for Skill
 
@@ -59,8 +64,10 @@ Eliciting software requirements
 ## Roles for Skill
 
 ---
-
-- To gather the requirements by researching requirements for project/system from the end users and stakeholders and also analyzing changes to the requirements.
+- Design analysts.
+- Project manager.
+- software developers.
+- Testing team.
 
 ## Work Related to Skill (Related Activities and Artifacts)
 
@@ -78,6 +85,10 @@ Eliciting software requirements
 ## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=eTcTl_LrQGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Questionnaire
 
 - The following are the questions which can be asked to the stakeholders as:
 
@@ -103,13 +114,11 @@ Eliciting software requirements
 
 ---
 
-- **Use case diagrams**-represents the interaction between users and software artifacts.
+- **Draw.io**- This is a free online tool for making use case diagrams and sequence diagrams.
 
-- **Sequence diagrams**- This represents the flow of scope between objects in the system.
+- **Jama software**- It provides a platform for requirements,risk and test management.
 
-- **Jama software**- it provides a platform for requirements,risk and test management.
-
-- **Google docs**- this tool can be used as questionnaire form of interview and thus the answers can be filled by the stakeholders and users.
+- **Google docs**- This tool can be used as questionnaire form of interview and thus the answers can be filled by the stakeholders and users.
 
 - **Skype**- This can be used to conduct online interviews.
 
@@ -126,13 +135,17 @@ Eliciting software requirements
 
 ---
 
-- https://en.wikipedia.org/wiki/Requirements_elicitation#:~:text=In%20requirements%20engineering%2C%20requirements%20elicitation,to%20as%20%22requirement%20gathering%22.
-- https://www.cs.odu.edu/~zeil/cs350/latest/Public/eliciting/index.html
-- https://www.liquidplanner.com/blog/7-tools-to-gather-better-software-requirements/
-- https://thedigitalprojectmanager.com/requirements-management-tools/
-- https://www.thomasessl.com/blog/2017/1/31/stakeholder-interviews-and-8-questions-that-yield-unique-insights
-- https://www.bridging-the-gap.com/elicitation-techniques-business-analysts/
-- https://en.wikipedia.org/wiki/Software_configuration_management
-- http://swebokwiki.org/Chapter_9:_Software_Engineering_Models
-- https://en.wikipedia.org/wiki/Software_quality
-- https://www.umsl.edu/~sauterv/analysis/F2015/Requirement%20Gathering%20Methods.html.htms
+- [Requirements elicitation](https://en.wikipedia.org/wiki/Requirements_elicitation#:~:text=In%20requirements%20engineering%2C%20requirements%20elicitation,to%20as%20%22requirement%20gathering%22)
+- [Eliciting Requirements
+Steven J Zeil](https://www.cs.odu.edu/~zeil/cs350/latest/Public/eliciting/index.html)
+- [7 tools to gather better software requirements](https://www.liquidplanner.com/blog/7-tools-to-gather-better-software-requirements/)
+- [Requirement management tools](https://thedigitalprojectmanager.com/requirements-management-tools/)
+- [Stakeholder interviews and 8 questions that yield unique insights](https://www.thomasessl.com/blog/2017/1/31/stakeholder-interviews-and-8-questions-that-yield-unique-insights)
+- [BABOK 3.2](https://www.bridging-the-gap.com/elicitation-techniques-business-analysts/)
+- [Software configuration management](https://en.wikipedia.org/wiki/Software_configuration_management)
+- [Software engineering models](http://swebokwiki.org/Chapter_9:_Software_Engineering_Models)
+- [Software quality](https://en.wikipedia.org/wiki/Software_quality)
+- [Methods for software gathering](https://www.umsl.edu/~sauterv/analysis/F2015/Requirement%20Gathering%20Methods.html.htms)
+- [Challenges of Requirements Elicitation
+Sean Isserman
+IS 6840](https://www.umsl.edu/~sauterv/analysis/Fall2010Papers/Isserman/)
